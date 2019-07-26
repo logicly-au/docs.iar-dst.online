@@ -1,0 +1,464 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>2. System Backup and Recovery &mdash; Strategic-Data-Policy-and-Procedures 1.0.0-draft documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="Strategic-Data-Policy-and-Procedures 1.0.0-draft documentation" href="../index.html"/>
+        <link rel="prev" title="1. Business Continuity Plan" href="../business-continuity-plan.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Strategic-Data-Policy-and-Procedures
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0-draft
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../business-continuity-plan.html">1. Business Continuity Plan</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">2. System Backup and Recovery</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#policy">2.1. Policy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#procedures">2.2. Procedures</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#adding-backup-configurations">2.2.1. Adding backup configurations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#recovering-backups">2.2.2. Recovering Backups</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#offsite-backup-disaster-recovery">2.2.3. Offsite Backup (Disaster Recovery)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#moving-backuppc">2.2.4. Moving BackupPC</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Strategic-Data-Policy-and-Procedures</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>2. System Backup and Recovery</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/tech/system-backup-recovery.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="system-backup-and-recovery">
+<h1>2. System Backup and Recovery<a class="headerlink" href="#system-backup-and-recovery" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="policy">
+<h2>2.1. Policy<a class="headerlink" href="#policy" title="Permalink to this headline">¶</a></h2>
+<p>Comprehensive Risk Management, Disaster Recovery and Systems Recovery Plans, and Testing Timetables are to be developed, tested and maintained by the IT Section in conjunction with the ITSM. Similarly, Business Continuity Plans are to be developed, tested and maintained. All plans are to be reviewed, kept up to date and tested according to a defined continuous improvement schedule. Each plan is to be tested at least once per year.</p>
+<p>A core component of the Disaster Recovery and Systems Recovery Plans is an online / offsite backup system.</p>
+<p>Strategic Data is to operate an automated online backup system which performs regular scheduled backups to provide day-to-day coverage of all critical systems and services. It is to operate at both the Fitzroy office and the data center.</p>
+<p>The backups at global center and AMHOCN are to be synchronised to the Fitzroy office backup server. Encrypted backups (using an appropriate ASD Approved Cryptographic Algorithm) for secure offsite storage are to be created from the site local replica.</p>
+<p>Backup of all applications and systems is to be the responsibility of the IT Section. This responsibility is to include support for full forward recovery so that minimal data is lost in the event of a system failure.</p>
+<p>All systems which are not under automated configuration management are to be included in a backup schedule. This includes Windows servers which require a configuration to be added manually at server installation. It is the responsibility of the administrator who is setting up the server to ensure that this action is effected.</p>
+</div>
+<div class="section" id="procedures">
+<h2>2.2. Procedures<a class="headerlink" href="#procedures" title="Permalink to this headline">¶</a></h2>
+<p>The backup system currently operates in three places:</p>
+<ul>
+<li><p class="first">Servers in the Fitzroy office: hostname = backup03.mel.strategicdata.com.au</p>
+<blockquote>
+<div><ul class="simple">
+<li><a class="reference external" href="http://backup.mel.strategicdata.com.au/">http://backup.mel.strategicdata.com.au/</a></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">Servers in the data center: hostname = mel-backup01.strategicdata.internal</p>
+<blockquote>
+<div><ul class="simple">
+<li><a class="reference external" href="http://backup.strategicdata.internal/">http://backup.strategicdata.internal/</a></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<p>All servers are backed up by servers in the same domain as per the following schedule:</p>
+<ul class="simple">
+<li>5 x full backup at 1 week interval</li>
+<li>2 x full backup at 2 week interval</li>
+<li>10 x full backup at 4 week interval</li>
+<li>2 x full backup at 8 week interval</li>
+<li>2 x full backup at 16 week interval</li>
+<li>2 x full backup at 32 week interval</li>
+<li>2 x full backup at 64 week interval</li>
+</ul>
+<p>Rotating full and incremental backups are performed.</p>
+<p>All servers under configuration control are automatically added to the backup server at their respective location. The backup servers are configured to perform complete system backups with the ability to exclude non critical content.</p>
+<div class="section" id="adding-backup-configurations">
+<h3>2.2.1. Adding backup configurations<a class="headerlink" href="#adding-backup-configurations" title="Permalink to this headline">¶</a></h3>
+<p><strong>Adding a configuration to backup puppet managed systems</strong></p>
+<p>When a node is puppetted, a configuration is created automatically in the appropriate backup system.</p>
+<p><strong>Adding a configuration to backup a windows server</strong></p>
+<p><em>BackupPC</em></p>
+<p>Check into “puppet:///modules/backuppc/files/${server_name}.pl with the following contents</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>#
+# Local server backup of /etc as user backuppc
+#
+$Conf{XferMethod}       = &#39;smb&#39;;
+$Conf{SmbShareName}     = [&#39;${name of share 1 to backup}&#39;, &#39;${name of share 2 to backup}&#39;];
+$Conf{SmbShareUserName} = &#39;STRATDAT\${user to log in as}&#39;;
+$Conf{SmbSharePasswd}   = &#39;${password of that user}&#39;;
+</pre></div>
+</div>
+</div></blockquote>
+<p>Ensure you then apply this on the relevant backup server via a clause like:</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">backuppc</span><span class="p">::</span><span class="n">dump</span> <span class="p">{</span> <span class="s2">&quot;$</span><span class="si">{server_name.pl}</span><span class="s2">&quot;</span><span class="p">:</span> <span class="p">}</span>
+</pre></div>
+</div>
+</div></blockquote>
+<p><em>Dirvish</em></p>
+<ul class="simple">
+<li>It was decided that the data needing to be backed up be copied to fileserver using <a class="reference internal" href="cobian-backup.html"><span class="doc">Cobian Backup</span></a></li>
+<li>whole virtual machines are also backed up <a class="reference internal" href="windows-backup.html"><span class="doc">Windows Backup</span></a></li>
+</ul>
+</div>
+<div class="section" id="recovering-backups">
+<h3>2.2.2. Recovering Backups<a class="headerlink" href="#recovering-backups" title="Permalink to this headline">¶</a></h3>
+<p><strong>BackupPC</strong></p>
+<p><em>Recovering a Full System from Online Backup</em></p>
+<ol class="arabic simple">
+<li>partition and format the target system<ul>
+<li>for a virtual machine, this means “create the storage space”.</li>
+<li>for a physical machine, boot from a LiveCD with network, and partition and format the drives appropriately.</li>
+</ul>
+</li>
+<li>log in to the backup server and prepare the recovery stream:<ul>
+<li><code class="docutils literal"><span class="pre">sudo</span> <span class="pre">-u</span> <span class="pre">backuppc</span> <span class="pre">-i</span></code></li>
+<li><code class="docutils literal"><span class="pre">/usr/share/backuppc/bin/BackupPC_tarCreate</span> <span class="pre">-h</span> <span class="pre">${fqdn}</span> <span class="pre">-n</span> <span class="pre">-1</span> <span class="pre">-s</span> <span class="pre">/</span> <span class="pre">.</span> <span class="pre">|</span> <span class="pre">nc</span> <span class="pre">-l</span> <span class="pre">-p</span> <span class="pre">3000</span> <span class="pre">-q1</span></code></li>
+</ul>
+</li>
+<li>on the target machine, execute:<ul>
+<li><code class="docutils literal"><span class="pre">cd</span> <span class="pre">/path/to/root/of/host</span> <span class="pre">(you</span> <span class="pre">can</span> <span class="pre">use</span> <span class="pre">the</span> <span class="pre">root</span> <span class="pre">of</span> <span class="pre">a</span> <span class="pre">guest</span> <span class="pre">i.e.</span> <span class="pre">/var/lib/vz/private/[cid</span> <span class="pre">number])</span></code></li>
+<li><code class="docutils literal"><span class="pre">nc</span> <span class="pre">${backup}</span> <span class="pre">3000</span> <span class="pre">|</span> <span class="pre">tar</span> <span class="pre">xv</span> <span class="pre">--numeric-owner</span></code></li>
+<li>the netcat command on the other machine will wait until it receives a connection</li>
+</ul>
+</li>
+</ol>
+<p>Make <strong>ABSOLUTELY CERTAIN</strong> that the <code class="docutils literal"><span class="pre">--numeric-owner</span></code> switch is included otherwise there is a risk of corrupting the UID/GID assignment inside the tarfile.</p>
+<p>Once the content has finished extracting, the system should be in a bootable state. In the event that it is not, the most likely cause is a missing component of the directory structure under <code class="docutils literal"><span class="pre">/var</span></code>. The solution is to reinstall the package viz <code class="docutils literal"><span class="pre">aptitude</span> <span class="pre">reinstall</span> <span class="pre">${package}</span></code></p>
+<p><em>Recover a directory using the CLI</em></p>
+<p><strong>STOP</strong>: This command must be run as the backuppc user</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>/usr/share/backuppc/bin/BackupPC_tarCreate -h ${backup server FQDN}  -n -1 -s / etc/apache2 &gt; etc.tar
+</pre></div>
+</div>
+</div></blockquote>
+<p>where:</p>
+<ul class="simple">
+<li><code class="docutils literal"><span class="pre">-s</span> <span class="pre">/</span></code> is the next path is relative to this one in the backup</li>
+<li><code class="docutils literal"><span class="pre">etc/apache2</span></code> is the directory for the tar file. (Note the lack of preceding / - defined in the command above)</li>
+<li><code class="docutils literal"><span class="pre">etc.tar</span></code> the tar to be created</li>
+</ul>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>/usr/share/backuppc/bin/BackupPC_tarCreate -h ${backup server FQDN}  -n -2 -s /usr share/backuppc &gt; bpc.tar
+</pre></div>
+</div>
+</div></blockquote>
+<p>where:</p>
+<ul class="simple">
+<li><code class="docutils literal"><span class="pre">-s</span> <span class="pre">/usr</span></code> denotes the /usr share does not exist in / (ie when /usr is a separate partition)</li>
+</ul>
+<p><em>Recover files from backuppc ARCHIVE</em></p>
+<p>The archives of machines currently not being backed up are located in <code class="docutils literal"><span class="pre">/var/lib/backuppc/archive</span></code>.</p>
+<p>Where there is a requirement to recover something from one of these machines, either:</p>
+<ul class="simple">
+<li>use the command line tools, or</li>
+<li>add it back to the live pool.</li>
+</ul>
+<p>To make a machine archive accessible:</p>
+<ul>
+<li><p class="first">SSH to the relevant backup server and sudo to root</p>
+</li>
+<li><p class="first">SU to the backuppc user</p>
+</li>
+<li><p class="first">link the required archive into the machine pool, viz:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">ln</span> <span class="o">-</span><span class="n">s</span> <span class="n">archive</span><span class="o">/</span><span class="p">{</span><span class="n">name</span> <span class="n">of</span> <span class="n">archive</span><span class="p">}</span> <span class="n">pc</span><span class="o">/</span><span class="n">sysrestore</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">browse to the backup pc GUI and perform the following actions:</p>
+<blockquote>
+<div><ul>
+<li><p class="first">under server click “edit hosts” (menu on the left)</p>
+</li>
+<li><p class="first">click the “add” button at the bottom of the page - this will create a new line</p>
+</li>
+<li><p class="first">fill in <code class="docutils literal"><span class="pre">sysrestore</span></code> as the name and then copy the other two fields from the line above</p>
+</li>
+<li><p class="first">click save - this is at the very top of the page</p>
+</li>
+<li><p class="first">click “host summary” then select <code class="docutils literal"><span class="pre">sysrestore</span></code></p>
+</li>
+<li><p class="first">click stop/dequeue backup</p>
+</li>
+<li><p class="first">set number of hours to a large number - longer than this will exist</p>
+</li>
+<li><p class="first">play with your backup</p>
+</li>
+<li><p class="first">when finished</p>
+<blockquote>
+<div><ul class="simple">
+<li>click on edit hosts</li>
+<li>click the delete button to the left of <code class="docutils literal"><span class="pre">sysrestore</span></code></li>
+<li>click save at the top of the page</li>
+<li>as the backuppc user <code class="docutils literal"><span class="pre">cd</span> <span class="pre">/var/lib/backuppc/pc;</span> <span class="pre">rm</span> <span class="pre">sysrestore</span></code></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<p>Ensure the directory and the host entry match.</p>
+<p><strong>Dirvish</strong></p>
+<ul class="simple">
+<li><a class="reference internal" href="dirvish-backup.html"><span class="doc">Dirvish Backup</span></a></li>
+</ul>
+</div>
+<div class="section" id="offsite-backup-disaster-recovery">
+<h3>2.2.3. Offsite Backup (Disaster Recovery)<a class="headerlink" href="#offsite-backup-disaster-recovery" title="Permalink to this headline">¶</a></h3>
+<p>Strategic Data operates an offsite backup system, intended only for disaster recovery.</p>
+<p>It is acceptable that there is a substantial investment of effort required to use the offsite backup system to recover data, as it should only be required for testing, or for recovery when the online backup systems have been lost or compromised.</p>
+<p>The offsite backup is an archive of the online backup server. Disaster recovery requires that the online backup server is first recovered from the archive; followed by the backed up systems.</p>
+<p>The directors at Strategic Data have the private key associated with the offsite backup system. This key is not stored on the Strategic Data network.</p>
+<p>Recovery of a complete offsite backup should be attempted every 6 months. An automated reminder will be sent to the sysadmin team to perform this action. If the procedure fails, an incident report must be produced for auditing purposes and a new procedure developed.</p>
+<p><strong>Weekly disk collection / rotation by Iron Mountain</strong></p>
+<p>Iron Mountain arrives each week between 12pm and 2pm to drop off a cycled disk and retrieve the new backup disk.</p>
+<ul class="simple">
+<li>System Administrators are emailed / SMS’d (choice is theirs) at 10am with the mount status of the backup disk and a reminder that it is Iron Mountain day</li>
+<li>If disc is unmounted (read notification) it should be removed and placed in box for pickup.</li>
+<li>After disc is replaced it needs to be reconnected</li>
+<li>If the disc is not connected by 4pm an SMS goes out</li>
+<li>cron starts creating the offsite backup late Thursday night (first thing it does is mount the disc)</li>
+</ul>
+<p><strong>Emergency Retrieval of Backups.</strong></p>
+<p>From the Iron Mountain Help Document attached to this topic:</p>
+<p>TAPEGUARD HAS AN AUTOMATED NOTIFICATION SYSTEM THAT NOTIFIES ALL THE APPROPRIATE PERSONNEL INSTANTLY OF A TAPE REQUEST 24x7 VIA EMAIL AND SMS. FOR THE FASTEST TAPE RETURN USE TAPEGUARD REGARDLESS OF THE TIME.</p>
+<p>Iron Mountain TapeGuard: <a class="reference external" href="https://www.tapeguard.com/login">https://www.tapeguard.com/login</a></p>
+<p>The document attached to this page details how to use TapeGuard to request an emergency tape return. Specifically follow the notes on page 12.</p>
+<p>In the event that you are unable use TapeGuard please contact 1800 IRONMTN (1800 476 668).</p>
+<p>Leave the following information with an Iron Mountain Representative.</p>
+<ul class="simple">
+<li>First name and Surname</li>
+<li>Company name</li>
+<li>Telephone number (including area code.)</li>
+<li>Brief explanation of the problem</li>
+</ul>
+<p>Strategic Data Directors are to be consulted if a disk is required to be retrieved.</p>
+<p>Follow the steps contained here:</p>
+<ul class="simple">
+<li><a class="reference internal" href="recovering-offsite-backup.html"><span class="doc">Recovering Offsite Backup</span></a></li>
+</ul>
+</div>
+<div class="section" id="moving-backuppc">
+<h3>2.2.4. Moving BackupPC<a class="headerlink" href="#moving-backuppc" title="Permalink to this headline">¶</a></h3>
+<p>When moving from one BackupPC server to another there are some things that you need to take into account.</p>
+<ul class="simple">
+<li>when moving the data it will take a long time</li>
+<li>remember to use the <code class="docutils literal"><span class="pre">rsync</span> <span class="pre">-avH</span> <span class="pre">--numeric-ids</span></code></li>
+<li>you need to copy the backuppc user’s .ssh directory to the new server</li>
+<li>you need to make sure that any machine (like sd01) which uses /etc/security/access.conf has the new server entered into this file</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../business-continuity-plan.html" class="btn btn-neutral" title="1. Business Continuity Plan" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Strategic Data Pty Ltd.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.0.0-draft',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

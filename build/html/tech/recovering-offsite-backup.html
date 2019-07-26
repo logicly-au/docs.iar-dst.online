@@ -1,0 +1,594 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Recovering From Offsite Backup &mdash; Strategic-Data-Policy-and-Procedures 1.0.0-draft documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="Strategic-Data-Policy-and-Procedures 1.0.0-draft documentation" href="../index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Strategic-Data-Policy-and-Procedures
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0-draft
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../business-continuity-plan.html">1. Business Continuity Plan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="system-backup-recovery.html">2. System Backup and Recovery</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Strategic-Data-Policy-and-Procedures</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Recovering From Offsite Backup</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/tech/recovering-offsite-backup.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="recovering-from-offsite-backup">
+<h1>Recovering From Offsite Backup<a class="headerlink" href="#recovering-from-offsite-backup" title="Permalink to this headline">¶</a></h1>
+<p>Please check the date on this page and compare to the date on the wiki to make sure it is current. (If possible)</p>
+<p>The revision information for this document is: r7 - 10 Sep 2014</p>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Recovering From Offsite Backup</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#hardware-pre-requisites">Hardware Pre-Requisites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#software-pre-requisites">Software Pre-Requisites</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#packages">Packages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#packages-for-extracting-the-data-matrix-keys">Packages for extracting the data matrix keys</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#mounting-the-disc">Mounting the Disc</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#introduction">Introduction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#recover-a-directors-gpg-key">Recover a Directors gpg key</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#decrypt-the-luks-partition">Decrypt the luks partition</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#mount-the-decrypted-partition">Mount the decrypted partition</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#recover-machine-from-backup-disc">Recover Machine from Backup Disc</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#find-out-type-of-base-system-to-install">Find out type of base system to install</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#install-a-base-system">Install a base system</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="hardware-pre-requisites">
+<h2>Hardware Pre-Requisites<a class="headerlink" href="#hardware-pre-requisites" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Computer</li>
+<li>USB Port (2 or 3) of course 3 will be faster</li>
+<li>enough space to recover at least one image - this depends on which machine is to be recovered, filserver would take 3T while a</li>
+<li>load balancer would take 8G</li>
+<li>if you need to scan the paper data matrix keys a scanner</li>
+<li>if you are using the cd keys a CDROM / DVD drive</li>
+</ul>
+</div>
+<div class="section" id="software-pre-requisites">
+<h2>Software Pre-Requisites<a class="headerlink" href="#software-pre-requisites" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>GNU/Linux Operating System</li>
+</ul>
+<div class="section" id="packages">
+<h3>Packages<a class="headerlink" href="#packages" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>gnugpg</li>
+<li>cryptsetup (for luks)</li>
+<li>rsync</li>
+</ul>
+</div>
+<div class="section" id="packages-for-extracting-the-data-matrix-keys">
+<h3>Packages for extracting the data matrix keys<a class="headerlink" href="#packages-for-extracting-the-data-matrix-keys" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>libdmtx-utils</li>
+<li>pdftk</li>
+<li>poppler-utils</li>
+</ul>
+</div>
+</div>
+<div class="section" id="mounting-the-disc">
+<h2>Mounting the Disc<a class="headerlink" href="#mounting-the-disc" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="introduction">
+<h3>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h3>
+<p>The Disc contains 2 partitions</p>
+<ul class="simple">
+<li>The first partition on the disc is NOT encrypted it is an ext4 partition and contains the key to unlock the encypted partition and some useful scripts.</li>
+<li>The second partition is a LUKS encrypted partition.</li>
+</ul>
+<p>The basics summary:</p>
+<ul>
+<li><p class="first">obtain the luks key</p>
+<blockquote>
+<div><ul class="simple">
+<li>in the first partition of the disc (gpg encrypted)</li>
+<li>from mel-vault01 (id is the uuid of the disc)</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">use the luks key to decrypt and mount the partition</p>
+</li>
+<li><p class="first">there will be directories labeled for each machine, within these directories there will be a tree directory which contains an rsync of the machine.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="recover-a-directors-gpg-key">
+<h3>Recover a Directors gpg key<a class="headerlink" href="#recover-a-directors-gpg-key" title="Permalink to this headline">¶</a></h3>
+<p><strong>From CD</strong></p>
+<p>The private key is copied 1,000 times on the CD, they are named secret-key-{n}.text where {n} is a number from 0001-1000. Import one of these into your GPG install</p>
+<p><strong>From USB memory stick</strong></p>
+<p>The private key is copied 1,000 times on the USB memory stick, they are named secret-key-{n}.text where {n} is a number from 0001-1000. Import one of these into your GPG install</p>
+<p><strong>From Printouts</strong></p>
+<p>This is in Data Matrix format. The key is designed for scanning and electronic reconstruction. This procedure requires a computer system and scanner that are in a known environment; e.g. Director home system is considered ok; system administrator home system is ok subject to Director approval; internet cafe is not appropriate.</p>
+<p>Install the <code class="docutils literal"><span class="pre">libdmtx-utils</span></code>, <code class="docutils literal"><span class="pre">pdftk</span></code>, and <code class="docutils literal"><span class="pre">poppler-utils</span></code> packages.</p>
+<p>Recovery is done by scanning the pages to produce a PDF with all pages in sequence prior to extracting the data.</p>
+<ul>
+<li><p class="first"><code class="docutils literal"><span class="pre">pdftk</span> <span class="pre">scan.pdf</span> <span class="pre">burst</span></code> make separate pages</p>
+</li>
+<li><p class="first"><code class="docutils literal"><span class="pre">dmtxread</span></code> scan file for Data Matrix data and decode</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>] pdftk scan.pdf burst
+] for file in pg_*.pdf; do dmtxread $file &gt; $file.text; done
+] cat *.text &gt; secret-key.gpg
+] # now import secret-key.gpg into your GPG install.
+</pre></div>
+</div>
+</li>
+</ul>
+<p><em>Hints</em></p>
+<ul>
+<li><p class="first">Scan quality matters, in testing the digital scanner was rather hit / miss - the cannon had a better success rate.</p>
+</li>
+<li><p class="first">Skew matters, sometimes a scan will be slightly skewed going through the hopper these will not decode - try one at a time or putting them square on the glass.</p>
+</li>
+<li><p class="first">check the file sizes before concatenating the file - all but the last file should be exactly 800.</p>
+<blockquote>
+<div><blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span><span class="mi">32123</span> <span class="n">Sep</span>  <span class="mi">6</span> <span class="mi">12</span><span class="p">:</span><span class="mi">27</span> <span class="n">pg_0001</span><span class="o">.</span><span class="n">pdf</span>
+  <span class="mi">800</span> <span class="n">Sep</span>  <span class="mi">6</span> <span class="mi">12</span><span class="p">:</span><span class="mi">27</span> <span class="n">pg_0001</span><span class="o">.</span><span class="n">pdf</span><span class="o">.</span><span class="n">text</span>
+<span class="mi">31839</span> <span class="n">Sep</span>  <span class="mi">6</span> <span class="mi">12</span><span class="p">:</span><span class="mi">27</span> <span class="n">pg_0002</span><span class="o">.</span><span class="n">pdf</span>
+  <span class="mi">800</span> <span class="n">Sep</span>  <span class="mi">6</span> <span class="mi">12</span><span class="p">:</span><span class="mi">27</span> <span class="n">pg_0002</span><span class="o">.</span><span class="n">pdf</span><span class="o">.</span><span class="n">text</span>
+<span class="mi">32250</span> <span class="n">Sep</span>  <span class="mi">6</span> <span class="mi">12</span><span class="p">:</span><span class="mi">27</span> <span class="n">pg_0003</span><span class="o">.</span><span class="n">pdf</span>
+  <span class="mi">800</span> <span class="n">Sep</span>  <span class="mi">6</span> <span class="mi">12</span><span class="p">:</span><span class="mi">27</span> <span class="n">pg_0003</span><span class="o">.</span><span class="n">pdf</span><span class="o">.</span><span class="n">text</span>
+<span class="mi">31403</span> <span class="n">Sep</span>  <span class="mi">6</span> <span class="mi">12</span><span class="p">:</span><span class="mi">27</span> <span class="n">pg_0004</span><span class="o">.</span><span class="n">pdf</span>
+  <span class="mi">800</span> <span class="n">Sep</span>  <span class="mi">6</span> <span class="mi">12</span><span class="p">:</span><span class="mi">27</span> <span class="n">pg_0004</span><span class="o">.</span><span class="n">pdf</span><span class="o">.</span><span class="n">text</span>
+<span class="mi">31943</span> <span class="n">Sep</span>  <span class="mi">6</span> <span class="mi">12</span><span class="p">:</span><span class="mi">27</span> <span class="n">pg_0005</span><span class="o">.</span><span class="n">pdf</span>
+  <span class="mi">800</span> <span class="n">Sep</span>  <span class="mi">6</span> <span class="mi">12</span><span class="p">:</span><span class="mi">27</span> <span class="n">pg_0005</span><span class="o">.</span><span class="n">pdf</span><span class="o">.</span><span class="n">text</span>
+<span class="mi">31711</span> <span class="n">Sep</span>  <span class="mi">6</span> <span class="mi">12</span><span class="p">:</span><span class="mi">27</span> <span class="n">pg_0006</span><span class="o">.</span><span class="n">pdf</span>
+  <span class="mi">800</span> <span class="n">Sep</span>  <span class="mi">6</span> <span class="mi">12</span><span class="p">:</span><span class="mi">27</span> <span class="n">pg_0006</span><span class="o">.</span><span class="n">pdf</span><span class="o">.</span><span class="n">text</span>
+<span class="mi">31916</span> <span class="n">Sep</span>  <span class="mi">6</span> <span class="mi">12</span><span class="p">:</span><span class="mi">27</span> <span class="n">pg_0007</span><span class="o">.</span><span class="n">pdf</span>
+  <span class="mi">800</span> <span class="n">Sep</span>  <span class="mi">6</span> <span class="mi">12</span><span class="p">:</span><span class="mi">27</span> <span class="n">pg_0007</span><span class="o">.</span><span class="n">pdf</span><span class="o">.</span><span class="n">text</span>
+<span class="mi">32284</span> <span class="n">Sep</span>  <span class="mi">6</span> <span class="mi">12</span><span class="p">:</span><span class="mi">27</span> <span class="n">pg_0008</span><span class="o">.</span><span class="n">pdf</span>
+    <span class="mi">0</span> <span class="n">Sep</span>  <span class="mi">6</span> <span class="mi">12</span><span class="p">:</span><span class="mi">27</span> <span class="n">pg_0008</span><span class="o">.</span><span class="n">pdf</span><span class="o">.</span><span class="n">text</span>
+<span class="mi">14085</span> <span class="n">Sep</span>  <span class="mi">6</span> <span class="mi">12</span><span class="p">:</span><span class="mi">27</span> <span class="n">pg_0009</span><span class="o">.</span><span class="n">pdf</span>
+  <span class="mi">240</span> <span class="n">Sep</span>  <span class="mi">6</span> <span class="mi">12</span><span class="p">:</span><span class="mi">27</span> <span class="n">pg_0009</span><span class="o">.</span><span class="n">pdf</span><span class="o">.</span><span class="n">text</span>
+</pre></div>
+</div>
+</div></blockquote>
+<ul class="simple">
+<li>page 8 will need to be re-scanned</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">re-scan those that have not worked - playing with settings for dmxtread did not yield better results.</p>
+</li>
+<li><p class="first">although these are related to QR codes they are not QR codes and cannot be read with a QR reader</p>
+</li>
+</ul>
+<p><strong>Importing GPG key into your keyring</strong></p>
+<ul>
+<li><p class="first">Make sure gnugpg is installed.</p>
+</li>
+<li><p class="first">Make sure the machine you are using is secure.</p>
+</li>
+<li><p class="first"><code class="docutils literal"><span class="pre">gpg</span> <span class="pre">--import</span> <span class="pre">./secret-key-0001.text</span></code> where ./secret-key-0001.text is the secret key file (with path)</p>
+<blockquote>
+<div><ul class="simple">
+<li>the key will be imported into your keyring the files for this are in $HOME/.gnupg</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<p><strong>Decrypting the Luks Key</strong></p>
+<ul>
+<li><p class="first">change to the root user on the machine you are using <code class="docutils literal"><span class="pre">sudo</span> <span class="pre">-i</span></code></p>
+</li>
+<li><p class="first">look at what discs are currently available <code class="docutils literal"><span class="pre">ls</span> <span class="pre">-al</span> <span class="pre">/dev/disk/by-id</span></code></p>
+<blockquote>
+<div><ul class="simple">
+<li>sample:</li>
+</ul>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">root</span><span class="nd">@thabit</span><span class="p">:</span><span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">disk</span><span class="o">/</span><span class="n">by</span><span class="o">-</span><span class="nb">id</span><span class="c1"># ls -al</span>
+<span class="n">total</span> <span class="mi">0</span>
+<span class="n">drwxr</span><span class="o">-</span><span class="n">xr</span><span class="o">-</span><span class="n">x</span> <span class="mi">2</span> <span class="n">root</span> <span class="n">root</span> <span class="mi">420</span> <span class="n">Sep</span>  <span class="mi">5</span> <span class="mi">14</span><span class="p">:</span><span class="mi">16</span> <span class="o">.</span>
+            <span class="n">drwxr</span><span class="o">-</span><span class="n">xr</span><span class="o">-</span><span class="n">x</span> <span class="mi">6</span> <span class="n">root</span> <span class="n">root</span> <span class="mi">120</span> <span class="n">Sep</span>  <span class="mi">5</span> <span class="mi">14</span><span class="p">:</span><span class="mi">02</span> <span class="o">..</span>
+            <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>   <span class="mi">9</span> <span class="n">Sep</span>  <span class="mi">5</span> <span class="mi">14</span><span class="p">:</span><span class="mi">02</span> <span class="n">ata</span><span class="o">-</span><span class="n">OPTIARC_DVD_RW_AD</span><span class="o">-</span><span class="mi">5670</span><span class="n">S</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sr0</span>
+            <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>   <span class="mi">9</span> <span class="n">Sep</span>  <span class="mi">5</span> <span class="mi">14</span><span class="p">:</span><span class="mi">05</span> <span class="n">ata</span><span class="o">-</span><span class="n">ST3250318AS_6VMEHRQR</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sdb</span>
+            <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>   <span class="mi">9</span> <span class="n">Sep</span>  <span class="mi">5</span> <span class="mi">14</span><span class="p">:</span><span class="mi">05</span> <span class="n">ata</span><span class="o">-</span><span class="n">WDC_WD6400AAKS</span><span class="o">-</span><span class="mi">40</span><span class="n">H2B0_WD</span><span class="o">-</span><span class="n">WMASY5768714</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sda</span>
+            <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Aug</span> <span class="mi">30</span> <span class="mi">12</span><span class="p">:</span><span class="mi">59</span> <span class="n">ata</span><span class="o">-</span><span class="n">WDC_WD6400AAKS</span><span class="o">-</span><span class="mi">40</span><span class="n">H2B0_WD</span><span class="o">-</span><span class="n">WMASY5768714</span><span class="o">-</span><span class="n">part1</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sda1</span>
+            <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Aug</span> <span class="mi">30</span> <span class="mi">12</span><span class="p">:</span><span class="mi">59</span> <span class="n">ata</span><span class="o">-</span><span class="n">WDC_WD6400AAKS</span><span class="o">-</span><span class="mi">40</span><span class="n">H2B0_WD</span><span class="o">-</span><span class="n">WMASY5768714</span><span class="o">-</span><span class="n">part2</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sda2</span>
+            <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Aug</span> <span class="mi">30</span> <span class="mi">12</span><span class="p">:</span><span class="mi">59</span> <span class="n">ata</span><span class="o">-</span><span class="n">WDC_WD6400AAKS</span><span class="o">-</span><span class="mi">40</span><span class="n">H2B0_WD</span><span class="o">-</span><span class="n">WMASY5768714</span><span class="o">-</span><span class="n">part3</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sda3</span>
+            <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Aug</span> <span class="mi">30</span> <span class="mi">13</span><span class="p">:</span><span class="mi">01</span> <span class="n">dm</span><span class="o">-</span><span class="n">name</span><span class="o">-</span><span class="n">luks</span><span class="o">-</span><span class="n">f0f5aeaf</span><span class="o">-</span><span class="n">ea52</span><span class="o">-</span><span class="mi">47</span><span class="n">da</span><span class="o">-</span><span class="n">b58e</span><span class="o">-</span><span class="n">c8cee2644e70</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">dm</span><span class="o">-</span><span class="mi">2</span>
+            <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Aug</span> <span class="mi">30</span> <span class="mi">12</span><span class="p">:</span><span class="mi">59</span> <span class="n">dm</span><span class="o">-</span><span class="n">name</span><span class="o">-</span><span class="n">ubuntu</span><span class="o">--</span><span class="n">vg</span><span class="o">-</span><span class="n">root</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">dm</span><span class="o">-</span><span class="mi">0</span>
+            <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Aug</span> <span class="mi">30</span> <span class="mi">12</span><span class="p">:</span><span class="mi">59</span> <span class="n">dm</span><span class="o">-</span><span class="n">name</span><span class="o">-</span><span class="n">ubuntu</span><span class="o">--</span><span class="n">vg</span><span class="o">-</span><span class="n">swap_1</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">dm</span><span class="o">-</span><span class="mi">1</span>
+            <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Aug</span> <span class="mi">30</span> <span class="mi">13</span><span class="p">:</span><span class="mi">01</span>
+            <span class="n">dm</span><span class="o">-</span><span class="n">uuid</span><span class="o">-</span><span class="n">CRYPT</span><span class="o">-</span><span class="n">LUKS1</span><span class="o">-</span><span class="n">f0f5aeafea5247dab58ec8cee2644e70</span><span class="o">-</span><span class="n">luks</span><span class="o">-</span><span class="n">f0f5aeaf</span><span class="o">-</span><span class="n">ea52</span><span class="o">-</span><span class="mi">47</span><span class="n">da</span><span class="o">-</span><span class="n">b58e</span><span class="o">-</span><span class="n">c8cee2644e70</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">dm</span><span class="o">-</span><span class="mi">2</span>
+<span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Aug</span> <span class="mi">30</span> <span class="mi">12</span><span class="p">:</span><span class="mi">59</span> <span class="n">dm</span><span class="o">-</span><span class="n">uuid</span><span class="o">-</span><span class="n">LVM</span><span class="o">-</span><span class="n">cKetAlxAidtQQW7LmcUHOoEjmSq8AiOcjy59zLDAIeQNsV1bQ4WrnRUHlYLMS3lP</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">dm</span><span class="o">-</span><span class="mi">1</span>
+<span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Aug</span> <span class="mi">30</span> <span class="mi">12</span><span class="p">:</span><span class="mi">59</span> <span class="n">dm</span><span class="o">-</span><span class="n">uuid</span><span class="o">-</span><span class="n">LVM</span><span class="o">-</span><span class="n">cKetAlxAidtQQW7LmcUHOoEjmSq8AiOcnZN4XhNFKiemsnTaEO1dikMycE4OMjZR</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">dm</span><span class="o">-</span><span class="mi">0</span>
+            <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Aug</span> <span class="mi">30</span> <span class="mi">12</span><span class="p">:</span><span class="mi">59</span> <span class="n">usb</span><span class="o">-</span><span class="n">Seagate_FreeAgent_2GEWKTN6</span><span class="o">-</span><span class="mi">0</span><span class="p">:</span><span class="mi">0</span><span class="o">-</span><span class="n">part1</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sdb1</span>
+            <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Aug</span> <span class="mi">30</span> <span class="mi">13</span><span class="p">:</span><span class="mi">01</span> <span class="n">usb</span><span class="o">-</span><span class="n">Seagate_FreeAgent_2GEWKTN6</span><span class="o">-</span><span class="mi">0</span><span class="p">:</span><span class="mi">0</span><span class="o">-</span><span class="n">part2</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sdb2</span>
+            <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>   <span class="mi">9</span> <span class="n">Sep</span>  <span class="mi">5</span> <span class="mi">14</span><span class="p">:</span><span class="mi">05</span> <span class="n">wwn</span><span class="o">-</span><span class="mh">0x5000c50022b9f139</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sdb</span>
+            <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>   <span class="mi">9</span> <span class="n">Sep</span>  <span class="mi">5</span> <span class="mi">14</span><span class="p">:</span><span class="mi">05</span> <span class="n">wwn</span><span class="o">-</span><span class="mh">0x50014ee00103d180</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sda</span>
+            <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Aug</span> <span class="mi">30</span> <span class="mi">12</span><span class="p">:</span><span class="mi">59</span> <span class="n">wwn</span><span class="o">-</span><span class="mh">0x50014ee00103d180</span><span class="o">-</span><span class="n">part1</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sda1</span>
+            <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Aug</span> <span class="mi">30</span> <span class="mi">12</span><span class="p">:</span><span class="mi">59</span> <span class="n">wwn</span><span class="o">-</span><span class="mh">0x50014ee00103d180</span><span class="o">-</span><span class="n">part2</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sda2</span>
+            <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Aug</span> <span class="mi">30</span> <span class="mi">12</span><span class="p">:</span><span class="mi">59</span> <span class="n">wwn</span><span class="o">-</span><span class="mh">0x50014ee00103d180</span><span class="o">-</span><span class="n">part3</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sda3</span>
+</pre></div>
+</div>
+</div></blockquote>
+<ul class="simple">
+<li>as can be seen from the above I already have an encypted luks partition mounted.</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">plug in the external disc - there is a usb cable and power supply with each directors “kit”</p>
+</li>
+<li><p class="first">lets look at the available devices again and look for the new device <code class="docutils literal"><span class="pre">ls</span> <span class="pre">-al</span> <span class="pre">/dev/disk/by-id</span></code></p>
+<blockquote>
+<div><blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">root</span><span class="nd">@thabit</span><span class="p">:</span><span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">disk</span><span class="o">/</span><span class="n">by</span><span class="o">-</span><span class="nb">id</span><span class="c1"># ls -al</span>
+                  <span class="n">total</span> <span class="mi">0</span>
+                  <span class="n">drwxr</span><span class="o">-</span><span class="n">xr</span><span class="o">-</span><span class="n">x</span> <span class="mi">2</span> <span class="n">root</span> <span class="n">root</span> <span class="mi">480</span> <span class="n">Sep</span>  <span class="mi">8</span> <span class="mi">11</span><span class="p">:</span><span class="mi">28</span> <span class="o">.</span>
+                  <span class="n">drwxr</span><span class="o">-</span><span class="n">xr</span><span class="o">-</span><span class="n">x</span> <span class="mi">8</span> <span class="n">root</span> <span class="n">root</span> <span class="mi">160</span> <span class="n">Sep</span>  <span class="mi">8</span> <span class="mi">11</span><span class="p">:</span><span class="mi">28</span> <span class="o">..</span>
+                  <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>   <span class="mi">9</span> <span class="n">Sep</span>  <span class="mi">5</span> <span class="mi">14</span><span class="p">:</span><span class="mi">02</span> <span class="n">ata</span><span class="o">-</span><span class="n">OPTIARC_DVD_RW_AD</span><span class="o">-</span><span class="mi">5670</span><span class="n">S</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sr0</span>
+                  <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>   <span class="mi">9</span> <span class="n">Sep</span>  <span class="mi">5</span> <span class="mi">14</span><span class="p">:</span><span class="mi">05</span> <span class="n">ata</span><span class="o">-</span><span class="n">ST3250318AS_6VMEHRQR</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sdb</span>
+                  <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>   <span class="mi">9</span> <span class="n">Sep</span>  <span class="mi">5</span> <span class="mi">14</span><span class="p">:</span><span class="mi">05</span> <span class="n">ata</span><span class="o">-</span><span class="n">WDC_WD6400AAKS</span><span class="o">-</span><span class="mi">40</span><span class="n">H2B0_WD</span><span class="o">-</span><span class="n">WMASY5768714</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sda</span>
+                  <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Aug</span> <span class="mi">30</span> <span class="mi">12</span><span class="p">:</span><span class="mi">59</span> <span class="n">ata</span><span class="o">-</span><span class="n">WDC_WD6400AAKS</span><span class="o">-</span><span class="mi">40</span><span class="n">H2B0_WD</span><span class="o">-</span><span class="n">WMASY5768714</span><span class="o">-</span><span class="n">part1</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sda1</span>
+                  <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Aug</span> <span class="mi">30</span> <span class="mi">12</span><span class="p">:</span><span class="mi">59</span> <span class="n">ata</span><span class="o">-</span><span class="n">WDC_WD6400AAKS</span><span class="o">-</span><span class="mi">40</span><span class="n">H2B0_WD</span><span class="o">-</span><span class="n">WMASY5768714</span><span class="o">-</span><span class="n">part2</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sda2</span>
+                  <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Aug</span> <span class="mi">30</span> <span class="mi">12</span><span class="p">:</span><span class="mi">59</span> <span class="n">ata</span><span class="o">-</span><span class="n">WDC_WD6400AAKS</span><span class="o">-</span><span class="mi">40</span><span class="n">H2B0_WD</span><span class="o">-</span><span class="n">WMASY5768714</span><span class="o">-</span><span class="n">part3</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sda3</span>
+                  <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Aug</span> <span class="mi">30</span> <span class="mi">13</span><span class="p">:</span><span class="mi">01</span> <span class="n">dm</span><span class="o">-</span><span class="n">name</span><span class="o">-</span><span class="n">luks</span><span class="o">-</span><span class="n">f0f5aeaf</span><span class="o">-</span><span class="n">ea52</span><span class="o">-</span><span class="mi">47</span><span class="n">da</span><span class="o">-</span><span class="n">b58e</span><span class="o">-</span><span class="n">c8cee2644e70</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">dm</span><span class="o">-</span><span class="mi">2</span>
+                  <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Aug</span> <span class="mi">30</span> <span class="mi">12</span><span class="p">:</span><span class="mi">59</span> <span class="n">dm</span><span class="o">-</span><span class="n">name</span><span class="o">-</span><span class="n">ubuntu</span><span class="o">--</span><span class="n">vg</span><span class="o">-</span><span class="n">root</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">dm</span><span class="o">-</span><span class="mi">0</span>
+                  <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Aug</span> <span class="mi">30</span> <span class="mi">12</span><span class="p">:</span><span class="mi">59</span> <span class="n">dm</span><span class="o">-</span><span class="n">name</span><span class="o">-</span><span class="n">ubuntu</span><span class="o">--</span><span class="n">vg</span><span class="o">-</span><span class="n">swap_1</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">dm</span><span class="o">-</span><span class="mi">1</span>
+                  <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Aug</span> <span class="mi">30</span> <span class="mi">13</span><span class="p">:</span><span class="mi">01</span>
+                  <span class="n">dm</span><span class="o">-</span><span class="n">uuid</span><span class="o">-</span><span class="n">CRYPT</span><span class="o">-</span><span class="n">LUKS1</span><span class="o">-</span><span class="n">f0f5aeafea5247dab58ec8cee2644e70</span><span class="o">-</span><span class="n">luks</span><span class="o">-</span><span class="n">f0f5aeaf</span><span class="o">-</span><span class="n">ea52</span><span class="o">-</span><span class="mi">47</span><span class="n">da</span><span class="o">-</span><span class="n">b58e</span><span class="o">-</span><span class="n">c8cee2644e70</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">dm</span><span class="o">-</span><span class="mi">2</span>
+                  <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Aug</span> <span class="mi">30</span> <span class="mi">12</span><span class="p">:</span><span class="mi">59</span> <span class="n">dm</span><span class="o">-</span><span class="n">uuid</span><span class="o">-</span><span class="n">LVM</span><span class="o">-</span><span class="n">cKetAlxAidtQQW7LmcUHOoEjmSq8AiOcjy59zLDAIeQNsV1bQ4WrnRUHlYLMS3lP</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">dm</span><span class="o">-</span><span class="mi">1</span>
+                  <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Aug</span> <span class="mi">30</span> <span class="mi">12</span><span class="p">:</span><span class="mi">59</span> <span class="n">dm</span><span class="o">-</span><span class="n">uuid</span><span class="o">-</span><span class="n">LVM</span><span class="o">-</span><span class="n">cKetAlxAidtQQW7LmcUHOoEjmSq8AiOcnZN4XhNFKiemsnTaEO1dikMycE4OMjZR</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">dm</span><span class="o">-</span><span class="mi">0</span>
+                  <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Aug</span> <span class="mi">30</span> <span class="mi">12</span><span class="p">:</span><span class="mi">59</span> <span class="n">usb</span><span class="o">-</span><span class="n">Seagate_FreeAgent_2GEWKTN6</span><span class="o">-</span><span class="mi">0</span><span class="p">:</span><span class="mi">0</span><span class="o">-</span><span class="n">part1</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sdb1</span>
+                  <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Aug</span> <span class="mi">30</span> <span class="mi">13</span><span class="p">:</span><span class="mi">01</span> <span class="n">usb</span><span class="o">-</span><span class="n">Seagate_FreeAgent_2GEWKTN6</span><span class="o">-</span><span class="mi">0</span><span class="p">:</span><span class="mi">0</span><span class="o">-</span><span class="n">part2</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sdb2</span>
+                  <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>   <span class="mi">9</span> <span class="n">Sep</span>  <span class="mi">8</span> <span class="mi">11</span><span class="p">:</span><span class="mi">28</span> <span class="n">usb</span><span class="o">-</span><span class="n">WD_My_Book_1140_504C323333314C4147374A33444A</span><span class="o">-</span><span class="mi">0</span><span class="p">:</span><span class="mi">0</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sdc</span>
+                  <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Sep</span>  <span class="mi">8</span> <span class="mi">11</span><span class="p">:</span><span class="mi">28</span> <span class="n">usb</span><span class="o">-</span><span class="n">WD_My_Book_1140_504C323333314C4147374A33444A</span><span class="o">-</span><span class="mi">0</span><span class="p">:</span><span class="mi">0</span><span class="o">-</span><span class="n">part1</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sdc1</span>
+                  <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Sep</span>  <span class="mi">8</span> <span class="mi">11</span><span class="p">:</span><span class="mi">28</span> <span class="n">usb</span><span class="o">-</span><span class="n">WD_My_Book_1140_504C323333314C4147374A33444A</span><span class="o">-</span><span class="mi">0</span><span class="p">:</span><span class="mi">0</span><span class="o">-</span><span class="n">part2</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sdc2</span>
+                  <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>   <span class="mi">9</span> <span class="n">Sep</span>  <span class="mi">5</span> <span class="mi">14</span><span class="p">:</span><span class="mi">05</span> <span class="n">wwn</span><span class="o">-</span><span class="mh">0x5000c50022b9f139</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sdb</span>
+                  <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>   <span class="mi">9</span> <span class="n">Sep</span>  <span class="mi">5</span> <span class="mi">14</span><span class="p">:</span><span class="mi">05</span> <span class="n">wwn</span><span class="o">-</span><span class="mh">0x50014ee00103d180</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sda</span>
+                  <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Aug</span> <span class="mi">30</span> <span class="mi">12</span><span class="p">:</span><span class="mi">59</span> <span class="n">wwn</span><span class="o">-</span><span class="mh">0x50014ee00103d180</span><span class="o">-</span><span class="n">part1</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sda1</span>
+                  <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Aug</span> <span class="mi">30</span> <span class="mi">12</span><span class="p">:</span><span class="mi">59</span> <span class="n">wwn</span><span class="o">-</span><span class="mh">0x50014ee00103d180</span><span class="o">-</span><span class="n">part2</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sda2</span>
+                  <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Aug</span> <span class="mi">30</span> <span class="mi">12</span><span class="p">:</span><span class="mi">59</span> <span class="n">wwn</span><span class="o">-</span><span class="mh">0x50014ee00103d180</span><span class="o">-</span><span class="n">part3</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sda3</span>
+</pre></div>
+</div>
+</div></blockquote>
+<ul class="simple">
+<li>you can see the new device is /dev/sdc - this will be different depending on the devices on your machine.</li>
+</ul>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>   <span class="mi">9</span> <span class="n">Sep</span>  <span class="mi">8</span> <span class="mi">11</span><span class="p">:</span><span class="mi">28</span> <span class="n">usb</span><span class="o">-</span><span class="n">WD_My_Book_1140_504C323333314C4147374A33444A</span><span class="o">-</span><span class="mi">0</span><span class="p">:</span><span class="mi">0</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sdc</span>
+                  <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Sep</span>  <span class="mi">8</span> <span class="mi">11</span><span class="p">:</span><span class="mi">28</span> <span class="n">usb</span><span class="o">-</span><span class="n">WD_My_Book_1140_504C323333314C4147374A33444A</span><span class="o">-</span><span class="mi">0</span><span class="p">:</span><span class="mi">0</span><span class="o">-</span><span class="n">part1</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sdc1</span>
+                  <span class="n">lrwxrwxrwx</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span>  <span class="mi">10</span> <span class="n">Sep</span>  <span class="mi">8</span> <span class="mi">11</span><span class="p">:</span><span class="mi">28</span> <span class="n">usb</span><span class="o">-</span><span class="n">WD_My_Book_1140_504C323333314C4147374A33444A</span><span class="o">-</span><span class="mi">0</span><span class="p">:</span><span class="mi">0</span><span class="o">-</span><span class="n">part2</span> <span class="o">-&gt;</span> <span class="o">../../</span><span class="n">sdc2</span>
+</pre></div>
+</div>
+</div></blockquote>
+<ul class="simple">
+<li>we can now refer to the disc by either /dev/sdc or /dev/disk/by-id/usb-WD_My_Book_1140_504C323333314C4147374A33444A-0:0</li>
+<li>we can refer to the first (non-encrypted) partition as /dev/sdc1 or /dev/disk/by-id/usb-WD_My_Book_1140_504C323333314C4147374A33444A-0:0-part1</li>
+<li>we can refer to the second (encrypted) partiion as /dev/sdc2 or /dev/disk/by-id/usb-WD_My_Book_1140_504C323333314C4147374A33444A-0:0-part2</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">create directory to mount the disc to mkdir <code class="docutils literal"><span class="pre">-p</span> <span class="pre">/mnt/backup_key</span></code></p>
+</li>
+<li><p class="first">if we are being security conscious then the un-encrypted luks key should not be written to disc it should be written to a ramdisk</p>
+<blockquote>
+<div><ul class="simple">
+<li>create a directory to mount the ram disc to <code class="docutils literal"><span class="pre">mkdir</span> <span class="pre">-p</span> <span class="pre">/mnt/volatile</span></code></li>
+<li><code class="docutils literal"><span class="pre">mount</span> <span class="pre">-t</span> <span class="pre">tmpfs</span> <span class="pre">-o</span> <span class="pre">size=10M</span> <span class="pre">tmpfs</span> <span class="pre">/mnt/volatile</span></code></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">mount the first partition on the disk <code class="docutils literal"><span class="pre">mount</span> <span class="pre">-t</span> <span class="pre">ext4</span> <span class="pre">/dev/sdc1</span> <span class="pre">/mnt/backup_key</span></code> OR <code class="docutils literal"><span class="pre">mount</span> <span class="pre">-t</span> <span class="pre">ext4</span> <span class="pre">/dev/disk/by-id/usb-WD_My_Book_1140_504C323333314C4147374A33444A-0:0-part1</span> <span class="pre">/mnt/backup_key</span></code></p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span><span class="p">]</span> <span class="n">mount</span> <span class="o">-</span><span class="n">t</span> <span class="n">ext4</span> <span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">sdc1</span> <span class="o">/</span><span class="n">mnt</span><span class="o">/</span><span class="n">backup_key</span>
+<span class="p">]</span> <span class="n">cd</span> <span class="o">/</span><span class="n">mnt</span><span class="o">/</span><span class="n">backup_key</span>
+<span class="p">]</span> <span class="n">ls</span>
+<span class="n">keyfile</span><span class="o">.</span><span class="n">gpg</span>  <span class="n">lost</span><span class="o">+</span><span class="n">found</span>  <span class="n">offsite</span><span class="o">-</span><span class="n">backup</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li>where keyfile.gpg is the encrypted luks key and offsite-backup is a directory containing useful scripts</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">decrypt the key <code class="docutils literal"><span class="pre">gpg</span> <span class="pre">--homedir</span> <span class="pre">/home/stephenh/.gnupg</span> <span class="pre">--decrypt</span> <span class="pre">-o</span> <span class="pre">&quot;/mnt/volatile/keyfile&quot;</span> <span class="pre">/mnt/backup_key/keyfile.gpg</span></code></p>
+</li>
+</ul>
+</div>
+<div class="section" id="decrypt-the-luks-partition">
+<h3>Decrypt the luks partition<a class="headerlink" href="#decrypt-the-luks-partition" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>decrypt the encrypted partition <code class="docutils literal"><span class="pre">cryptsetup</span> <span class="pre">luksOpen</span> <span class="pre">/dev/sdc2</span> <span class="pre">&quot;backup_disk&quot;</span> <span class="pre">--key-file</span> <span class="pre">&quot;/mnt/volatile/keyfile&quot;</span></code></li>
+</ul>
+</div>
+<div class="section" id="mount-the-decrypted-partition">
+<h3>Mount the decrypted partition<a class="headerlink" href="#mount-the-decrypted-partition" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>create mount point for backup_disk <code class="docutils literal"><span class="pre">mkdir</span> <span class="pre">-p</span> <span class="pre">/mnt/backup_disk</span></code></li>
+<li>mount the decrypted partition <code class="docutils literal"><span class="pre">mount</span> <span class="pre">&quot;/dev/mapper/backup_disk&quot;</span> <span class="pre">/mnt/backup_disk</span></code></li>
+</ul>
+</div>
+</div>
+<div class="section" id="recover-machine-from-backup-disc">
+<h2>Recover Machine from Backup Disc<a class="headerlink" href="#recover-machine-from-backup-disc" title="Permalink to this headline">¶</a></h2>
+<p>The backup disc contains a directory for each machine. Within each machine directory is a directory tree in this directory is an rsync of the machine. To recover this you would:</p>
+<ul class="simple">
+<li>install a base GNU/linux operating system on the target machine</li>
+<li>make sure rsync and ssh is installed</li>
+<li>rsync contents of tree directory over the top of the base install</li>
+</ul>
+<div class="section" id="find-out-type-of-base-system-to-install">
+<h3>Find out type of base system to install<a class="headerlink" href="#find-out-type-of-base-system-to-install" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first"><code class="docutils literal"><span class="pre">cat</span> <span class="pre">/mnt/backup_disk/[machine</span> <span class="pre">name]/tree/etc/os-release</span></code></p>
+</li>
+<li><p class="first">sample ubuntu output</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">NAME</span><span class="o">=</span><span class="s2">&quot;Ubuntu&quot;</span>
+            <span class="n">VERSION</span><span class="o">=</span><span class="s2">&quot;12.04.5 LTS, Precise Pangolin&quot;</span>
+            <span class="n">ID</span><span class="o">=</span><span class="n">ubuntu</span>
+            <span class="n">ID_LIKE</span><span class="o">=</span><span class="n">debian</span>
+            <span class="n">PRETTY_NAME</span><span class="o">=</span><span class="s2">&quot;Ubuntu precise (12.04.5 LTS)&quot;</span>
+            <span class="n">VERSION_ID</span><span class="o">=</span><span class="s2">&quot;12.04&quot;</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><p class="first">sample debian output</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">PRETTY_NAME</span><span class="o">=</span><span class="s2">&quot;Debian GNU/Linux 7 (wheezy)&quot;</span>
+<span class="n">NAME</span><span class="o">=</span><span class="s2">&quot;Debian GNU/Linux&quot;</span>
+<span class="n">VERSION_ID</span><span class="o">=</span><span class="s2">&quot;7&quot;</span>
+<span class="n">VERSION</span><span class="o">=</span><span class="s2">&quot;7 (wheezy)&quot;</span>
+<span class="n">ID</span><span class="o">=</span><span class="n">debian</span>
+<span class="n">ANSI_COLOR</span><span class="o">=</span><span class="s2">&quot;1;31&quot;</span>
+<span class="n">HOME_URL</span><span class="o">=</span><span class="s2">&quot;http://www.debian.org/&quot;</span>
+<span class="n">SUPPORT_URL</span><span class="o">=</span><span class="s2">&quot;http://www.debian.org/support/&quot;</span>
+<span class="n">BUG_REPORT_URL</span><span class="o">=</span><span class="s2">&quot;http://bugs.debian.org/&quot;</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<div class="section" id="install-a-base-system">
+<h3>Install a base system<a class="headerlink" href="#install-a-base-system" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first">for debian use a netinstall disc closest in version to the result of the above command</p>
+</li>
+<li><p class="first">for ubuntu use the server install disc closest in version to the result of the above command</p>
+</li>
+<li><p class="first">follow the instructions / prompts for the distribution you are installing</p>
+</li>
+<li><p class="first">install openSSH and rsync</p>
+<blockquote>
+<div><ul class="simple">
+<li><code class="docutils literal"><span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">openssh-server</span> <span class="pre">rsync</span></code></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">rsync the contents of the tree directory over the newly created system</p>
+<blockquote>
+<div><ul class="simple">
+<li><code class="docutils literal"><span class="pre">rsync</span> <span class="pre">-av</span> <span class="pre">--numeric-ids</span> <span class="pre">[source]/</span> <span class="pre">[destination]</span></code></li>
+<li>do not use <code class="docutils literal"><span class="pre">[source]/*</span></code> as this will miss . files</li>
+<li>do not use H for hardlinks as dirvish uses hardlinks to dedupe</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Strategic Data Pty Ltd.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.0.0-draft',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

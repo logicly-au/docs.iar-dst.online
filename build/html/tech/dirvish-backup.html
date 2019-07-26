@@ -1,0 +1,338 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Strategic Data Backup System &mdash; Strategic-Data-Policy-and-Procedures 1.0.0-draft documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="Strategic-Data-Policy-and-Procedures 1.0.0-draft documentation" href="../index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Strategic-Data-Policy-and-Procedures
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0-draft
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../business-continuity-plan.html">1. Business Continuity Plan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="system-backup-recovery.html">2. System Backup and Recovery</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Strategic-Data-Policy-and-Procedures</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Strategic Data Backup System</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/tech/dirvish-backup.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="strategic-data-backup-system">
+<h1>Strategic Data Backup System<a class="headerlink" href="#strategic-data-backup-system" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Strategic Data Backup System</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#how-does-it-work">How does it work?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#windows-backups">Windows backups</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#user-accessible-backups">User accessible backups</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sysadmins-restoring-data">Sysadmins restoring data</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#note-restoring-a-whole-machine">Note: restoring a whole machine</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#backups-are-warning-or-critical">Backups are WARNING or CRITICAL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gotchas">Gotchas</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>For an overview of the complete backup system go here: <a class="reference internal" href="backup-overview.html"><span class="doc">Backup Overview</span></a></p>
+<div class="section" id="how-does-it-work">
+<h2>How does it work?<a class="headerlink" href="#how-does-it-work" title="Permalink to this headline">¶</a></h2>
+<p>The puppet manifest <code class="docutils literal"><span class="pre">dirvish::client</span></code> is applied to all systems via the <code class="docutils literal"><span class="pre">platform</span></code> module.</p>
+</div>
+<div class="section" id="windows-backups">
+<h2>Windows backups<a class="headerlink" href="#windows-backups" title="Permalink to this headline">¶</a></h2>
+<p>All Windows servers have access to the <code class="docutils literal"><span class="pre">win_data_backups</span></code> share on fileserver (/var/local/win_data_backups) which they can use for their own backups. All data in this share will make it to the offsite backup via the fileshare.</p>
+<p>In addition, a second share <code class="docutils literal"><span class="pre">win_vm_backups</span></code> is available for full VM dumps (/var/local/win_vm_backups). The data in this share will not make it to the offsite backups as it is not backed up with fileserver.</p>
+<p>For more details about windows backups see: <cite>Windows Backup &lt;windows-backup&gt;</cite></p>
+</div>
+<div class="section" id="user-accessible-backups">
+<h2>User accessible backups<a class="headerlink" href="#user-accessible-backups" title="Permalink to this headline">¶</a></h2>
+<p>Given how this system works, we’ve added an FTP server so that you can log in as yourself and retrieve what you need without having to wait for sysadmin. Using any ftp client (chrome sucks for this by the way, firefox is fast, Mac OS Finder keeps opening new windows - maybe that’s your thing…): <a class="reference external" href="ftp://fitz-backup03">ftp://fitz-backup03</a>.</p>
+<p>When you log in you’ll notice a list of directories named as per the machine name. Navigate in to the one you’re interested in and you’ll see a bunch of date stamped directories. In each of those you’ll find a ‘tree’ directory - that’s the data from that date.</p>
+<p>As you’ve logged in as yourself, filesystem perm’s will only allow you to see what you’re allowed to see - as per the real system itself.</p>
+<p>A couple of things to note:</p>
+<ul class="simple">
+<li>you can’t restore back to the machine it came from. You’ll need to download to your local machine (wherever you’re browsing from) and then copy it back to where you need it.</li>
+<li>Single file restores will get tedious very quickly. For this reason, if you have to recover a whole directory of files, ask an admin as they have a script to make it easy to recover</li>
+</ul>
+<p>back to the original machine (as it runs as root we can’t just open it up to everyone - not yet anyway).</p>
+<ul class="simple">
+<li>why FTP ? We want all staff to be able to use this. Fireftp is a plugin for firefox which provides a nice side by side pane view for accessing an FTP server. Currently, there are no plans</li>
+</ul>
+<p>to add any other methods of access - that may change after the project is out of beta (it’s a big project with an offsite component and some other stuff).</p>
+</div>
+<div class="section" id="sysadmins-restoring-data">
+<h2>Sysadmins restoring data<a class="headerlink" href="#sysadmins-restoring-data" title="Permalink to this headline">¶</a></h2>
+<p>You will find a script to ease your life when restoring from backup.</p>
+<p><em>‘&gt; restore-from-backup</em></p>
+<p>Should be intuitive to use and self explanatory.</p>
+<p>Also, no need to worry about the script doing anything just yet. It just echoes the command it would run as the final step. Figured that was the safe option until we’re all happy with it.</p>
+<p>To see the script: puppet:///modules/dirvish/files/restore-from-backup</p>
+<div class="section" id="note-restoring-a-whole-machine">
+<h3>Note: restoring a whole machine<a class="headerlink" href="#note-restoring-a-whole-machine" title="Permalink to this headline">¶</a></h3>
+<p>When you want to restore a whole machine, find the hierarchy you wish to restore, navigate in to it (so you’re looking at the contents of /) and select ‘.’</p>
+<p>After you choose to restore it (yes), it will ask you for a second confirmation that you really want to restore a whole machine. Try it!</p>
+</div>
+</div>
+<div class="section" id="backups-are-warning-or-critical">
+<h2>Backups are WARNING or CRITICAL<a class="headerlink" href="#backups-are-warning-or-critical" title="Permalink to this headline">¶</a></h2>
+<p>Q: Nagios is reporting issues with backup so you’ve logged in and run <code class="docutils literal"><span class="pre">/usr/local/sbin/check-backups</span> <span class="pre">--report</span> <span class="pre">:</span></code> what does it mean?</p>
+<p>A: Dirvish maintains a state file for all backups. That script just cycles through all of the available backups looking for the most recent, then checking the ‘summary’ file for the Status line; using that to figure out what to report on. If you’re getting errors, that file and the associated log.bz file should help you figure out what’s happening.</p>
+</div>
+<div class="section" id="gotchas">
+<h2>Gotchas<a class="headerlink" href="#gotchas" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p class="first">Be aware that if you change the expire time in default.conf it will not recalculate expiry times for the already complete backups.</p>
+<blockquote>
+<div><ul>
+<li><p class="first">change the expiry in default.hist to actually expire a backup</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="c1">#IMAGE   CREATED   REFERENCE   EXPIRES</span>
+<span class="mi">20130325</span>   <span class="mi">2013</span><span class="o">-</span><span class="mi">03</span><span class="o">-</span><span class="mi">26</span> <span class="mi">05</span><span class="p">:</span><span class="mi">58</span><span class="p">:</span><span class="mi">04</span>   <span class="n">default</span>   <span class="o">+</span><span class="mi">21</span> <span class="n">days</span> <span class="o">==</span> <span class="mi">2013</span><span class="o">-</span><span class="mi">04</span><span class="o">-</span><span class="mi">15</span> <span class="mi">22</span><span class="p">:</span><span class="mi">17</span><span class="p">:</span><span class="mi">02</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">the +21 days is just a comment the important thing is the time stamp at the end of the line</p>
+</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">Dedup is being done at a file level for incremental backups only</p>
+<blockquote>
+<div><ul>
+<li><p class="first">so the same file on 2 different machines will not be deduped</p>
+</li>
+<li><p class="first">large binary files which change slightly will not be deduped</p>
+<blockquote>
+<div><ul class="simple">
+<li>snapshots of virtual machines e.g. github enterprise</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">if the same file in a different directory will not be deduped</p>
+<blockquote>
+<div><ul class="simple">
+<li>windows backups where each day is in a directory named for the date and time of the backup</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">As dedup is being carried out with hardlinks you cannot “just restore” a complete machine from backup.</p>
+<blockquote>
+<div><ul class="simple">
+<li>if you restore with hardlinks i.e. rsync -avH you will end up keeping the hardlinks the backup is using for dedupe as well as the system hardlinks</li>
+<li>if you do not restore hardlinks at a minimum condor will break and there will be other system weirdness.</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Strategic Data Pty Ltd.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.0.0-draft',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

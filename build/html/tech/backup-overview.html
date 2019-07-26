@@ -1,0 +1,384 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Backup Overview &mdash; Strategic-Data-Policy-and-Procedures 1.0.0-draft documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="Strategic-Data-Policy-and-Procedures 1.0.0-draft documentation" href="../index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Strategic-Data-Policy-and-Procedures
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0-draft
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../business-continuity-plan.html">1. Business Continuity Plan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="system-backup-recovery.html">2. System Backup and Recovery</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Strategic-Data-Policy-and-Procedures</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Backup Overview</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/tech/backup-overview.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="backup-overview">
+<h1>Backup Overview<a class="headerlink" href="#backup-overview" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Backup Overview</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#introduction">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#backup-servers">Backup Servers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#schedule-of-backups">Schedule of Backups</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#kept-backups">Kept Backups</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#file-system">File System</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#fitzroy-btrfs">Fitzroy - BTRFS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gc-btrfs">GC - BTRFS</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#virtual-machines">Virtual Machines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#database-backups">Database Backups</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#postgres-cluster">Postgres Cluster</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#postgres-standalone">Postgres Standalone</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#mysql">mySQL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#github-enterprise">GitHub Enterprise</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#amazon-dynamo-db">Amazon Dynamo DB</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#offsite-backup">Offsite Backup</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#fitzroy">Fitzroy</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#other-backup-links-in-tech-web">Other Backup links in tech web</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>We have 2 sites - Global Center and Fitzroy.</p>
+<p>We use Dirvish to perform backups.</p>
+<p>An offsite copy of production machines is done once a week in Fitzroy, it is sent to Iron Mountain.</p>
+</div>
+<div class="section" id="backup-servers">
+<h2>Backup Servers<a class="headerlink" href="#backup-servers" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fitzroy: backup01.fz.sdlocal.net</li>
+<li>Global Center: backup02.dc.sdlocal.net</li>
+</ul>
+</div>
+<div class="section" id="schedule-of-backups">
+<h2>Schedule of Backups<a class="headerlink" href="#schedule-of-backups" title="Permalink to this headline">¶</a></h2>
+<p>Each machine is backed up starting every day at 02:25. Each machine is backed up in turn using rsync.</p>
+</div>
+<div class="section" id="kept-backups">
+<h2>Kept Backups<a class="headerlink" href="#kept-backups" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>For 14 days we keep daily backups</li>
+<li>We keep 5 weeks of Sunday backups</li>
+<li>We keep the first Sunday of Each Month for 24 months</li>
+<li>So 39 copies should be kept spanning 2 years</li>
+</ul>
+</div>
+<div class="section" id="file-system">
+<h2>File System<a class="headerlink" href="#file-system" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="fitzroy-btrfs">
+<h3>Fitzroy - BTRFS<a class="headerlink" href="#fitzroy-btrfs" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first">We use BTRFS with compression</p>
+</li>
+<li><p class="first">BTRFS dedup is manually run with the command <code class="docutils literal"><span class="pre">/root/bin/bedup</span> <span class="pre">dedup</span></code></p>
+<blockquote>
+<div><ul class="simple">
+<li>todo: automate this</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">An encrypted copy of production machines is taken offsite (luks encrypted ext4)</p>
+</li>
+</ul>
+</div>
+<div class="section" id="gc-btrfs">
+<h3>GC - BTRFS<a class="headerlink" href="#gc-btrfs" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>We use BTRFS with compression</li>
+<li>TODO: offsite</li>
+<li>TODO: dedup</li>
+</ul>
+</div>
+</div>
+<div class="section" id="virtual-machines">
+<h2>Virtual Machines<a class="headerlink" href="#virtual-machines" title="Permalink to this headline">¶</a></h2>
+<p>We use several types of virtual machines:</p>
+<ul class="simple">
+<li>KV Ms - the contents of these unix machines will be backed up using the regular file system backups</li>
+<li>OpenVZ containers - the contents of these unix machines will be backed up using the regular file system backups</li>
+<li>LXC containers - the contents of these unix machines will be backed up using the regular file system backups</li>
+<li>HyperV machines - see windows backup procedures here <a class="reference internal" href="windows-backup.html"><span class="doc">Windows Backup</span></a></li>
+<li>VMWare machines - new as of August 2018 - being backed up by software called Veamm - IT Strategic are in charge of this</li>
+</ul>
+</div>
+<div class="section" id="database-backups">
+<h2>Database Backups<a class="headerlink" href="#database-backups" title="Permalink to this headline">¶</a></h2>
+<p>We maintain 3 types of databases:</p>
+<ul class="simple">
+<li>Postgres Cluster</li>
+<li>Postgres Standalone</li>
+<li>mySQL Cluster and Standalone</li>
+</ul>
+<div class="section" id="postgres-cluster">
+<h3>Postgres Cluster<a class="headerlink" href="#postgres-cluster" title="Permalink to this headline">¶</a></h3>
+<p>The Postgres Cluster uploads its WAL logs to Amazon S3 so that point in time recovery is available.</p>
+<ul class="simple">
+<li>Click Here for HA Cluster setup <a class="reference external" href="https://sdintra.net/bin/view/Tech/HaDatabaseSetup">Tech/Ha Database Setup</a> for a single server failure</li>
+<li>Click Here for HA Cluster Advanced Topics including point in time recovery <a class="reference external" href="https://sdintra.net/bin/view/Tech/HADatabaseAdvancedTopics">Tech/HA Database Advanced Topics</a> (double failure)</li>
+</ul>
+</div>
+<div class="section" id="postgres-standalone">
+<h3>Postgres Standalone<a class="headerlink" href="#postgres-standalone" title="Permalink to this headline">¶</a></h3>
+<p>Every night the database is unloaded to text. The regular filesystem backup then backs up these files. The mechanism for this is automatically installed by puppet.</p>
+<ul class="simple">
+<li>the only psql standalone server currently is on the powerdns server which</li>
+</ul>
+</div>
+<div class="section" id="mysql">
+<h3>mySQL<a class="headerlink" href="#mysql" title="Permalink to this headline">¶</a></h3>
+<p>Every night the database is unloaded to text. The regular filesystem backup then backs up these files. The mechanism for this is automatically installed by ansible.</p>
+</div>
+<div class="section" id="github-enterprise">
+<h3>GitHub Enterprise<a class="headerlink" href="#github-enterprise" title="Permalink to this headline">¶</a></h3>
+<p>Every night the data from github is dumped to the backup server using githubs supplied script. This is then pushed down to the datacentre backup server so that there is a replica of the backup which doesn’t require us to contact Iron Mountain for retrieval.</p>
+</div>
+</div>
+<div class="section" id="amazon-dynamo-db">
+<h2>Amazon Dynamo DB<a class="headerlink" href="#amazon-dynamo-db" title="Permalink to this headline">¶</a></h2>
+<p>Point in time backups have been enabled on the Amazon Dynamo DB console for the TMR databases.</p>
+</div>
+<div class="section" id="offsite-backup">
+<h2>Offsite Backup<a class="headerlink" href="#offsite-backup" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="fitzroy">
+<h3>Fitzroy<a class="headerlink" href="#fitzroy" title="Permalink to this headline">¶</a></h3>
+<p>Once a week we send a disc to Iron Mountain.</p>
+<p>The disc contains the latest backup of each machine tagged production in Fitzroy by puppet, the disc also contains a backup of the github repos.</p>
+<p>An RT ticket exists for each offsite disc.</p>
+<p>When a disc is sent to Iron Mountain the location for that disc is updated on its RT Ticket.</p>
+<p>For more details see <a class="reference external" href="https://sdintra.net/bin/view/Tech/OffsiteBackup">Tech/Offsite Backup</a></p>
+</div>
+</div>
+<div class="section" id="other-backup-links-in-tech-web">
+<h2>Other Backup links in tech web<a class="headerlink" href="#other-backup-links-in-tech-web" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference internal" href="dirvish-backup.html"><span class="doc">Dirvish Backup</span></a> OK (8th Nov 2014)</li>
+<li><a class="reference external" href="https://sdintra.net/bin/view/Tech/EnablingWindowsBackup">Tech/Enabling Windows</a> Backup Totally out of date</li>
+<li><a class="reference internal" href="windows-backup.html"><span class="doc">Windows Backup</span></a> NEW - currently undergoing changes</li>
+<li><a class="reference external" href="https://sdintra.net/bin/view/Tech/OffsiteBackup">Tech/Offsite Backup</a> OK (8th Nov 2014)</li>
+<li><a class="reference external" href="https://sdintra.net/bin/view/Tech/BackupDocumentation">Tech/Backup Documentation</a></li>
+<li><a class="reference internal" href="recovering-offsite-backup.html"><span class="doc">Recovering From Offsite Backup</span></a> - Re-written and tested OK (8th Nov 2014)</li>
+<li><a class="reference internal" href="system-backup-recovery.html"><span class="doc">System Backup And Recovery</span></a> make sure references here are ok, references <a class="reference external" href="https://sdintra.net/bin/view/Tech/BackupDocumentation">Tech.Backup Documentation</a></li>
+<li><a class="reference internal" href="cobian-backup.html"><span class="doc">Cobian Backup</span></a> OK (8th Nov 2014)</li>
+<li><a class="reference external" href="https://sdintra.net/bin/view/Tech/DataEntryApplication">Tech/Data Entry Application</a> OK (8th Nov 2014)</li>
+<li><a class="reference external" href="https://sdintra.net/bin/view/Tech/WindowsHome">Tech/Windows Home</a> OK (8th Nov 2014)</li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Strategic Data Pty Ltd.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.0.0-draft',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

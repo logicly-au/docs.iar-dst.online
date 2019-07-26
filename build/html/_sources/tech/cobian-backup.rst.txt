@@ -1,0 +1,23 @@
+Cobian Backup
+===========================
+
+.. toctree::
+   :maxdepth: 4
+   :titlesonly:
+
+   cobian-backup
+
+
+* Cobian Backup has been installed on the below windows servers
+
+   * ``fitz-winmyob01`` - Backups up C:\finance (Nightly at 3am - 10 Full backups kept)
+
+   * ``fitz-wingen01`` - Backups up C:\DataEntry (Nightly at 3am - 10 Full backups kept)
+
+* `Cobian Backup site <https://www.cobiansoft.com>`_
+
+* The Cobian backup service needs to logon using the ``win_backup`` user in GoSA.
+
+* Cobian Backup backs up to fileserver directory /var/local/win_data_backups/
+
+* These shares are then backup up with fileserver's normal backup process and taken offsite.

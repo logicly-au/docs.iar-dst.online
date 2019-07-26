@@ -1,0 +1,402 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Windows Backup &mdash; Strategic-Data-Policy-and-Procedures 1.0.0-draft documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="Strategic-Data-Policy-and-Procedures 1.0.0-draft documentation" href="../index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Strategic-Data-Policy-and-Procedures
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0-draft
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../business-continuity-plan.html">1. Business Continuity Plan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="system-backup-recovery.html">2. System Backup and Recovery</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Strategic-Data-Policy-and-Procedures</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Windows Backup</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/tech/windows-backup.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="windows-backup">
+<h1>Windows Backup<a class="headerlink" href="#windows-backup" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Windows Backup</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#file-level-backup">File Level Backup</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#accessing-cobian-backup">Accessing cobian backup</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#machine-backup">Machine Backup</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#emailing-from-events-in-event-viewer">Emailing from events in event viewer</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<p>The windows infrastructure consists of 1 x windows host machine which runs a number of hyperV virtual machines.</p>
+<p>There are 2 backups:</p>
+<ul class="simple">
+<li>File level backup for selected directories</li>
+<li>machine backup for complete windows virtuals</li>
+</ul>
+<p>The windows host machine fitz-winhost01 is NOT backed up as it has no important data except for the virtuals it hosts</p>
+</div>
+<div class="section" id="file-level-backup">
+<h2>File Level Backup<a class="headerlink" href="#file-level-backup" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>done with <a class="reference internal" href="cobian-backup.html"><span class="doc">Cobian Backup</span></a></li>
+<li>data entry directory on fitz-wingen01 is backup up to fileserver://var/local/win_data_backups/fitz-wingen01 at 3AM (possibly stagger these)</li>
+<li>finance directory on fitz-winmyob01 is backup up to fileserver://var/local/win_data_backups/fitz-winmyob01 at 3AM</li>
+<li>Cobian is set to email on error</li>
+<li>this directory on fileserver is included in the fileserver backup</li>
+</ul>
+<div class="section" id="accessing-cobian-backup">
+<h3>Accessing cobian backup<a class="headerlink" href="#accessing-cobian-backup" title="Permalink to this headline">¶</a></h3>
+<p>Cobian backup is only accessible by:</p>
+<ul class="simple">
+<li>click on the up arrow bottom right</li>
+<li>double click the cobian icon</li>
+<li>cobian icon:</li>
+</ul>
+<img alt="../_images/igp-cobian.png" src="../_images/igp-cobian.png" />
+</div>
+</div>
+<div class="section" id="machine-backup">
+<h2>Machine Backup<a class="headerlink" href="#machine-backup" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p class="first">done with Windows Backup from fitz-winhost01</p>
+</li>
+<li><p class="first">The following virtual machines are backed up:</p>
+<blockquote>
+<div><ul class="simple">
+<li>fitz-winspss01</li>
+<li>fitz-winman01</li>
+<li>fitz-myob01</li>
+<li>fitz-bdgravityzone</li>
+<li>fitz-wingen01</li>
+<li>fitz-wintest01</li>
+<li>fitz-winrep01</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">backup up to external disc</p>
+</li>
+<li><p class="first">all machines in one file</p>
+</li>
+<li><p class="first">the backup kicks off at 1AM</p>
+</li>
+</ul>
+<div class="section" id="emailing-from-events-in-event-viewer">
+<h3>Emailing from events in event viewer<a class="headerlink" href="#emailing-from-events-in-event-viewer" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first">enable powershell scripting by running powershell as administrator and executing the following command:</p>
+<blockquote>
+<div><blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Set</span><span class="o">-</span><span class="n">ExecutionPolicy</span> <span class="n">RemoteSigned</span>
+</pre></div>
+</div>
+</div></blockquote>
+<ul class="simple">
+<li><a class="reference external" href="http://technet.microsoft.com/en-us/library/ee176961.aspx">http://technet.microsoft.com/en-us/library/ee176961.aspx</a></li>
+<li>only needs to be done once for all powershell scripts</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">setup power shell script to email:</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>[System.Net.ServicePointManager]::ServerCertificateValidationCallback = { return $true }
+$From = &quot;fitz-winhost01@strategicdata.com.au&quot;
+$To = &quot;stephenh@strategicdata.com.au&quot;
+$SMTPServer = &quot;fitz-smtp.strategicdata.internal&quot;
+$SMTPPort = &quot;25&quot;
+$Username = &quot;fitz-winhost01&quot;
+$Password = &quot;&quot;
+$subject = &quot;Backup Failed on fitz-winhost01&quot;
+$body = &quot;Backup Failed on fitz-winhost01. Check event viewer for details.&quot;
+$smtp = New-Object System.Net.Mail.SmtpClient($SMTPServer, $SMTPPort);
+$smtp.EnableSSL = $true
+$smtp.Credentials = New-Object System.Net.NetworkCredential($Username, $Password);
+$smtp.Send($From, $To, $subject, $body);
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><p class="first">cant remember the link to where I stole this one from, I know it works :)</p>
+</li>
+<li><p class="first">go to task scheduler</p>
+<blockquote>
+<div><ul>
+<li><p class="first">create task</p>
+</li>
+<li><p class="first">On General Tab</p>
+<blockquote>
+<div><ul class="simple">
+<li>enter Name</li>
+<li>enter Description</li>
+<li>click run whether user is logged in or not</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">On Triggers Tab</p>
+<blockquote>
+<div><ul class="simple">
+<li>click New…</li>
+<li>begin the task: on an event</li>
+<li>click custom</li>
+<li>click new event filter</li>
+<li>event level: Select ALL of them</li>
+<li>Event log -&gt; Applications and Services Logs -&gt; Microsoft -&gt; Windows -&gt; backup (click)</li>
+<li>where it says</li>
+</ul>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="nb">all</span> <span class="n">Event</span> <span class="n">IDs</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>enter:</p>
+<blockquote>
+<div><ul class="simple">
+<li>5,9,17,18,19,20,21,22,49,50,52,517,518,521,527,528,544,545,546,561,564</li>
+<li><a class="reference external" href="http://crashmag.net/windows-server-backup-notifications">http://crashmag.net/windows-server-backup-notifications</a></li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>click ok</li>
+<li>click ok</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">On Actions Tab</p>
+<blockquote>
+<div><ul class="simple">
+<li>click New…</li>
+<li>Keep Action at Start a program</li>
+<li>Program/Script: <code class="docutils literal"><span class="pre">powershell</span></code></li>
+<li>Add Arguements <code class="docutils literal"><span class="pre">-c</span> <span class="pre">&quot;C:\scripts\mail_backup_fail.ps1&quot;</span></code> (or whatever name and path you called it above)</li>
+<li>click ok</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">click ok</p>
+</li>
+<li><p class="first">when prompted change to administrator account and enter password</p>
+</li>
+<li><p class="first">click ok</p>
+</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">note you will only be able to see the trigger filter in xml mode from now on.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Strategic Data Pty Ltd.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.0.0-draft',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

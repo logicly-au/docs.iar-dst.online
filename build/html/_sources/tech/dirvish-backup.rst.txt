@@ -1,0 +1,106 @@
+Strategic Data Backup System
+==============================
+
+.. toctree::
+   :caption: Table of Contents
+   :maxdepth: 4
+
+   dirvish-backup
+
+For an overview of the complete backup system go here: :doc:`Backup Overview <backup-overview>`
+
+How does it work?
+------------------
+
+The puppet manifest ``dirvish::client`` is applied to all systems via the ``platform`` module.
+
+Windows backups
+----------------
+
+All Windows servers have access to the ``win_data_backups`` share on fileserver (/var/local/win_data_backups) which they can use for their own backups. All data in this share will make it to the offsite backup via the fileshare.
+
+In addition, a second share ``win_vm_backups`` is available for full VM dumps (/var/local/win_vm_backups). The data in this share will not make it to the offsite backups as it is not backed up with fileserver.
+
+For more details about windows backups see: `Windows Backup <windows-backup>`
+
+User accessible backups
+------------------------
+
+Given how this system works, we've added an FTP server so that you can log in as yourself and retrieve what you need without having to wait for sysadmin. Using any ftp client (chrome sucks for this by the way, firefox is fast, Mac OS Finder keeps opening new windows - maybe that's your thing...): `ftp://fitz-backup03 <ftp://fitz-backup03>`_.
+
+
+When you log in you'll notice a list of directories named as per the machine name. Navigate in to the one you're interested in and you'll see a bunch of date stamped directories. In each of those you'll find a 'tree' directory - that's the data from that date.
+
+As you've logged in as yourself, filesystem perm's will only allow you to see what you're allowed to see - as per the real system itself.
+
+A couple of things to note:
+
+* you can't restore back to the machine it came from. You'll need to download to your local machine (wherever you're browsing from) and then copy it back to where you need it.
+
+* Single file restores will get tedious very quickly. For this reason, if you have to recover a whole directory of files, ask an admin as they have a script to make it easy to recover
+
+back to the original machine (as it runs as root we can't just open it up to everyone - not yet anyway).
+
+* why FTP ? We want all staff to be able to use this. Fireftp is a plugin for firefox which provides a nice side by side pane view for accessing an FTP server. Currently, there are no plans
+
+to add any other methods of access - that may change after the project is out of beta (it's a big project with an offsite component and some other stuff).
+
+Sysadmins restoring data
+-------------------------
+
+You will find a script to ease your life when restoring from backup.
+
+*'> restore-from-backup*
+
+Should be intuitive to use and self explanatory.
+
+Also, no need to worry about the script doing anything just yet. It just echoes the command it would run as the final step. Figured that was the safe option until we're all happy with it.
+
+To see the script: puppet:///modules/dirvish/files/restore-from-backup
+
+Note: restoring a whole machine
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+When you want to restore a whole machine, find the hierarchy you wish to restore, navigate in to it (so you're looking at the contents of /) and select '.'
+
+After you choose to restore it (yes), it will ask you for a second confirmation that you really want to restore a whole machine. Try it!
+
+Backups are WARNING or CRITICAL
+--------------------------------
+
+Q: Nagios is reporting issues with backup so you've logged in and run ``/usr/local/sbin/check-backups --report :`` what does it mean?
+
+A: Dirvish maintains a state file for all backups. That script just cycles through all of the available backups looking for the most recent, then checking the 'summary' file for the Status line; using that to figure out what to report on. If you're getting errors, that file and the associated log.bz file should help you figure out what's happening.
+
+Gotchas
+--------
+
+* Be aware that if you change the expire time in default.conf it will not recalculate expiry times for the already complete backups.
+
+   * change the expiry in default.hist to actually expire a backup
+
+     ::
+
+       #IMAGE   CREATED   REFERENCE   EXPIRES
+       20130325   2013-03-26 05:58:04   default   +21 days == 2013-04-15 22:17:02
+
+   * the +21 days is just a comment the important thing is the time stamp at the end of the line
+
+* Dedup is being done at a file level for incremental backups only
+
+   * so the same file on 2 different machines will not be deduped
+
+   * large binary files which change slightly will not be deduped
+
+      * snapshots of virtual machines e.g. github enterprise
+
+   * if the same file in a different directory will not be deduped
+      
+      * windows backups where each day is in a directory named for the date and time of the backup
+
+* As dedup is being carried out with hardlinks you cannot "just restore" a complete machine from backup.
+
+   * if you restore with hardlinks i.e. rsync -avH you will end up keeping the hardlinks the backup is using for dedupe as well as the system hardlinks
+
+   * if you do not restore hardlinks at a minimum condor will break and there will be other system weirdness.
+

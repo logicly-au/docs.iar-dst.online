@@ -1,0 +1,168 @@
+Business Continuity Plan
+========================
+
+Identified Risk: Facility loss - Datacom Hosting Facility
+----------------------------------------------------------
+
+Strategic Data client facing services (applications) are hosted at the Datacom shared hosting facility.
+
+Short term: one week or less
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If the event is assessed to be resolved in one (1) week or less Strategic Data will:
+
+* inform all clients affected by the event,
+
+* maintain active communication on the status of the event with all clients affected by the event,
+
+* re-assess the event daily in order to identify if the severity / duration is greater than expected.
+
+Recovery will not be attempted until it has been determined that the event will last more than one week.
+
+Long term: More than one week
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Strategic Data will notify all clients and stakeholders of the event and initiate disaster recovery processes as appropriate; including, :doc:`retrieval of backups from IronMountain <tech/system-backup-recovery>` and service re-establishment as required.
+
+Identified Risk: Facility loss - Fitzroy Office
+------------------------------------------------
+
+Strategic Data's development and client support infrastructure is largely hosted in the server room at the Fitzroy office.
+
+Short term
+^^^^^^^^^^^
+
+Management will assess to what extent it makes sense for staff to work from an alternate location - including from home.
+
+Long term
+^^^^^^^^^^
+
+As per the process for a long term event at the hosting facility.
+
+Financial
+----------
+
+MYOB:
+
+In the case of an emergency, MYOB are able to immediately email a link (once we have supplied the serial number) when a computer is available to which the current version of the MYOB software is able to be downloaded. Assuming we have the data files (listed below) this will be an effective transition. The software can be download free of charge and multiple times.
+
+* Serial number: 6139 1047 7980
+* Phone number: 1300 555 151
+* Version currently in use: Account Right Premier v19.9
+
+Current data files:
+
+Located on server - fitz-winmyob01
+
+* C:\finance\Stratdat.MYO
+* C:\finance\WebSurvey.MYO
+* C:\finance\Leslie Cannold Inc.MYO
+* C:\finanace\IT Strategic Pty Ltd.MYO
+* Corresponding .box files
+
+Backup and older versions:
+
+* \\fileserver\internal\Accounts\MYOB\archive MYOB files
+
+Insurance
+----------
+
+Current documentation in regards to Worksafe, Public Liability and Professional Indemnity insurance located here :doc:`accounts/accounts-insurance` 
+
+
+Legal
+------
+
+Goldsmith Lawyers
+
+Phone number: 9322 2777
+
+Postal Address: PO Box 172, North Melbourne, VIC 3051
+
+Location: 613 King Street, West Melbourne, VIC 3003
+
+Contact: Neil Garfirth neil@goldlaw.com.au
+
+Loss of Key Personnel
+----------------------
+
+Given the size of the business, the following matrix identifies a combination of individuals and positions.
+
+.. csv-table:: List of Key Personnel Replacements
+   :file: tables/key-personnel.csv
+   :header-rows: 1
+
+Loss of Key Personnel and Managing Projects
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. Search RT for all projects owned by the person who is unavailable
+
+A sample Search is `Here <https://rt.strategicdata.com.au/Search/Results.html?Format=%27%20%20%20%3Cb%3E%3Ca%20href%3D%22__WebPath__%2FTicket%2FDisplay.html%3Fid%3D__id__%22%3E__id__%3C%2Fa%3E%3C%2Fb%3E%2FTITLE%3A%23%27%2C%0A%27%3Cb%3E%3Ca%20href%3D%22__WebPath__%2FTicket%2FDisplay.html%3Fid%3D__id__%22%3E__Subject__%3C%2Fa%3E%3C%2Fb%3E%2FTITLE%3ASubject%27%2C%0A%27__Status__%27%2C%0A%27__QueueName__%27%2C%0A%27__OwnerName__%27%2C%0A%27__Priority__%27%2C%0A%27__NEWLINE__%27%2C%0A%27%27%2C%0A%27%3Csmall%3E__Requestors__%3C%2Fsmall%3E%27%2C%0A%27%3Csmall%3E__CreatedRelative__%3C%2Fsmall%3E%27%2C%0A%27%3Csmall%3E__ToldRelative__%3C%2Fsmall%3E%27%2C%0A%27%3Csmall%3E__LastUpdatedRelative__%3C%2Fsmall%3E%27%2C%0A%27%3Csmall%3E__TimeLeft__%3C%2Fsmall%3E%27%2C%0A%27__CustomField.%7BProject%202%20IC%7D__%27&Order=ASC%7CASC%7CASC%7CASC&OrderBy=id%7C%7C%7C&Page=2&Query=Owner%20%3D%20%27michellen%27%20AND%20Status%20!%3D%20%27resolved%27%20AND%20Queue%20%3D%20%27projects%27&RowsPerPage=50&SavedChartSearchId=&SavedSearchId=>`_ Requires editing to change owner of the Project Ticket.
+
+2. Reassign Project tickets to the 2IC and assign a new 2IC.
+
+3. Ensure that the person now responsible for the project is aware of their new responsibility and keep them informed about any changes to the circumstances.
+
+4. If a person is the 2IC for a large number of projects, Management may redistribute some of the projects - especially if the Personnel loss is going to be for a long period of time.
+
+Telephones, Email and Ticketing system
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Telstra can redirect the office numbers to mobile phones (only if connectivity is the issue - request to IT Strategic). There is no ability to move email or ticketing.
+
+Client Contact Information
+---------------------------
+
+A director can provide the email with the links to active client information in the intranet. This information provides the relevant contact details for each client / project and is generated daily via an automated process.
+
+Staff / External Contact Information
+-------------------------------------
+
+Strategic Data Staff Phone Numbers and Extensions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table:: Staff Contact Details
+   :file: tables/staff-contact.csv
+   :header-rows: 1
+
+Useful External Numbers
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table:: External Contacts
+   :file: tables/external-contacts.csv
+   :header-rows: 1
+
+Phone Service Details
+^^^^^^^^^^^^^^^^^^^^^^
+
+**Fixed**
+
+.. csv-table:: Fixed phone line services
+   :file: tables/fixed-phonelines.csv
+   :header-rows: 1
+
+Analogue line installed 2 August - 9416 0576 (solely used for ADSL & Alarm Security System)
+
+**Mobile**
+
+.. csv-table:: Mobile phone services
+   :file: tables/mobile-phonelines.csv
+   :header-rows: 1
+
+Testing BCP Procedures
+-----------------------
+
+At 6 monthly intervals, the following is to be tested:
+
+* All phone numbers are to be checked (director/admin)
+* Relationship to be confirmed with all Strategic Data emergency suppliers (director) or called if necessary (admin)
+* Links in this plan to be checked - that they're working (admin)
+* External mirror of this plan to be checked (director)
+* myob version number & serial number to be checked (admin)
+* Sample check on projects to ensure back-up responsible person on projects (admin under director supervision)
+* Read through and ensure the whole plan is still relevant / details up-to-date (director)
+
+
+
+
+

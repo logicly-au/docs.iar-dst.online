@@ -1,0 +1,170 @@
+Windows Backup
+===========================
+
+.. toctree::
+   :caption: Table of Contents
+   :maxdepth: 4
+
+   windows-backup
+
+	
+Overview
+---------
+
+The windows infrastructure consists of 1 x windows host machine which runs a number of hyperV virtual machines.
+
+There are 2 backups:
+
+* File level backup for selected directories
+
+* machine backup for complete windows virtuals
+
+The windows host machine fitz-winhost01 is NOT backed up as it has no important data except for the virtuals it hosts
+
+File Level Backup
+-----------------
+
+* done with :doc:`Cobian Backup <cobian-backup>`
+
+* data entry directory on fitz-wingen01 is backup up to fileserver://var/local/win_data_backups/fitz-wingen01 at 3AM (possibly stagger these)
+
+* finance directory on fitz-winmyob01 is backup up to fileserver://var/local/win_data_backups/fitz-winmyob01 at 3AM
+	
+* Cobian is set to email on error
+
+* this directory on fileserver is included in the fileserver backup
+
+Accessing cobian backup
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Cobian backup is only accessible by:
+
+* click on the up arrow bottom right
+
+* double click the cobian icon
+
+* cobian icon:
+
+.. image:: img/igp-cobian.png
+
+Machine Backup
+--------------
+
+* done with Windows Backup from fitz-winhost01
+
+* The following virtual machines are backed up:
+
+   * fitz-winspss01
+
+   * fitz-winman01
+
+   * fitz-myob01
+   
+   * fitz-bdgravityzone
+
+   * fitz-wingen01
+
+   * fitz-wintest01
+
+   * fitz-winrep01
+
+* backup up to external disc
+
+* all machines in one file
+
+* the backup kicks off at 1AM
+
+Emailing from events in event viewer
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* enable powershell scripting by running powershell as administrator and executing the following command:
+
+    ::
+
+      Set-ExecutionPolicy RemoteSigned
+
+   * `http://technet.microsoft.com/en-us/library/ee176961.aspx <http://technet.microsoft.com/en-us/library/ee176961.aspx>`_
+
+   * only needs to be done once for all powershell scripts
+
+* setup power shell script to email:
+
+    ::
+
+		   [System.Net.ServicePointManager]::ServerCertificateValidationCallback = { return $true }
+		   $From = "fitz-winhost01@strategicdata.com.au"
+		   $To = "stephenh@strategicdata.com.au"
+		   $SMTPServer = "fitz-smtp.strategicdata.internal"
+		   $SMTPPort = "25"
+		   $Username = "fitz-winhost01"
+		   $Password = ""
+		   $subject = "Backup Failed on fitz-winhost01"
+		   $body = "Backup Failed on fitz-winhost01. Check event viewer for details."
+		   $smtp = New-Object System.Net.Mail.SmtpClient($SMTPServer, $SMTPPort);
+		   $smtp.EnableSSL = $true
+		   $smtp.Credentials = New-Object System.Net.NetworkCredential($Username, $Password);
+		   $smtp.Send($From, $To, $subject, $body);
+
+* cant remember the link to where I stole this one from, I know it works :)
+
+* go to task scheduler
+
+   * create task
+
+   * On General Tab
+
+      * enter Name
+
+      * enter Description
+
+      * click run whether user is logged in or not
+
+   * On Triggers Tab
+
+      * click New...
+
+      * begin the task: on an event
+
+      * click custom
+
+      * click new event filter
+
+      * event level: Select ALL of them
+
+      * Event log -> Applications and Services Logs -> Microsoft -> Windows -> backup (click)
+
+      * where it says
+
+      ::
+
+         <all Event IDs>
+
+      enter:
+         
+         * 5,9,17,18,19,20,21,22,49,50,52,517,518,521,527,528,544,545,546,561,564
+
+         * `http://crashmag.net/windows-server-backup-notifications <http://crashmag.net/windows-server-backup-notifications>`_
+
+      * click ok
+
+      * click ok
+			
+   * On Actions Tab
+
+      * click New...
+
+      * Keep Action at Start a program
+
+      * Program/Script: ``powershell``
+
+      * Add Arguements ``-c "C:\scripts\mail_backup_fail.ps1"`` (or whatever name and path you called it above)
+
+      * click ok
+
+   * click ok
+
+   * when prompted change to administrator account and enter password
+
+   * click ok
+
+* note you will only be able to see the trigger filter in xml mode from now on.
