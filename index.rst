@@ -28,14 +28,11 @@ specialist mental health care settings. The Guidance has the potential to be use
 psychology and psychiatry services.
 	
 
-.. The LINK TO THE PDF will only appear in the online HTML version
-      (make.sh html) and not in PDF itself (or any other renderings)
+.. only:: builder_html or builder_readthedocs
 
-.. only:: builder_html
+   Download this specification as a |download-pdf|
 
-Download this specification as a :download:`PDF </_static/DST.pdf>`.
 
-.. End of LINK TO THE PDF
 
 
 Getting Help
