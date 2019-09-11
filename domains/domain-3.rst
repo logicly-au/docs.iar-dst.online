@@ -16,9 +16,9 @@ WSAS is a validated measure of impairment on functioning.
 Assessment of an individual on this domain should consider:
 
    * a person’s ability to fulfil usual roles/ responsibilities
-   * impact on or disruption to areas of life (e.g., employment, parenting, education, activities of
-     daily living)
-   * the person’s capacity for self-care
+   * impact on or disruption to areas of life (e.g., employment, parenting, education, or other social roles)
+   * impact on the person’s basic activities of daily living (e.g., self-care, mobility, toileting, feeding, and personal hygiene). 
+
 
 Scoring
 ---------
@@ -29,7 +29,7 @@ Scoring
 
    a. Diminished ability to function in one or more of their usual roles, including work, social, parenting/care of dependents, education but without significant or adverse consequences.
 
-   b. The person experiences brief and transient disruptions in functioning with potential to impact more severely without intervention.
+   b. The person experiences brief and transient disruptions in functioning 
 
 *Typical WSAS score for Mild impact = 0-5*
 
@@ -38,7 +38,7 @@ Scoring
 
    a. Functioning is impaired in more than one of their usual roles including work, social, parenting and family, education, to the extent that they are unable to meet the requirements of those roles on average 1 to 2 days per month.
 
-   b. The person experiences difficulties with basic self-care (hygiene, eating, appearance) on occasion but without threat to health.
+   b. The person experiences occasional difficulties with basic activities of daily living but without threat to health.
 
 *Typical WSAS score for Moderate impact = 6-10*
 

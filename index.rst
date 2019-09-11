@@ -3,9 +3,9 @@
 Initial Assessment and Referral Decision Support Tool
 =======================================================
 
-**Version 1.00 - draft**
+**Version 1.02 - draft**
 
-**2019**
+**30 August 2019**
 
 
 This Guidance is focussed on the initial response to requests for mental health assistance in

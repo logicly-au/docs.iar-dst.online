@@ -39,7 +39,7 @@ Scoring
 
    a. Limited understanding or confusion about condition and impacts.
 
-   b. Limited ability to access supports independently.
+   b. Unlikely to access supports without prompting and encouragement.
 
    c. Limited interest in taking an active role in managing condition.
 

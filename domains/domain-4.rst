@@ -42,7 +42,7 @@ Scoring
 
    b. Physical health condition present and require intensive medical monitoring and are seriously affecting the mental health of the person (e.g., worsened symptoms, heightened distress).
 
-   c. Cognitive impairment that impacts significantly on the mental health condition and impedes the person's ability to participate in treatment.
+   c. Intellectual disability or cognitive impairment that impacts significantly on the mental health condition and impedes the person’s ability to participate in treatment 
 
 
 **4 = Very severe impact**
@@ -51,5 +51,6 @@ Scoring
 
    b. Significant physical health conditions exist which are poorly managed or life threatening, and in the context of a concurrent mental health condition.
 
+   c. Severe intellectual disability or severe cognitive impairment that impacts significantly on the mental health condition and impedes the person’s ability to participate in treatment 
 
 

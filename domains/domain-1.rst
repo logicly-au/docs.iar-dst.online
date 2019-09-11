@@ -17,7 +17,7 @@ Assessment of an individual on this domain should consider:
    * experience of mental illness
    * are symptoms improving/worsening, is distress improving/worsening, are new symptoms emerging?
 
-Validated measures such as the K10, K5 (for Aboriginal People), PHQ-9 and GAD-7 are potentially useful for understanding symptom severity and distress. Threshold points for each of these instruments to guide judgements about problem severity are provided below.
+Validated measures such as the K10, K5 (for Aboriginal People), PHQ-9, GAD-7 and the EPDS are potentially useful for understanding symptom severity and distress. Threshold points for each of these instruments to guide judgements about problem severity are provided below.
 
 .. admonition:: PRACTICE POINT
 
@@ -44,7 +44,7 @@ Scoring
       disorder (e.g., symptoms like excessive worry, difficulty concentrating) or depressive
       disorder (e.g., symptoms like sadness, irritability, exhaustion, disrupted sleep, anger) that
       have typically been present for less than 6 months (but this may vary). Current symptoms at
-      a level that would likely result in a diagnosis or causing mild level of distress.
+      a level that would likely result in a diagnosis or associated with a mild level of distress.
 
    b) Currently experiencing mild distress.
 
@@ -60,6 +60,7 @@ PHQ-9   0-4                       5-9
 GAD-7   0-5                       5-9
 K10     10-19                     20-24 
 K5      5-9                       10-12
+EPDS    0-9                       10-12
 ======  ========================  ===============================
 
 **2 = Moderate**
@@ -69,7 +70,7 @@ K5      5-9                       10-12
       irritability, exhaustion, disrupted sleep, loss of interest and pleasure) that have typically
       been present for more than 6 months (but this may vary) but symptoms may be of more
       recent origin. Symptoms are at a level that would likely meet diagnostic criteria, and/or are
-      causing moderate to high levels of distress.
+      associated with a moderate to high levels of distress.
 
    b) Currently experiencing moderate to high levels of distress.
 
@@ -82,6 +83,7 @@ K5      5-9                       10-12
 :GAD-7:	10-14
 :K10:	25-29
 :K5: 12-14
+:EPDS: 13+
 
 
 **3 = Severe**
@@ -91,7 +93,7 @@ K5      5-9                       10-12
       avoidant behaviour) but the symptoms are mostly well managed or are re-appearing and at
       risk of escalation without ongoing assistance.
 
-   b) Other mental health condition that is causing high to very high levels of distress.
+   b) Other mental health condition that is associated with high to very high levels of distress.
 
    c) Recent onset of symptoms indicative of a severe mental illness and/or the person is
       experiencing high to very high levels of distress.
@@ -104,7 +106,7 @@ K5      5-9                       10-12
 :GAD-7:	15+
 :K10:	30-50
 :K5: 15-25
- 
+:EPDS: 13+ 
 
 **4 = Very severe**
 
@@ -126,4 +128,5 @@ K5      5-9                       10-12
 :GAD-7:	15+
 :K10:	30-50
 :K5: 15-25
+:EPDS: 13+
 
