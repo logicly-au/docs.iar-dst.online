@@ -38,12 +38,16 @@ psychology and psychiatry services.
 Getting Help
 ------------
 
-XXXXXXXX A dedicated IAR Team and IAR Help Desk is available to support clinicians in their assessments XXXXXXXXXXX
+Strategic Data offers a dedicated Helpdesk which is available to support clinicians using the Initial Assessment and Referral Decision Support Tool.
+
+All enquiries should be directed to support@strategicdata.com.au
 
 
-	.. toctree::
-	   :caption: Table of Contents
-	   :maxdepth: 3
-
-	   domains/index
-	   level-of-care/index
+.. toctree::
+     :caption: Table of Contents
+     :maxdepth: 1
+     :titlesonly:
+     :hidden:
+       
+     domains/index
+     level-of-care/index
