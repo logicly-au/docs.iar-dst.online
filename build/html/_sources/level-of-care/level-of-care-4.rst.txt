@@ -4,7 +4,7 @@ Level 4 - High Intensity Services
 Definition
 -----------
 
-High intensity services including periods intensive intervention that may involve multi-disciplinary support. Usually supporting people experiencing severe mental illness, significant functional impairment and/or risk factors.
+High intensity services including periods of intensive intervention that may involve multi-disciplinary support. Usually supporting people experiencing severe mental illness, significant functional impairment and/or risk factors.
 
 Care environment
 -----------------
