@@ -130,3 +130,5 @@ EPDS    0-9                       10-12
 :K5: 15-25
 :EPDS: 13+
 
+**Important note:** Do not use these assessment measure thresholds alone to justify a rating on this domain
+
