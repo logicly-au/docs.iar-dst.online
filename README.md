@@ -1,1 +1,5 @@
-# iar-dst-docs
+# IAR-DST documentation
+
+# Publish
+
+`./scripts/publish.sh`
