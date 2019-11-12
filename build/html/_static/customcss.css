@@ -1,7 +1,0 @@
-{% extends "!layout.html" %}
-{% set css_files = css_files + ["_static/customstyle.css"] %}
-
-.style-admonition last {
-	background-color: #e8f4f8;
-}
-

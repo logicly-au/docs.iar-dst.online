@@ -138,7 +138,7 @@ sub createTOC {
     #@type HTML::Element
     my $tree = shift;
 
-    my ( $top_level_tag, $second_level_tag ) = qw/h3 h4/;
+    my ( $top_level_tag, $second_level_tag ) = qw/h2 h3/;
 
     my @interesting_header_nodes = $tree->find_by_tag_name( $top_level_tag, $second_level_tag );
 
@@ -200,7 +200,7 @@ sub createTOC {
         _tag => 'div',
         class => qr'toctree-wrapper'
     );
-    $toc_position->preinsert( ['h3', 'Table of Contents'], $top_level_list );
+    $toc_position->preinsert( ['h2', 'Table of Contents'], $top_level_list );
 }
 
 

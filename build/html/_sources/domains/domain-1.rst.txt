@@ -1,9 +1,8 @@
 Domain 1 - Symptom Severity and Distress (Primary Domain)
-===========================================================
-
+=========================================================
 
 Overview
-----------
+--------
 
 An initial assessment should examine severity of symptoms, distress and previous history of mental
 illness. Severity of current symptoms and associated levels of distress are important factors in
@@ -21,20 +20,20 @@ Validated measures such as the K10, K5 (for Aboriginal People), PHQ-9, GAD-7 and
 
 .. admonition:: PRACTICE POINT
 
-   The standard assessment tools described in this Guidance are a potentially useful way of 
-   gathering information about current clinical need and may provide a useful baseline from 
+   The standard assessment tools described in this Guidance are a potentially useful way of
+   gathering information about current clinical need and may provide a useful baseline from
    which to measure the benefit of any intervention. However, the findings from standard
-   assessment tools are, on their own, not enough to inform assessment and referral decisions. 
-   Furthermore, assessment tools should only be used if clinically appropriate, and with 
+   assessment tools are, on their own, not enough to inform assessment and referral decisions.
+   Furthermore, assessment tools should only be used if clinically appropriate, and with
    consent from the consumer. The scores and ranges from standard assessment tools are not
-   indicative of a diagnosis, but representative of distress, functional impairment or 
-   likelihood of a diagnosis at the time the measure was scored and is not a diagnostic 
+   indicative of a diagnosis, but representative of distress, functional impairment or
+   likelihood of a diagnosis at the time the measure was scored and is not a diagnostic
    assessment.
    **Where there is significant discordance between clinician assessment and scores on standard
    assessment measures- this is an indicator that a comprehensive assessment is required.**
 
 Scoring
---------
+-------
 
 **0 = No problem in this domain – no descriptors apply**
 
@@ -58,7 +57,7 @@ Scoring
 ======  ========================  ===============================
 PHQ-9   0-4                       5-9
 GAD-7   0-5                       5-9
-K10     10-19                     20-24 
+K10     10-19                     20-24
 K5      5-9                       10-12
 EPDS    0-9                       10-12
 ======  ========================  ===============================
@@ -106,7 +105,7 @@ EPDS    0-9                       10-12
 :GAD-7:	15+
 :K10:	30-50
 :K5: 15-25
-:EPDS: 13+ 
+:EPDS: 13+
 
 **4 = Very severe**
 
@@ -131,4 +130,3 @@ EPDS    0-9                       10-12
 :EPDS: 13+
 
 **Important note:** Do not use these assessment measure thresholds alone to justify a rating on this domain
-

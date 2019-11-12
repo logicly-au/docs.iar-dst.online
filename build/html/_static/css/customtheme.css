@@ -1,8 +1,0 @@
-/* This line is theme specific - it includes the base theme CSS */
-@import 'theme.css';       /* for the Read the Docs theme */
-
-.last {
-	background-color: #e8f4f8;
-	padding: 10px 20px
-}
-
