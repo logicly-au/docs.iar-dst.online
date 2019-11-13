@@ -1,5 +1,5 @@
-Overview of Levels of Care
----------------------------
+Overview
+--------
 
 This section provides a description of the different levels of care. The information gathered through
 the initial assessment is used to assign a level of care and inform a referral decision. The
@@ -55,7 +55,7 @@ providers.
 
 
 Primary mental health care falls into Levels 1 to 4
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    * Level 1 (self-management) is suggested for those with relatively minor problems on the Primary Domains. Contraindications to Level 1 care include problems with engagement/motivation (because these will work against any referral to self-management strategies) and severe problems in treatment/recovery history or very severe environmental stressors.
 
@@ -66,7 +66,7 @@ Primary mental health care falls into Levels 1 to 4
    * Level 4 (high intensity interventions) is targeted to individuals with severe symptoms/distress, where these occur in the context of significant other problems (up to severe levels). Level 4 is not suitable for people with severe symptoms who present with very severe problems on either risk or functioning. Individuals referred with this array of presenting problems are suggested as best referred to Level 5 care.
 
 Referral criteria to levels of care
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Suggested referral criteria for each of the Levels are outlined in descriptions of levels of care that
 follow. These are based on the initial assessment of each of the domains. As the domains are
