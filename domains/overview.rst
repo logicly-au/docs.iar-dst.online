@@ -1,5 +1,5 @@
-Overview of Domains
----------------------
+Overview
+--------
 
 The initial assessment process recommended in this Guidance identifies eight domains that should be assessed when determining the next steps in the referral and treatment process for a person referred to a PHN commissioned mental health service. The eight domains fall into two categories:
 
@@ -20,7 +20,7 @@ Underpinning the concept of domains is the concept of relative importance and se
 An individual's presenting problems on each domain can interact in different ways. For example, a person presenting with mild to moderate symptoms but no significant problems on any of the contextual domains may require a different level of care from one with mild to moderate symptoms but extensive social and environmental stressors or a poor response to previous treatment.
 
 Scoring
-^^^^^^^^
+^^^^^^^
 
 Domains can be rated, using a scoring system that grades each domain on a 5-point scale of severity, where:
 
