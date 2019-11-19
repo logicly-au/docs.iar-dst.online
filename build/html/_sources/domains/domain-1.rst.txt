@@ -50,17 +50,6 @@ Scoring
    c) Currently experiencing symptoms (described above) at sub-diagnostic level but risk of
       escalating.
 
-*Indicative score for sub diagnostic or mild symptoms on commonly used assessment tools:*
-
-======  ========================  ===============================
-\       Sub-diagnostic symptoms   Mild diagnostic-level symptoms
-======  ========================  ===============================
-PHQ-9   0-4                       5-9
-GAD-7   0-5                       5-9
-K10     10-19                     20-24
-K5      5-9                       10-12
-EPDS    0-9                       10-12
-======  ========================  ===============================
 
 **2 = Moderate**
 
@@ -76,13 +65,6 @@ EPDS    0-9                       10-12
    c) History of a diagnosed mental health condition that has not responded to treatment, with
       continuing symptoms and moderate to high levels of distress.
 
-*Indicative score for Moderate symptoms on commonly used assessment tools:*
-
-:PHQ-9: 10-14
-:GAD-7:	10-14
-:K10:	25-29
-:K5: 12-14
-:EPDS: 13+
 
 
 **3 = Severe**
@@ -99,13 +81,6 @@ EPDS    0-9                       10-12
 
    d) Has been admitted to hospital for a mental health condition in previous 12 months.
 
-*Indicative score for Severe symptoms on commonly used assessment tools:*
-
-:PHQ-9: 15-19
-:GAD-7:	15+
-:K10:	30-50
-:K5: 15-25
-:EPDS: 13+
 
 **4 = Very severe**
 
@@ -121,12 +96,4 @@ EPDS    0-9                       10-12
    c) Other long-term mental health condition presenting in the context of significant complexity
       that requires multiple agency involvement.
 
-*Indicative score for very severe symptoms on commonly used assessment tools:*
 
-:PHQ-9: 20-27
-:GAD-7:	15+
-:K10:	30-50
-:K5: 15-25
-:EPDS: 13+
-
-**Important note:** Do not use these assessment measure thresholds alone to justify a rating on this domain
