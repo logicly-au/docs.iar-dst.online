@@ -10,9 +10,6 @@ health condition. While other types of disabilities may play a role in determini
 support services may be required, they should generally not be considered in determining mental
 health intervention intensity within a stepped care continuum.
 
-This Guidance also includes information about the Work and Social Adjustment Scale (WSAS). The
-WSAS is a validated measure of impairment on functioning.
-
 Assessment of an individual on this domain should consider:
 
    * a person’s ability to fulfil usual roles/ responsibilities

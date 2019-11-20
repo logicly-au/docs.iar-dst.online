@@ -16,7 +16,7 @@ Assessment of an individual on this domain should consider:
    * experience of mental illness
    * are symptoms improving/worsening, is distress improving/worsening, are new symptoms emerging?
 
-Validated measures such as the K10, K5 (for Aboriginal People), PHQ-9, GAD-7 and the EPDS are potentially useful for understanding symptom severity and distress. Threshold points for each of these instruments to guide judgements about problem severity are provided below.
+Validated measures such as the K10, K5 (for Aboriginal People), PHQ-9, GAD-7 and the EPDS are potentially useful for understanding symptom severity and distress.
 
 .. admonition:: PRACTICE POINT
 
@@ -30,7 +30,7 @@ Validated measures such as the K10, K5 (for Aboriginal People), PHQ-9, GAD-7 and
    likelihood of a diagnosis at the time the measure was scored and is not a diagnostic
    assessment.
    **Where there is significant discordance between clinician assessment and scores on standard
-   assessment measures- this is an indicator that a comprehensive assessment is required.**
+   assessment measures - this is an indicator that a comprehensive assessment is required.**
 
 Scoring
 -------
