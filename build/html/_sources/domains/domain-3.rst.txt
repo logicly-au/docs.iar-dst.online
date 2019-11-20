@@ -31,7 +31,6 @@ Scoring
 
    b. The person experiences brief and transient disruptions in functioning 
 
-*Typical WSAS score for Mild impact = 0-5*
 
 
 **2 = Moderate**
@@ -40,7 +39,7 @@ Scoring
 
    b. The person experiences occasional difficulties with basic activities of daily living but without threat to health.
 
-*Typical WSAS score for Moderate impact = 6-10*
+
 
 
 **3 = Severe**
@@ -49,7 +48,7 @@ Scoring
 
    b. The person experiences difficulties with basic self-care (hygiene, eating, appearance) on a frequent, consistent basis but without threat to health.
 
-*Typical WSAS score for Severe impact = 11-20*
+
 
 
 **4 = Very severe**
@@ -58,7 +57,7 @@ Scoring
 
    b. Mental health condition contributes to severe and persistent self-neglect that poses a threat to health.
 
-*Typical WSAS score for very severe impact = 21+*
+
 
 
 
