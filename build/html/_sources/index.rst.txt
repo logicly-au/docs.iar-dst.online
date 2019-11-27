@@ -36,3 +36,5 @@ Version |version|
      introduction
      domains/index
      level-of-care/index
+     user-guide/index
+     
