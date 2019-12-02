@@ -28,6 +28,7 @@ As you work your way through the domain responses, you can click on a `Rating Gu
     :alt: Location of 'Rating Guide' for Domain 1
 
 
+
 Recommended Level of Care
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -39,9 +40,12 @@ Once you have calculated a Recommended Level of Care, further information on the
     :height: 771px
     :alt: Location of further information on Recommended Level of Care
 
-   
+
+Operating the tool
+---------------------
+
 Calculating Level of Care
---------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 A score for each of the 8 domains will need to be selected before a `Recommended Level of Care` can be calculated. Further information on the calculated Level of Care can be viewed by clicking the blue text `Read more about this recommended level of care`. 
 
@@ -54,13 +58,15 @@ For ease of use, the `Recommended Level of Care` results will stay at the top of
     :alt: Location of 'Recommended Level of Care'
 
 Saving results
----------------
+^^^^^^^^^^^^^^^
 
 Your results can be downloaded as a .csv file by clicking the arrow next to the `Copy Results` button, then selecting `Download Results`. Please see our :doc:`instructions on downloading your results and our suggestions on saving them for future use<saving-results>`.
 
 
+.. _resetform:
+
 Resetting the assessment
---------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 When you are ready to start a new form please click the `Reset Form` button, located to the right of the `Recommended Level of Care`.
 
