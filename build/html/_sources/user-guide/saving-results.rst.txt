@@ -6,13 +6,20 @@ Step 1
 Once you have provided a response for each of the 8 domains, you will see that the `Copy Result` button is now active.
 
 .. image:: img/IAR_DST-CopyResultButtonActive.png
-* Location of 'Copy Result' button
+    :width: 600px
+    :align: center
+    :height: 771px
+    :alt: Location of 'Copy Result' button
 
 
-Clicking the `Copy Result` button will provide you with the option to download your results.
+Clicking the arrow to the right of the `Copy Result` text will provide you with the option to download your results.
 
 .. image:: img/IAR_DST_DownloadResultOption.png
-* Example of location of 'Download results' option
+    :width: 600px
+    :align: center
+    :height: 761px
+    :alt: Example of location of 'Download results' option
+
 
 
 Step 2
