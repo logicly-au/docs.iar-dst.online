@@ -19,7 +19,7 @@ Once you have provided a response for each of the 8 domains, you will see that t
 Step 2 - Locate and open results
 ----------------------------------
 
-You have now downloaded your first set of results as a .csv file. The filename will be `iar_dst_export.csv`.
+You have now downloaded your first set of results as a CSV file. The filename will be `iar_dst_export.csv`.
 
 Open your file using a program such as Microsoft Excel or Numbers.
 
@@ -43,6 +43,3 @@ Subsequent rows can be added by downloading your next set of results using `Copy
 
 .. image:: img/iar_dst_export_example.png
     :alt: Example of layout for master spreadsheet
-
-
-
