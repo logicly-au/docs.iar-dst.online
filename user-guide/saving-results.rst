@@ -5,20 +5,14 @@ Step 1 - Download results
 ---------------------------
 Once you have provided a response for each of the 8 domains, you will see that the `Copy Result` button is active.
 
+1. Click the arrow to the right of the `Copy Result` text
+2. You can now see the option to download your results
+
 .. image:: img/IAR_DST-CopyResultButtonActive.png
-    :width: 600px
+..    :width: 600px
     :align: center
-    :height: 771px
+..    :height: 771px
     :alt: Location of 'Copy Result' button
-
-
-Clicking the arrow to the right of the `Copy Result` text will provide you with the option to download your results.
-
-.. image:: img/IAR_DST_DownloadResultOption.png
-    :width: 600px
-    :align: center
-    :height: 761px
-    :alt: Example of location of 'Download results' option
 
 
 
@@ -35,7 +29,7 @@ Open your file using a program such as Microsoft Excel or Numbers.
 
 Step 3 - Add a unique identifier
 ----------------------------------
-Add in an identifier column to the end of what will become your master spreadsheet. In our example, we have used `label` and populated it with the patient's client number.
+There is an identifier column at the end of the results called `label`. In our example, we have populated `label` with the patient's client number. This will allow us to match patients to their results when we start to add more rows to our spreadsheet.
 
 .. image:: img/iar_dst_export-id-column.png
     :alt: Example of including an identifier column
@@ -50,9 +44,5 @@ Subsequent rows can be added by downloading your next set of results using `Copy
 .. image:: img/iar_dst_export_example.png
     :alt: Example of layout for master spreadsheet
 
-Download example spreadsheet
-------------------------------
 
-You can :download:`download our example spreadsheet <iar_dst_export_example.xlsx>` to use as a guide for saving your responses.
-     
 
