@@ -13,21 +13,20 @@ use DateTime;
 use SD::PrinceXML::Client 22;
 
 GetOptions (
-    "webservice=s"    => \my $webservice,
-    "o|pdf-name=s"    => \my $pdf_name,
-    "doc-dir=s"       => \my $doc_dir,
-    "f|forcesphinx"   => \my $sphinx,
+    "webservice=s"  => \my $webservice,
+    "pdf-name=s"    => \my $spec_name,
+    "doc-dir=s"     => \my $doc_dir,
     "t|timestamp=s" => \my $timestamp,
+    "f|forcesphinx" => \my $sphinx,
 ) or die("Error in command line arguments\n");
 
-$webservice ||= 'https://prince.sdintra.net';
-$pdf_name   || die 'You must specify a name for the pdf';
-$doc_dir    || die 'You must specify a doc directory';
-$timestamp  || die 'You must specify a timestamp';
+my $src = "$doc_dir/build/singlehtml";
+my $dst = "$doc_dir/_static";
+my $output_file = "$dst/$spec_name.pdf";
 
-my $src         = "$doc_dir/build/singlehtml";
-my $dst         = "$doc_dir/_static";
-my $output_file = "$dst/$pdf_name";
+$spec_name   || die 'You must specify a spec name';
+$doc_dir     || die 'You must specify a doc directory';
+$webservice  ||= 'https://prince.sdintra.net';
 
 #=======================================================================
 # Prepare the generated source for sending to Prince
@@ -43,22 +42,38 @@ open( my $input_fh, '<:encoding(UTF-8)', $src . '/index.html' )
     || die( "Cannot open HTML file for reading: $!" );
 $tree->parse_file( $input_fh );
 
-addCover( $tree, $timestamp );
+addCover( $tree );
 createTOC( $tree );
 fixLinks( $tree );
 #fixExternalLinks( $tree ); Turned off as sometimes we need the URL contextually
 
-write_file( $src . '/index_pdf.html', $tree->as_HTML());
+write_file( $src . '/index-pdf.html', $tree->as_HTML());
 
-
+say "Altering CSS font references";
 # Fix the font references in CSS
-foreach my $file ( read_dir( $src . '/_static/css/' ) ) {
-    my $css_file = $src . '/_static/css/' . $file;
+
+# prince does not like path separators in added files
+#  we remove the leading ../ and replace any others with a dash
+my $replacement = 'my $a = $1; $a =~ s|\.\./||g; $a =~ s|/|-|g; "url(" . $a . ")";';
+
+foreach my $css_file ( read_dir( $src . '/_static/css/', prefix => 1 ) ) {
+
+    next if -d $css_file; # skip fonts dir
+
+    say "  $css_file";
+
     my $css_src = read_file( $css_file );
-    $css_src =~ s|../fonts/||g;
+
+    # Heads up! The double e operator is doing an eval
+    #  on $replacement
+    my $replacement_count =
+        $css_src =~ s|url\((fonts/.*?)\)|$replacement|gee;
+
+    die "No paths to fonts in the CSS files were altered for prince. Perhaps the templates have changed."
+        unless $replacement_count;
+
     write_file( $css_file, $css_src );
 }
-
 
 #=======================================================================
 # Send the data to Prince for rendering
@@ -69,17 +84,11 @@ say "Sending to Prince";
 my $client = SD::PrinceXML::Client->new(
     webservice       => $webservice,
     send_literal_url => 0,
-    url              => 'file://' . $src . '/index_pdf.html'
+    url              => 'file://' . $src . '/index-pdf.html'
 );
 
-
 # Send the fonts
-
-foreach my $font ( read_dir( $src . '/_static/fonts' ) ) {
-    my $full_path = $src . '/_static/fonts/' . $font;
-    next if -d $full_path;
-    $client->add_extra_file( $full_path );
-}
+addFontDir($client, $src . '/_static/css', 'fonts' );
 
 # Retrieve the PDF
 my $output_pdf = $client->pdf;
@@ -88,6 +97,32 @@ my $output_pdf = $client->pdf;
 say "Writing to $output_file";
 write_file( $output_file, $output_pdf );
 
+
+sub addFontDir {
+    my $client       = shift;
+    my $base_dir     = shift;
+    my $relative_dir = shift;
+    my $intro        = shift // "Adding fonts ...\n";
+
+    foreach my $font_path ( read_dir( "$base_dir/$relative_dir", prefix => 1 ) ) {
+
+        my $relative_font_path = $font_path;
+        $relative_font_path =~ s{^$base_dir/(.*)$}{$1};
+
+        if ( -d $font_path ) {
+            addFontDir($client, $base_dir, $relative_font_path, $intro);
+        }
+        else {
+            print "$intro  $relative_font_path";
+            $relative_font_path =~ s|/|-|g;
+            say " as $relative_font_path";
+            # prince does not like path separators in added files
+            $client->add_extra_file( "/$relative_font_path", read_file($font_path) );
+            $intro = '';
+        }
+    }
+
+}
 
 #=======================================================================
 # Content utility methods
@@ -106,7 +141,8 @@ sub addCover {
     ( my $logo_position ) = $tree->find_by_tag_name( 'h1' );
     $logo_position->preinsert( [ 'img', { src => '_static/logo.png', class => 'logo' } ] );
 
-    my $print_date = DateTime->from_epoch( epoch => $timestamp * 1 )->set_time_zone('Australia/Canberra');
+    chomp(my $commit_timestamp = `git log --perl-regexp --author='^((?!Jenkins).*)\$' -1 --format=%ct 2>/dev/null`);
+    my $print_date = DateTime->from_epoch( epoch => $commit_timestamp * 1 )->set_time_zone('Australia/Canberra');
 
     chomp( my $commit_hash = `git log --perl-regexp --author='^((?!Jenkins).*)\$' -1 --format=%H 2>/dev/null`);
 
