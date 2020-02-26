@@ -4,7 +4,7 @@ Level 1 - Self Management
 Definition
 ------------
 
-Services at this level of care are designed to prevent the onset of illness and are mostly focussed on supporting the person to self-manage any distress or symptoms. This level of care generally involves evidence-based digital therapies and other forms of self-help. A summary of the evidence based digital mental health therapies and self-help services is available through the `Head to Health <https://headtohealth.gov.au/Head to Health>`_ website.
+Services at this level of care are designed to prevent the onset of illness and are mostly focussed on supporting the person to self-manage any distress or symptoms. This level of care generally involves evidence-based digital therapies and other forms of self-help. A summary of the evidence based digital mental health therapies and self-help services is available through the `Head to Health <https://headtohealth.gov.au/>`_ website.
 
 Care environment
 ------------------
