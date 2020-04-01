@@ -20,9 +20,9 @@ Assessment of an individual on this domain should consider:
 Scoring
 ---------
 
-**0 = No problem in this domain – no descriptors apply**
+**0 = No problems in this domain – no descriptors apply**
 
-**1 = Mild**
+**1 = Mild impact**
 
    a. Diminished ability to function in one or more of their usual roles, including work, social, parenting/care of dependents, education but without significant or adverse consequences.
 
@@ -30,7 +30,7 @@ Scoring
 
 
 
-**2 = Moderate**
+**2 = Moderate impact**
 
    a. Functioning is impaired in more than one of their usual roles including work, social, parenting and family, education, to the extent that they are unable to meet the requirements of those roles on average 1 to 2 days per month.
 
@@ -39,7 +39,7 @@ Scoring
 
 
 
-**3 = Severe**
+**3 = Severe impact**
 
    a. Significant difficulties with functioning, resulting in disruption to many areas of the person's life (e.g., work, education, interpersonal relationships, self-care) but the person can function independently with adequate treatment and community support.
 
@@ -48,7 +48,7 @@ Scoring
 
 
 
-**4 = Very severe**
+**4 = Very severe to extreme impact**
 
    a. Profound difficulties with functioning, resulting in major disruption to virtually all areas of the person’s life (e.g., unable to work or participate in education, withdrawal from interpersonal relationships).
 

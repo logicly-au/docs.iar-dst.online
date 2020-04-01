@@ -28,7 +28,7 @@ The PHQ-9 (item 9) and the EPDS (item 10) include specific items relating to sui
 Scoring
 --------
 
-**0 = No problem in this domain – no descriptors apply**
+**0 = No identified risk in this domain – no descriptors apply**
 
 **1 = Low risk of harm**
 
