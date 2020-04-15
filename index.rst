@@ -8,9 +8,7 @@ Version |version|
 
 .. only:: builder_html or builder_readthedocs
 
-   This Guidance is focussed on the initial response to requests for mental
-   health assistance in primary care settings, and is designed to assist the
-   various parties involved in the referral and assessment process.
+   This documentation is based on the `National PHN Guidance - Initial Assessment and Referral for Mental Health Care  <https://www1.health.gov.au/internet/main/publishing.nsf/content/2126B045A8DA90FDCA257F6500018260/$File/National%20MH-IAR%20Guidance-%2030Aug2019_V1.02%20Accessible.pdf>`_.
 
    This Guidance has been developed to support nationally consistent evidence-
    informed initial assessment and referral processes and will be refined as
