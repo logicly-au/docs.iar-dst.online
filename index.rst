@@ -14,7 +14,6 @@ Version |version|
    informed initial assessment and referral processes and will be refined as
    new evidence emerges.
 
-   Download this specification as a |download-pdf|
 
    Getting Help
    ^^^^^^^^^^^^
