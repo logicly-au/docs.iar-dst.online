@@ -1,6 +1,8 @@
-Terms of use for the online decision support tool
-=================================================
+Terms of use
+============
 
+Terms of use for the online decision support tool
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Welcome to the Initial Assessment and Referral for Mental Healthcare (IAR-MH)
 Online Decision Support Tool. As a condition of Your use of the Online Decision
 Support Tool and its documentation and guidance material (“Online **Decision

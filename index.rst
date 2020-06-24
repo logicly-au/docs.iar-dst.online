@@ -34,7 +34,7 @@ Version |version|
    settings. The Guidance has the potential to be used in private psychology
    and psychiatry services.
 
-   Getting Help
+   Getting help
    ^^^^^^^^^^^^
 
    Strategic Data offers a dedicated Helpdesk which is available to support
@@ -42,7 +42,7 @@ Version |version|
 
    All enquiries should be directed to support@strategicdata.com.au
 
-   Other Resources
+   Other resources
    ^^^^^^^^^^^^^^^
 
    `Department of Health - National PHN Guidance document (PDF, 1163 KB) <https://www1.health.gov.au/internet/main/publishing.nsf/Content/2126B045A8DA90FDCA257F6500018260/$File/National%20MH-IAR%20Guidance-%2030Aug2019_V1.02%20Accessible.pdf>`_
@@ -52,10 +52,11 @@ Version |version|
 .. End of INTRODUCTION
 
 .. toctree::
-     :caption: Table of Contents
+     :caption: Table of contents
      :maxdepth: 2
      :hidden:
 
      domains/index
      level-of-care/index
      user-guide/index
+     terms-and-conditions
