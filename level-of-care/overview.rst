@@ -1,35 +1,48 @@
 Overview
 --------
 
-This section provides a description of the different levels of care. The information gathered through
-the initial assessment is used to assign a level of care and inform a referral decision. The
-levels of care are not intended to replace individualised assessment and care - rather to provide
+This section provides a description of the different levels of care. The
+information gathered through the initial assessment is used to assign a level
+of care and inform a referral decision. The levels of care are not intended to
+replace individualised assessment and care - rather to provide
 information to guide decision making.
 
 .. admonition:: PRACTICE POINT - A NOTE ABOUT CONSUMER CHOICE AND PREFERENCE
 
-   There is strong evidence to indicate that when a consumer works in partnership with a trusted health care professional and is involved in 			   making decisions about their care and selection of the service of ‘best fit’, they are less likely to drop-out of care, and more likely to experience positive outcomes (reference). World class health care considers the choices and preferences of the individual. In a stepped care model, the individual should be given a choice within “steps” or within a level of care (e.g., the consumer may have a strong preference for telephone-based psychological interventions rather than face-to-face). A choice across “steps” or levels of care is not always practical or necessary (e.g., if the consumer does not require higher intensity supports) and this can often be resolved using supported decision-making strategies.
+   There is strong evidence to indicate that when a consumer works in
+   partnership with a trusted health care professional and is involved in
+   making decisions about their care and selection of the service of ‘best fit’,
+   they are less likely to drop-out of care, and more likely to experience
+   positive outcomes (reference). World class health care considers the choices
+   and preferences of the individual. In a stepped care model, the individual
+   should be given a choice within “steps” or within a level of care (e.g., the
+   consumer may have a strong preference for telephone-based psychological
+   interventions rather than face-to-face). A choice across “steps” or levels
+   of care is not always practical or necessary (e.g., if the consumer does not
+   require higher intensity supports) and this can often be resolved using
+   supported decision-making strategies.
 
-	 Supported decision-making strategies for initial assessment and referral:
+   Supported decision-making strategies for initial assessment and referral:
 
-	    * Make sure the consumer is provided with information using their preferred way of
-	      receiving information (e.g., written/verbal/visual, English/other language, with/without a
-	      support person).
-	    * Make sure the consumer is provided with a list of recommended intervention options
-	      (including the option of no intervention) and encourage the consumer to contribute their
-	      own options, ideas, solutions and expectations. This might include interventions such as
-	      culturally relevant activities, or self-care strategies.
-	    * Ensure the consumer can express any concerns or fears about the options (e.g., cost, travel,
- 	      previous positive or negative experiences).
-	    * Be prepared to talk about the pros and cons of each option (e.g., intensity, intervention
-	      length and commitment required, waiting periods, potential impact on symptoms).
-	    * Check in to ensure the consumer has understood the information provided and ensure
-	      enough time for any questions from the consumer (or carer/family member).
-	    * Support the decision of the consumer, acknowledging that other options can be explored in
-	      the future if this decision does not work out.
+      * Make sure the consumer is provided with information using their preferred way of
+        receiving information (e.g., written/verbal/visual, English/other language, with/without a
+        support person).
+      * Make sure the consumer is provided with a list of recommended intervention options
+        (including the option of no intervention) and encourage the consumer to contribute their
+        own options, ideas, solutions and expectations. This might include interventions such as
+        culturally relevant activities, or self-care strategies.
+      * Ensure the consumer can express any concerns or fears about the options (e.g., cost, travel,
+        previous positive or negative experiences).
+      * Be prepared to talk about the pros and cons of each option (e.g., intensity, intervention
+        length and commitment required, waiting periods, potential impact on symptoms).
+      * Check in to ensure the consumer has understood the information provided and ensure
+        enough time for any questions from the consumer (or carer/family member).
+      * Support the decision of the consumer, acknowledging that other options can be explored in
+        the future if this decision does not work out.
 
-	 For more information and advice about supported decision-making visit:
-	 `<http://healthtalkaustralia.org/mental-health-and-supported-decision-making/>`_ and for resources specifically for carers, visit: `<http://healthtalkaustralia.org/mental-health-carers-experiences/>`_
+   For more information and advice about supported decision-making visit:
+   `<http://healthtalkaustralia.org/mental-health-and-supported-decision-making/>`_ and for resources
+   specifically for carers, visit: `<http://healthtalkaustralia.org/mental-health-carers-experiences/>`_
 
 Mental health services in Australia represent a complex array of service types, ranging from
 population-level services available to all on the internet through to highly specialised services that
