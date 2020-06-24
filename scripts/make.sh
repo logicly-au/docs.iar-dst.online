@@ -19,7 +19,7 @@ docker pull stratdat/sphinx-html2pdf:production
 #  stratdat/sphinx-html2pdf:production \
 #  find . -name *.png -exec pngquant --force --output {} 8 {} \;
 
-PDF_NAME="${DOC_NAME// /-}-$DOC_VERSION.pdf"
+PDF_NAME="${DOC_NAME// /-}-$DOC_VERSION"
 TIMESTAMP=$(git show -s --format="%ct")
 
 echo "Building PDF"
