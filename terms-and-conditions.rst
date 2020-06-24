@@ -33,8 +33,8 @@ a. use the Online Decision Support Tool in accordance with any guidelines and
    directions that may be issued by the Department from time to time;
 b. not sublicense, commercialise or sell the Online Decision Support Tool;
 c. not, in conjunction with your use of the Online Decision Support Tool, use
-  the Commonwealth Coat of Arms or any other Commonwealth or Department logos
-  at any time;
+   the Commonwealth Coat of Arms or any other Commonwealth or Department logos
+   at any time;
 d. not attempt to undermine the security or integrity of the Online Decision
    Support Tool; and
 e. not use, or misuse the Online Decision Support Tool in any way which may
