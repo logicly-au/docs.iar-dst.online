@@ -10,6 +10,7 @@ Online Decision Support Tool.
 In these Terms of Use, the terms:
 
 * "You" and "Your" refer to the user of the Online Decision Support Tool.
+
 * "Permitted Purpose" refers to the conduct of an assessment and referral of
   one or more individuals presenting for assistance with a mental health
   condition.
@@ -31,12 +32,16 @@ You must:
 
 a. use the Online Decision Support Tool in accordance with any guidelines and
    directions that may be issued by the Department from time to time;
+
 b. not sublicense, commercialise or sell the Online Decision Support Tool;
+
 c. not, in conjunction with your use of the Online Decision Support Tool, use
-  the Commonwealth Coat of Arms or any other Commonwealth or Department logos
-  at any time;
+   the Commonwealth Coat of Arms or any other Commonwealth or Department logos
+   at any time;
+
 d. not attempt to undermine the security or integrity of the Online Decision
    Support Tool; and
+
 e. not use, or misuse the Online Decision Support Tool in any way which may
    disrupt or impair the functionality of the Online Decision Support Tool or
    other systems used for the Online Decision Support Tool.
@@ -50,10 +55,12 @@ In consideration of Your use of the Online Decision Support Tool, You:
   initial assessment and referral should consider the unique and personal
   circumstances of the individual client, including other health or social
   issues, their preferences and choices, and any risk or safety issues.
+
 * Acknowledge that the intellectual property rights in the Online Decision
   Support Tool are owned by or licensed to the Department and nothing in these
   Terms of Use operates, or is intended to operate, to give You any ownership
   rights in the Online Decision Support Tool.
+
 * Indemnify the Department for any loss or damage the Department suffers in
   connection with Your use of (including reliance on) the Online Decision
   Support Tool or any breach of these Terms of Use.
@@ -65,23 +72,29 @@ You acknowledge and agree that:
 * Your use of the Online Decision Support Tool is at Your own risk, and You
   have made an independent assessment as to the risks of using the Online
   Decision Support Tool.
+
 * The Department may at any time add to, remove or otherwise modify any or all
   of the content in the Online Decision Support Tool at its discretion and
   without prior notice to You.
+
 * The Department may remove your access to the Online Decision Support Tool at
   any time without prior notice to You.
+
 * The Online Decision Support Tool may include the views or recommendations of
   third parties and does not necessarily reflect the views of the Australian
   Government or indicate a commitment to a particular course of action.
+
 * The Department does not guarantee and assumes no legal liability or
   responsibility for the accuracy, currency, completeness or interpretation of
   the Online Decision Support Tool.
+
 * The Department gives no warranty or guarantee in connection with the Online
   Decision Support Tool. Among other things, the Department makes no guarantee
   that the Online Decision Support Tool will be available for use, that the
   Online Decision Support Tool is error-free and free of defects, viruses or
   harmful code, that defects and errors will be corrected, or that use of the
   Online Decision Support Tool will be uninterrupted.
+
 * To the maximum extent permitted by law, the Department excludes all liability
   and responsibility to You (or any other person) for any loss (including loss
   of information, data, profits and savings) or damage (including injury and
