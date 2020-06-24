@@ -8,9 +8,11 @@ Version |version|
 
 .. only:: builder_html or builder_readthedocs
 
-   The documentation that follows provides extracts from relevant sections of the `National PHN Guidance - Initial Assessment and Referral for Mental Health Care  <https://www1.health.gov.au/internet/main/publishing.nsf/content/2126B045A8DA90FDCA257F6500018260/$File/National%20MH-IAR%20Guidance-%2030Aug2019_V1.02%20Accessible.pdf>`_ which has been designed to assist the various parties involved in the referral and assessment process.
+   This documentation provides extracts from relevant sections of the
+   `National PHN Guidance - Initial Assessment and Referral for Mental Health Care  <https://www1.health.gov.au/internet/main/publishing.nsf/content/2126B045A8DA90FDCA257F6500018260/$File/National%20MH-IAR%20Guidance-%2030Aug2019_V1.02%20Accessible.pdf>`_
+   which has been designed to assist the various parties involved in the referral and assessment process.
 
-   This Guidance has been developed to support nationally consistent evidence-
+   The Guidance has been developed to support nationally consistent evidence-
    informed initial assessment and referral processes and will be refined as
    new evidence emerges.
 
@@ -34,4 +36,3 @@ Version |version|
      domains/index
      level-of-care/index
      user-guide/index
-     
