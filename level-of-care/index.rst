@@ -11,3 +11,7 @@ Levels of Care
      level-of-care-3
      level-of-care-4
      level-of-care-5
+
+.. contents::
+   :local:
+   :depth: 2

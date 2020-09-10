@@ -60,3 +60,5 @@ Version |version|
      level-of-care/index
      user-guide/index
      terms-and-conditions
+     privacy
+     

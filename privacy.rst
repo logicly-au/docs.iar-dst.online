@@ -1,6 +1,6 @@
 Data Security and Privacy Issues
 ==================================
-
+   
 It is not necessary to transmit or have stored any personally identifying information in order to make use of the digital decision support tools. 
  
 The stand-alone online decision support tool: 

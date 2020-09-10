@@ -7,3 +7,7 @@ User guide
 
      using-the-tool
      saving-results
+
+.. contents::
+   :local:
+   :depth: 2
