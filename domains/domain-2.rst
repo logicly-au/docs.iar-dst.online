@@ -16,8 +16,8 @@ most appropriate response and/or referral. This domain is focussed on examining:
 
    * suicidality – current and past suicidal ideation, attempts
    * self-harm (non-suicidal self-injurious behaviour) – current and past
-   * deterioration of mental state that poses danger to self or others
-   * self-neglect that poses a risk to the person’s safety
+   * severe symptoms that pose a danger to self or others
+   * risk arising from severe self-neglect
 
 The PHQ-9 (item 9) and the EPDS (item 10) include specific items relating to suicide or self-harm risk. If these tools are used, endorsement on these risk-related items should be reviewed to assist with rating on this domain.
 

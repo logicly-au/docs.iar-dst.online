@@ -38,7 +38,7 @@ Referral criteria
 
 A person suitable for this level of care typically has minimal or no risk factors, is usually experiencing mild symptoms/low levels of distress, and where present, this is likely to be in response to a stressful environment. Symptoms have typically been present for a short period of time (less than 6 months but this may vary). The individual is generally functioning well but may have problems with motivation or engagement that contraindicate a referral to Level 1 care. Where the person has experienced previous treatment for a previous episode, they are likely to have had a moderate or better recovery.
 
-Complexity indicated by significant problems in Risk, Functioning or Co-existing Conditions should be considered as contraindications for referral to Level 2 care and trigger a referral to Level 3 or higher. Using the Initial Assessment Rating Glossary to support decision making
+Complexity indicated by significant problems in Risk, Functioning or Co-existing Conditions should be considered as contraindications for referral to Level 2 care and trigger a referral to Level 3 or higher.
 
 Using the Initial Assessment Rating Glossary to support decision making
 --------------------------------------------------------------------------

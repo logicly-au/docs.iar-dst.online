@@ -13,7 +13,7 @@ information to guide decision making.
    partnership with a trusted health care professional and is involved in
    making decisions about their care and selection of the service of ‘best fit’,
    they are less likely to drop-out of care, and more likely to experience
-   positive outcomes (reference). World class health care considers the choices
+   positive outcomes (`reference <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5428178/>`_). World class health care considers the choices
    and preferences of the individual. In a stepped care model, the individual
    should be given a choice within “steps” or within a level of care (e.g., the
    consumer may have a strong preference for telephone-based psychological
@@ -66,6 +66,14 @@ additional supports do not represent PHN-only commissioned services. In any regi
 services and additional supports may be available through a variety of funding sources and
 providers.
 
+Five levels of care are described, as summarised in :numref:`figure_level_of_care` below.
+
+.. _figure_level_of_care:
+
+.. figure:: levels_of_care.png
+   :alt: Schematic representation of levels of care
+   
+   Schematic representation of levels of care
 
 Primary mental health care falls into Levels 1 to 4
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

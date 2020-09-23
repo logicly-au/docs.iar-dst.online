@@ -14,12 +14,8 @@ intervention intensity within a stepped care continuum.
 Assessment of an individual on this domain should consider:
 
    * a person’s ability to fulfil usual roles/ responsibilities
-
-   * impact on or disruption to areas of life (e.g., employment, parenting,
-   * education, or other social roles)
-
-   * impact on the person’s basic activities of daily living (e.g., self-care,
-   * mobility, toileting, feeding, and personal hygiene).
+   * impact on or disruption to areas of life (e.g., employment, parenting, education, or other social roles)
+   * impact on the person’s basic activities of daily living (e.g., self-care, mobility, toileting, feeding, and personal hygiene).
 
 
 Scoring
