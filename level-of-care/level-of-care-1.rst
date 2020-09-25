@@ -18,7 +18,7 @@ This level of care is focussed on self-help activities. Clinical services are ge
 
    * Be focussed on monitoring, with capability to step up in to other interventions as required.
 
-   * Include psycho-education and information via a GP. The GP may also consider developing a MHTP (if consistent with Medicare Benefits Schedule).
+   * Include psychoeducation and information via a GP. The GP may also consider developing a MHTP (if consistent with Medicare Benefits Schedule).
 
 
 Other clinical interventions that may be required

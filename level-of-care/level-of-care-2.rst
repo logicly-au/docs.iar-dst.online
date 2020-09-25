@@ -15,7 +15,7 @@ Services are easily accessible and available online, over the telephone or in th
 Core clinical services
 ------------------------
 
-   * Psycho-education and information via a GP. The GP may also consider developing a MHTP (if consistent with Medicare Benefits Schedule).
+   * Psychoeducation and information via a GP. The GP may also consider developing a MHTP (if consistent with Medicare Benefits Schedule).
 
    * Evidence based low intensity interventions (including online, telephone and face to face low intensity structured psychological services, or brief interventions delivered by mental health professionals).
 

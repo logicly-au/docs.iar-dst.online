@@ -49,7 +49,7 @@ Using the Initial Assessment Rating Glossary to support decision making
 
 Individuals suited to this level of care may have been rated:
 
-   * Severe Symptoms and Distress (score = 3) with significant associated problems on one or more other Primary Domains (Risk of Harm, Functioning, scores 2 or 3, up to 4 for Co-existing Conditions)
+   * Severe Symptoms and Distress (score = 3) with significant associated problems on one or more other Primary Domains “(Risk of Harm, Functioning, scores 2 or 3, or Co-existing Conditions score of 4)
 
    **OR**
 

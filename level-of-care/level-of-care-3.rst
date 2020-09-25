@@ -52,7 +52,7 @@ Using the Initial Assessment Rating Glossary to support decision making
 
 Individuals suited to this level of care may have been rated during the initial assessment as having:
 
-   * Mild or lesser problems on all Primary Domains (Symptoms and Distress, Risk of Harm, Functioning, Co-existing Conditions, all scores ≤ 1) but with indications of significant problems in relation to Treatment and Recovery History (score ≥ 3) or high Social and Environmental Stressors (scores ≥ 4)
+   * Mild or lesser problems on all Primary Domains (Symptoms and Distress, Risk of Harm, Functioning, Co-existing Conditions, all scores ≤ 1) but with indications of significant problems in relation to Treatment and Recovery History (score ≥ 3) or very severe Social and Environmental Stressors (scores = 4)
 
    **OR**
  

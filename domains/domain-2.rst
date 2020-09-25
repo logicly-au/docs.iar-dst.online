@@ -19,7 +19,7 @@ most appropriate response and/or referral. This domain is focussed on examining:
    * severe symptoms that pose a danger to self or others
    * risk arising from severe self-neglect
 
-The PHQ-9 (item 9) and the EPDS (item 10) include specific items relating to suicide or self-harm risk. If these tools are used, endorsement on these risk-related items should be reviewed to assist with rating on this domain.
+The PHQ-9 (item 9) and the EPDS (item 10) include specific items relating to suicide or self-harm risk. If these tools are used, revisit the scores for these items to assist rating this domain.
 
 .. admonition:: PRACTICE POINT
 

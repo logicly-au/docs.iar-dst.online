@@ -40,9 +40,8 @@ information to guide decision making.
       * Support the decision of the consumer, acknowledging that other options can be explored in
         the future if this decision does not work out.
 
-   For more information and advice about supported decision-making visit:
-   `<http://healthtalkaustralia.org/mental-health-and-supported-decision-making/>`_ and for resources
-   specifically for carers, visit: `<http://healthtalkaustralia.org/mental-health-carers-experiences/>`_
+   *For more information and advice about supported decision-making visit:*
+   `<https://healthtalkaustralia.org/supported-decision-making/overview/>`_
 
 Mental health services in Australia represent a complex array of service types, ranging from
 population-level services available to all on the internet through to highly specialised services that
@@ -78,7 +77,7 @@ Five levels of care are described, as summarised in :numref:`figure_level_of_car
 Primary mental health care falls into Levels 1 to 4
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-   * Level 1 (self-management) is suggested for those with relatively minor problems on the Primary Domains. Contraindications to Level 1 care include problems with engagement/motivation (because these will work against any referral to self-management strategies) and severe problems in treatment/recovery history or very severe environmental stressors.
+   * Level 1 (self-management) is suggested for people with relatively minor problems on the Primary Domains. Contraindications to Level 1 care include problems with engagement/motivation (because these will work against any referral to self-management strategies) and severe problems in treatment/recovery history or very severe environmental stressors.
 
    * Level 2 (low intensity interventions) is targeted at people with mild problems in the primary domains, where these do not present in the context of significant problems on the contextual domains. Level 2 may also be suitable for people with moderate symptoms, but this is dependent on extent of presenting problems on other primary and contextual domains.
 
