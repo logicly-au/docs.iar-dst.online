@@ -59,6 +59,5 @@ Version |version|
      domains/index
      level-of-care/index
      user-guide/index
-     developers
      terms-and-conditions
      privacy
