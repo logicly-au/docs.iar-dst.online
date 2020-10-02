@@ -51,7 +51,6 @@ ratings and the associated derived level of care. The test data set may be used
 by third party developers who wish to implement the scoring algorithm
 themselves.
 
-
 Requesting access
 ^^^^^^^^^^^^^^^^^
 In order to access to the developer resources including the API you must agree
