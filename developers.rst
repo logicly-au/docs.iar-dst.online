@@ -1,9 +1,13 @@
 Developer Resources
 ===================
 
-API
-^^^
-The API provides a mechanism to both capture the eight domain scores and return
+Online API
+^^^^^^^^^^
+
+The IAR digital decision support tool has been integrated into the existing
+OMSSS API, which PHNs are already integrating into their systems. While the
+stand-alone online interface may be used separately. OMSSS provides an
+automatable mechanism to both capture the eight domain scores and return
 the derived resulting recommended level of care. This service may be utilised
 by organisations wanting to easily integrate the capture of the scores and/or
 the computation of the recommended level of care into their own local systems.
@@ -17,8 +21,8 @@ service from the organisation’s local system. The Online API:
 * Processes the entered scores and return the recommended level of care;
 * Meets Australian Government security requirements.
 
-The API is documented at https://api.omsss.online
-
+Documentation regarding use of the OMSSS REST API is available at
+https://api.omsss.online/.
 
 Reference implementations
 ^^^^^^^^^^^^^^^^^^^^^^^^^
