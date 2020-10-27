@@ -23,7 +23,7 @@ The PHQ-9 (item 9) and the EPDS (item 10) include specific items relating to sui
 
 .. admonition:: PRACTICE POINT
 
-   Risk of harm must be considered in the context of information gathered on the other 7 domains - information gathered across the other 7 domains (e.g., if the person is experiencing loneliness, or significant environmental stressors) is very important in evaluating harm.
+   Risk of harm must be considered in the context of information gathered on the other 7 domains- information gathered across the other 7 domains (e.g., if the person is experiencing loneliness, hopelessness, worthlessness, significant environmental stressors etc) is very important in evaluating harm.
 
 Scoring
 --------
