@@ -22,13 +22,13 @@ Support services
 
 Additional services are likely to be needed and may include:
 
-   * psycho-social disability support services (including peer support, daily living support, social skills training and social participation support)
+   * psycho-social disability support services (including peer support, daily living support, social skills training and social participation support),
 
-   * community supports (including peer support and social participation support)
+   * community supports (including peer support and social participation support),
 
-   * support to access support and advice relating to known environmental stressors
+   * support to access support and advice relating to known environmental stressors, and
 
-   * lifestyle interventions (e.g., nutrition, sleep, exercise, meaningful social connections)
+   * lifestyle interventions (e.g., nutrition, sleep, exercise, meaningful social connections).
 
 Referral criteria
 -------------------

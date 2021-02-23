@@ -10,22 +10,22 @@ Low intensity services are designed to be accessed quickly (without the need for
 Care environment
 ------------------
 
-Services are easily accessible and available online, over the telephone or in the community. Services may also be available in integrated settings (for example- within schools, workplaces and general practice).
+Services are easily accessible and available online, over the telephone or in the community. Services may also be available in integrated settings (e.g., within schools, workplaces and general practice).
 
 Core clinical services
 ------------------------
 
    * Psychoeducation and information via a GP. The GP may also consider developing a MHTP (if consistent with Medicare Benefits Schedule).
 
-   * Evidence based low intensity interventions (including online, telephone and face to face low intensity structured psychological services, or brief interventions delivered by mental health professionals).
+   * Evidence-based low intensity interventions (including online, telephone and face to face low intensity structured psychological services, or brief interventions delivered by mental health professionals).
 
 
 Other clinical interventions that may be required
 ---------------------------------------------------
 
-   * lifestyle interventions (e.g., nutrition, sleep, exercise, meaningful social connections)
+   * lifestyle interventions (e.g., nutrition, sleep, exercise, meaningful social connections), and
 
-   * group work
+   * group work.
 
 
 Support services

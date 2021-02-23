@@ -9,7 +9,7 @@ Services at this level of care are designed to prevent the onset of illness and 
 Care environment
 ------------------
 
-Services are easily accessible and available online, via telephone or in the community. Services may also be available in integrated settings (for example- within schools, workplaces and general practice).
+Services are easily accessible and available online, via telephone or in the community. Services may also be available in integrated settings (e.g., within schools, workplaces and general practice).
 
 Core clinical services
 -----------------------
@@ -24,9 +24,9 @@ This level of care is focussed on self-help activities. Clinical services are ge
 Other clinical interventions that may be required
 ---------------------------------------------------
 
-   * lifestyle interventions (e.g., nutrition, sleep, exercise, meaningful social connections)
+   * lifestyle interventions (e.g., nutrition, sleep, exercise, meaningful social connections), and
 
-   * group work
+   * group work.
 
 
 Support services

@@ -16,28 +16,28 @@ Core clinical services
 
 A comprehensive psychological assessment (if not already undertaken) is required for all individuals suited to this level of care.
 
-   * evidence based psychological interventions provided by a mental health clinician
+   * Evidence-based psychological interventions provided by a mental health clinician
 
-   * clinical care coordination services within primary care (if more than 2 services are involved in providing care)
+   * Clinical care coordination services within primary care (if more than 2 services are involved in providing care)
 
-   * involvement of a mental health nurse
+   * Involvement of a mental health nurse
 
-   * community-based psychiatric care
+   * Community-based psychiatric care
 
-   * active GP management, mental health assessment, integrated physical health care (and development of a MHTP)
+   * Active GP management, mental health assessment, integrated physical health care (and development of a MHTP)
 
 Support services
 -----------------
 
 Additional services are likely to be needed and may include:
 
-   * psycho-social disability support services (including peer support, daily living support, social skills training and social participation support)
+   * psycho-social disability support services (including peer support, daily living support, social skills training and social participation support),
 
-   * community supports (including peer support and social participation support)
+   * community supports (including peer support and social participation support),
 
-   * support to access support and advice relating to known environmental stressors
+   * support to access support and advice relating to known environmental stressors, and
 
-   * lifestyle interventions (e.g., nutrition, sleep, exercise, meaningful social connections)
+   * lifestyle interventions (e.g., nutrition, sleep, exercise, meaningful social connections).
 
 Referral criteria
 -------------------
