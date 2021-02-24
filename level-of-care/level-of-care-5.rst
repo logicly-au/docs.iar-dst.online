@@ -46,8 +46,8 @@ Using the Initial Assessment Rating Glossary to support decision making
 
 Individuals suited to this level of care may have:
 
-   * Very severe problems (score = 4) on one or more of Symptom Severity and Distress, Risk of Harm and Functioning domains 
+   * Very severe problems (score = 4) on one or more of *Symptom Severity and Distress*, *Risk of Harm* and *Functioning* domains 
 
    **OR**
 
-   * Severe Symptoms (score = 3) in the context of moderate to severe problems in one or more other Primary Domains (Risk of Harm, Functioning, Co-existing Conditions, score 2 or 3) with associated severe or higher problems in one or more Contextual Domains (Treatment and Recovery History, Social and Environmental Stressors, Family and Other Supports, Engagement/Motivation, score 3 or 4)
+   * Severe *Symptoms* (score = 3) in the context of moderate to severe problems in one or more other Primary Domains (*Risk of Harm*, *Functioning*, *Co-existing Conditions*, score 2 or 3) with associated severe or higher problems in one or more Contextual Domains (*Treatment and Recovery History*, *Social and Environmental Stressors*, *Family and Other Supports*, *Engagement/Motivation*, score 3 or 4)

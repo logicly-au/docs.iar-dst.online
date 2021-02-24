@@ -36,7 +36,7 @@ Additional services, if needed, are focussed on actively linking the person with
 Referral criteria
 ------------------
 
-A person suitable for this level of care typically has minimal or no risk factors, is usually experiencing mild symptoms/low levels of distress, and where present, this is likely to be in response to a stressful environment. Symptoms have typically been present for a short period of time (less than 6 months but this may vary). The individual is generally functioning well but may have problems with motivation or engagement that contraindicate a referral to Level 1 care. Where the person has experienced previous treatment for a previous episode, they are likely to have had a moderate or better recovery.
+A person suitable for this level of care typically has minimal or no risk factors, is usually experiencing mild symptoms/low levels of distress, and where present, this is likely to be in response to a stressful environment. Symptoms have *typically* been present for a short period of time (less than 6 months but this may vary). The individual is generally functioning well but may have problems with motivation or engagement that contraindicate a referral to Level 1 care. Where the person has experienced previous treatment for a previous episode, they are likely to have had a moderate or better recovery.
 
 Complexity indicated by significant problems in Risk, Functioning or Co-existing Conditions should be considered as contraindications for referral to Level 2 care and trigger a referral to Level 3 or higher.
 
@@ -45,19 +45,19 @@ Using the Initial Assessment Rating Glossary to support decision making
 
 Individuals suited to this level of care may have been rated during the initial assessment as having:
 
-   * Mild or no problems on all Primary Domains (Symptom Severity and Distress, Risk of Harm, Functioning and Co-existing Conditions, all scores ≤ 1) **AND**
+   * Mild or no problems on all Primary Domains (*Symptom Severity and Distress*, *Risk of Harm*, *Functioning* and *Co-existing Conditions*, all scores ≤ 1) **AND**
    
-      * moderate problems on Treatment and Recovery History (score ≤ 2) and limited Engagement and Motivation (score ≥ 2) 
+      * moderate problems on *Treatment and Recovery History* (score ≤ 2) and limited *Engagement and Motivation* (score ≥ 2) 
 
       **OR**
 
-      * high Social and Environmental Stressors (score ≤ 3) and limited Engagement and Motivation (score ≥ 2)
-
-      **OR**
-			
-      * Mild Symptoms and Distress (score = 1) in the context of moderate Co-existing Conditions (score =2)
+      * high Social and *Environmental Stressors* (score ≤ 3) and limited *Engagement and Motivation* (score ≥ 2)
 
       **OR**
 			
-      * Moderate Symptoms and Distress (score = 2) but no significant problems indicated by Risk of Harm, Functioning or Co-existing Conditions (all scores ≤ 1).
+      * Mild *Symptoms and Distress* (score = 1) in the context of moderate *Co-existing Conditions* (score =2)
+
+      **OR**
+			
+      * Moderate *Symptoms and Distress* (score = 2) but no significant problems indicated by *Risk of Harm*, *Functioning* or *Co-existing Conditions* (all scores ≤ 1).
 
