@@ -51,6 +51,4 @@ Individuals suited to this level of care may have been rated:
 
    * Severe *Symptoms and Distress* (score = 3) with significant associated problems on one or more other Primary Domains (*Risk of Harm*, *Functioning*, scores 2 or 3, or *Co-existing Conditions* score of 4)
 
-   **OR**
-
    * Severe *Symptoms and Distress* in the context of very severe problems (score = 4) on either *Risk of Harm* or *Functioning* are not suited to this level but should be referred for Level 5 care.

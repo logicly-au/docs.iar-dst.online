@@ -50,4 +50,4 @@ Individuals suited to this level of care may have:
 
    **OR**
 
-   * Severe *Symptoms* (score = 3) in the context of moderate to severe problems in one or more other Primary Domains (*Risk of Harm*, *Functioning*, *Co-existing Conditions*, score 2 or 3) with associated severe or higher problems in one or more Contextual Domains (*Treatment and Recovery History*, *Social and Environmental Stressors*, *Family and Other Supports*, *Engagement/Motivation*, score 3 or 4)
+   * Severe *Symptom Severity and Distress* (score = 3) in the context of moderate to severe problems in one or more other Primary Domains (*Risk of Harm*, *Functioning*, *Impact of Co-existing Conditions*, score 2 or 3) with associated severe or higher problems in one or more Contextual Domains (*Treatment and Recovery History*, *Social and Environmental Stressors*, *Family and Other Supports*, *Engagement and Motivation*, score 3 or 4)
