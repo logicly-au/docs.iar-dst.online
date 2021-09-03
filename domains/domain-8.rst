@@ -4,14 +4,14 @@ Domain 8 - Engagement and Motivation (Contextual Domain)
 Overview
 ----------
 
-This initial assessment domain should explore the person’s understanding of the mental health
-condition and their willingness to engage in or accept treatment.
+This initial assessment domain should explore the person’s understanding of the mental health condition and
+their willingness to engage in or accept treatment.
 
-Assessment of an individual on this domain should include:
+Assessment of an individual on this domain should include the individual’s:
 
-   * the individual’s understanding of the symptoms, condition, impact
-   * the individual’s ability and capacity to manage the condition
-   * the individual’s motivation to access necessary supports (particularly importance if considering self-management options)
+   * understanding of the symptoms, condition, and impact,
+   * ability and capacity to manage the condition, and
+   * motivation to access necessary supports (particularly important if considering self-management options).
 
 
 Scoring

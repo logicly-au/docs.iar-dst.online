@@ -4,10 +4,9 @@ Domain 7 - Family and Other Supports (Contextual Domain)
 Overview
 ----------
 
-This initial assessment domain should consider whether informal supports are present and their
-potential to contribute to recovery. A lack of supports might contribute to the onset or maintenance
-of the mental health condition and/or compromise ability to participate in the recommended
-treatment.
+This initial assessment domain should consider whether informal supports are present and their potential to
+contribute to recovery. A lack of supports might contribute to the onset or maintenance of the mental health
+condition and/or compromise ability to participate in the recommended treatment.
 
 
 Scoring
