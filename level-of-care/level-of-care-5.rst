@@ -4,7 +4,7 @@ Level 5 - Acute and Specialist Community Mental Health Services
 Definition
 ------------
 
-specialist mental healthcare usually includes intensive team-based specialist assessment and
+Specialist mental healthcare usually includes intensive team-based specialist assessment and
 intervention (typically state/territory mental health services) with involvement from a range of different types
 of mental health professionals, including case managers, psychiatrists, social workers, occupational
 therapists, psychologists and drug and alcohol workers. This level also often includes more intensive care provided by GPs.
@@ -44,20 +44,19 @@ behaviour, paranoia, disordered thinking, delusions) and problems in functioning
 multiple or most everyday roles (work, education, parenting, volunteering) and/or is experiencing:
 
    * Significant risk of suicide, self-harm, self-neglect, or vulnerability.
-   
+
    * Significant risk of harm to others.
-   
+
    * A high level of distress with potential for debilitating consequence.
-   
-   
+
+
 Using the Initial Assessment Rating Glossary to support decision making
 --------------------------------------------------------------------------
 
 Individuals suited to this level of care may have:
 
-   * Very severe problems (score = 4) on one or more of *Symptom Severity and Distress*, *Risk of Harm* and *Functioning* domains 
+   * Very severe problems (score = 4) on one or more of *Symptom Severity and Distress*, *Risk of Harm* and *Functioning* domains
 
    **OR**
 
-   * Severe *Symptom Severity and Distress* (score = 3) in the context of moderate to severe problems in one or more other Primary Domains (*Risk of Harm*, *Functioning*, score 2 or 3, *Impact of Co-existing Conditions*, score of 2-4) are assigned by the decision logic to ‘Level 4 or above’. Level 5 care should be
-considered where there are associated severe or higher problems multiple Contextual Domains (*Treatment and Recovery History*, *Social and Environmental Stressors*, *Family and Other Supports*, *Engagement and Motivation*).
+   * Severe *Symptom Severity and Distress* (score = 3) in the context of moderate to severe problems in one or more other Primary Domains (*Risk of Harm*, *Functioning*, score 2 or 3, *Impact of Co-existing Conditions*, score of 2-4) are assigned by the decision logic to ‘Level 4 or above’. Level 5 care should be considered where there are associated severe or higher problems multiple Contextual Domains (*Treatment and Recovery History*, *Social and Environmental Stressors*, *Family and Other Supports*, *Engagement and Motivation*).

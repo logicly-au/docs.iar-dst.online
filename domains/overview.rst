@@ -37,7 +37,7 @@ Primary Assessment vs. Contextual Domains
 
 The eight domains fall into two categories:
 
-   * *Primary Assessment Domains (Domains 1 to 4)*: TThese cover Symptom Severity and Distress, Risk of Harm, Functioning and Impact of Co-existing Conditions. Primary Assessment Domains represent the basic areas for initial assessment that have direct implications for decisions about assignment to a level of care.
+   * *Primary Assessment Domains (Domains 1 to 4)*: These cover Symptom Severity and Distress, Risk of Harm, Functioning and Impact of Co-existing Conditions. Primary Assessment Domains represent the basic areas for initial assessment that have direct implications for decisions about assignment to a level of care.
 
    * *Contextual Domains (Domains 5 to 8)*: These cover Treatment and Recovery History, Social and Environmental Stressors, Family and Other Supports and Engagement and Motivation. Assessment on these domains provides essential context to moderate decisions indicated by the primary domains.
 

@@ -16,21 +16,6 @@ Assessment of an individual on this domain should consider:
    * experience of mental illness, and
    * are symptoms improving/worsening, is distress improving/worsening, are new symptoms emerging?
 
-Validated measures such as the K10, K5 (for Aboriginal People), PHQ-9, GAD-7 and the EPDS are potentially useful for understanding symptom severity and distress.
-
-.. admonition:: PRACTICE POINT
-
-   The standard assessment tools described in this Guidance are a potentially useful way of
-   gathering information about current clinical need and may provide a useful baseline from
-   which to measure the benefit of any intervention. However, the findings from standard
-   assessment tools are, on their own, *not enough* to inform assessment and referral decisions.
-   Furthermore, assessment tools should only be used if clinically appropriate, by an appropriately trained professional, and with
-   consent from the consumer. The scores and indicative thresholds from standard assessment tools are not indicative of a diagnosis, but      representative of distress, functional impairment, or likelihood of a diagnosis at the time the measure was scored and is not a
-   diagnostic assessment.
-   
-   **Where there is significant discordance between clinician assessment and scores on standard
-   assessment measures - this is an indicator that a comprehensive assessment is required.**
-
 Scoring
 -------
 
@@ -87,9 +72,7 @@ Scoring
 
    b) Recent onset of symptoms that are indicative of a severe mental illness (e.g., hallucinations, paranoia,
       disordered thinking, extreme mood variation, delusions, or severe avoidant behaviours) presenting in
-      the context of significant complexity requiring multiple agency involvement. 
+      the context of significant complexity requiring multiple agency involvement.
 
    c) Other long-term mental health condition presenting in the context of significant complexity that requires
       multiple agency involvement.
-
-

@@ -7,7 +7,7 @@ Definition
 Services at this level of care are designed to prevent the onset of illness and are mostly focussed
 on supporting the person to self-manage any distress or symptoms. This level of care generally involves
 evidence-based digital therapies and other forms of self-help. A summary of the evidence-based digital
-mental health therapies and self-help services is available through the `Head to Health website<https://headtohealth.gov.au/>`_.
+mental health therapies and self-help services is available through the `Head to Health website <https://headtohealth.gov.au/>`_.
 
 Care environment
 ------------------
@@ -59,14 +59,13 @@ Using the Initial Assessment Rating Glossary to support decision making
 Individuals suited to this level of care may have been rated during the initial assessment as having:
 
    * Mild or no problems on all Primary Domains (*Symptom Severity and Distress*, *Risk of Harm*, *Functioning* and *Impact of Co-existing Conditions*, all scores ≤ 1) **AND**
-   
+
       * No significant problems on *Treatment and Recovery History*, *Social and Environmental Stressors* and *Engagement and Motivation* (all scores ≤ 1),
 
       **OR**
 
-      * Moderate problems on *Treatment and Recovery History* (score ≤ 2) but with good *Engagement and Motivation* (score ≤ 1), 
+      * Moderate problems on *Treatment and Recovery History* (score ≤ 2) but with good *Engagement and Motivation* (score ≤ 1),
 
       **OR**
 
       * High *Social and Environmental Stressors* (score ≤ 3) but with good *Engagement and Motivation* (score ≤ 1).
-
