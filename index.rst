@@ -32,10 +32,10 @@ Version |version|
    Getting help
    ^^^^^^^^^^^^
 
-   Strategic Data offers a dedicated Helpdesk which is available to support
+   Logicly offers a dedicated Helpdesk which is available to support
    clinicians using the Initial Assessment and Referral Decision Support Tool.
 
-   All enquiries should be directed to support@strategicdata.com.au
+   All enquiries should be directed to support@logicly.com.au
 
    Other resources
    ^^^^^^^^^^^^^^^
