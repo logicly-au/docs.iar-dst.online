@@ -6,6 +6,7 @@ User guide
      :titlesonly:
 
      using-the-tool
+     gen-pdf-report
      saving-results
 
 .. contents::
