@@ -1,8 +1,14 @@
 Saving your results
 =====================
 
+Download as CSV
+------------------
+
+Your results can be downloaded as a CSV file by clicking the arrow on the `Copy Results` button, then selecting `Download Results`. 
+
+
 Step 1 - Download results
--------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Once you have provided a response for each of the 8 domains, you will see that
 the `Copy Result` button is active.
 
@@ -17,7 +23,7 @@ the `Copy Result` button is active.
 
 
 Step 2 - Locate and open results
---------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You have now downloaded your first set of results as a CSV file. The filename
 will be `iar_dst_export.csv`.
@@ -29,7 +35,7 @@ Open your file using a program such as Microsoft Excel or Numbers.
 
 
 Step 3 - Add a unique identifier
---------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 There is an identifier column at the end of the results called `label`. In our
 example, we have populated `label` with the patient's client number. This will
@@ -41,7 +47,7 @@ our spreadsheet.
 
 
 Step 4 - Build a master spreadsheet
------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 When you are ready, you can reset your assessment form in order to complete for
 your next patient. Please see our instructions on :ref:`resetform`.
