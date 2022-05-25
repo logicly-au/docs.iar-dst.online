@@ -3,7 +3,10 @@ Generating a PDF report
 
 A customisable Report is able to be generated for the user to either print a hardcopy of the results or to be saved as a PDF using your browsers native operating system functionality. 
 
-For privacy purposes, this form does not transmit or store any information. Once the page is closed, you cannot retrieve the information. 
+.. admonition:: PRIVACY
+   
+   For privacy purposes, this form does not transmit or store any information. Once the page is closed, you cannot retrieve the information. 
+
 
 
 .. contents::
@@ -121,21 +124,114 @@ Step 3 - Print and/or Save Report
 
 Once the practitioner has completed the relevant fields the `Print` button will become active.
 
-Clicking the `Print` button will open the print ready version of the report and bring up the browser's native print dialog screen where the practitioner can either *print* the report or *save* the report as a PDF.
 
 .. image:: img/IAR_DST-PrintButtonActive.png
     :width: 80%
     :alt: Location of 'Print' button
 
+Clicking the `Print` button will open the print ready version of the report and bring up the browser's native print dialog screen where the practitioner can either *print* the report or *save* the report as a PDF.
 
-The print dialog screen offers users the option to **save the report as a PDF**. The example below shows the print dialog screen for Firefox. Similar options will be available in other modern browsers.
+**Click on browser name below for example of how to save/print the report once `Print` button is clicked:**
 
-.. image:: img/print_dialog.png
-    :width: 80%
-    :alt: Location of 'Save to PDF' option in Firefox.
+    .. raw:: html
+       
+       <details>
+       <summary><strong>CHROME</strong></summary><br>
+   
+   
+    .. admonition:: Print or Save using Chrome
+   
+       The print dialog screen offers users the option to set the print **Destination** as **Save as PDF**. The example below shows the print dialog screen for Chrome. Similar options will be available in other modern browsers.
+   
+       .. image:: img/IAR-DST_PrintReport_Chrome.png
+          :width: 80%
+          :alt: Location of 'Save to PDF' option in chrome.
+
+    .. raw:: html
+       
+       </details><br>
 
 
-From the printable report page, information dispalyed can be changed by clicking `Edit Report` :ref:`(1)<print-report>` button, or Practitioner can click `Reset Form` :ref:`(2)<print-report>` button to complete a new IAR-DST form.
+   
+
+    .. raw:: html
+       
+       <details>
+       <summary><strong>EDGE</strong></summary><br>
+   
+    .. admonition:: Print or Save using Edge
+   
+       The print dialog screen offers users the option to set the **Printer** as **Microsoft Print to PDF**. The example below shows the print dialog screen for Edge. Similar options will be available in other modern browsers.
+   
+       .. image:: img/IAR-DST_PrintReport_Edge.png
+          :width: 80%
+          :alt: Location of 'Save to PDF' option in Edge.
+
+    .. raw:: html
+       
+       </details><br>
+
+
+
+    .. raw:: html
+       
+       <details>
+       <summary><strong>FIREFOX</strong></summary><br>
+  
+    .. admonition:: Print or Save using Firefox
+  
+        The print dialog screen offers users a drop down menu **PDF** with the option to **Save as PDF**. The example below shows the print dialog screen for Firefox. Similar options will be available in other modern browsers.
+  
+        .. image:: img/IAR-DST_PrintReport_Firefox.png
+           :width: 80%
+           :alt: Location of 'Save to PDF' option in Firefox.
+       
+    .. raw:: html
+       
+       </details><br>
+
+
+
+    .. raw:: html
+       
+       <details>
+       <summary><strong>SAFARI</strong></summary><br>
+
+    .. admonition:: Print or Save using Safari
+
+       The print dialog screen offers users the option to **save the report as a PDF**. The example below shows the print dialog screen for Safari. 
+
+       .. image:: img/IAR-DST_PrintReport_Safari.png
+          :width: 80%
+          :alt: Location of 'Save to PDF' option in Safari.
+       
+       
+       
+       NOTE: If clicking the `Print` button brings up a dialogue window, as shown in the below screenshot :ref:`(1)<safari-pdf>`, we suggest using Safari's top banner menu **File** :ref:`(2)<safari-pdf>` option, and selecting **Export as PDF** :ref:`(3)<safari-pdf>` to save the Report as a PDF rather than clicking the `Print` button.
+       
+       .. _safari-pdf:
+       
+       .. image:: img/IAR-DST_PrintReport_Safari_afterEditing_saveAsPDF.png
+          :width: 80%
+          :alt: Location of 'Export as PDF' option in Safari.
+
+
+    .. raw:: html
+       
+       </details><br>
+
+
+   
+
+
+
+
+-------
+
+Edit or Reset DST form
+------------------------
+
+From the printable report page, information dispalyed can be changed by clicking `Edit Report`  :ref:`(1)<print-report>` button, or Practitioner can click `Reset Form` :ref:`(2)<print-report>` button to complete a new IAR-DST form.
 
 .. _print-report:
 
