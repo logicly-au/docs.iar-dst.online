@@ -51,8 +51,9 @@ Version |version|
      :maxdepth: 2
      :hidden:
 
-     domains/index
-     level-of-care/index
+     child/index
+     adolescent/index
+     adult/index
      user-guide/index
      developers
      terms-and-conditions
