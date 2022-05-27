@@ -20,7 +20,7 @@ This domain is not about predicting the children that are likely to attempt or d
    * The harm caused by abuse, exploitation, or neglect by others (harm from others).
    * Unintentional harm to self or others arising from severe symptoms or self-neglect.
 
-*The IAR adaptation for children includes the **risk of harm from others** in Domain 2 because there are direct implications for the intensity of mental health response a child at risk of or experiencing harm from others is likely to require. Placing risk of harm from others in another domain (e.g., Domain 6) does not carry the same weight within the logic that underpins the recommendations about a level of care. Note that the presence of external stressors (e.g., domestic violence, bullying) is rated at Domain 6 but the degree of risk of harm arising from those stressors is rated separately at Domain 2.*
+*The IAR adaptation for children includes the* **risk of harm from others** *in Domain 2 because there are direct implications for the intensity of mental health response a child at risk of or experiencing harm from others is likely to require. Placing risk of harm from others in another domain (e.g., Domain 6) does not carry the same weight within the logic that underpins the recommendations about a level of care. Note that the presence of external stressors (e.g., domestic violence, bullying) is rated at Domain 6 but the degree of risk of harm arising from those stressors is rated separately at Domain 2.*
 
 .. admonition:: PRACTICE POINT - Mandatory reporting
 
@@ -34,7 +34,7 @@ This domain is not about predicting the children that are likely to attempt or d
 Scoring
 --------
 
-**0 = No identified risk in this domain – no descriptors apply**
+**0 = No identified risk in this domain**
 
 **1 = Low risk of harm**
 

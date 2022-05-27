@@ -18,7 +18,7 @@ Assessment of an adolescent on this domain should consider the impact of the men
 Scoring
 ---------
 
-**0 = No problems in this domain – no descriptors apply**
+**0 = No problems in this domain**
 
 **1 = Mild impact**
 

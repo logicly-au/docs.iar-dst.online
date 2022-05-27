@@ -32,7 +32,7 @@ Where the adolescent has more than one of the coexisting conditions, consider th
 Scoring
 ---------
 
-**0 = No problem in this domain – no descriptors apply**
+**0 = No problem in this domain**
 
 **1 = Minor impact**
 

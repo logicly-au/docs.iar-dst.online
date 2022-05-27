@@ -25,7 +25,7 @@ Assessment of an adolescent on this domain should consider:
 Scoring
 -------
 
-**0 = No problem in this domain – no descriptors apply**
+**0 = No problem in this domain**
 
 **1 = Mild - symptoms are likely to be sub-diagnostic and have been experienced for less than three months (but this may vary)**
 

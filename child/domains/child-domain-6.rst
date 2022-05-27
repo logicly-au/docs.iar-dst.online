@@ -48,7 +48,7 @@ Evidence points to the contribution made by historical childhood adverse events 
 Scoring
 ---------
 
-**0 = No problem in this domain – no descriptors apply**
+**0 = No problem in this domain**
 
 
 **1 = Mildly stressful environment**

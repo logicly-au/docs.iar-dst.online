@@ -33,7 +33,7 @@ Where the child has more than one of the coexisting conditions, consider the con
 Scoring
 ---------
 
-**0 = No problem in this domain – no descriptors apply**
+**0 = No problem in this domain**
 
 **1 = Minor impact**
 
