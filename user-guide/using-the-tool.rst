@@ -20,13 +20,16 @@ tab to return to the DST.
     :alt: Location of link to 'Documentation'
 
 
+Selecting the most appropriate version of the tool
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+When you first access the online IAR Decision Support tool, you will be prompted to select age group most appropriate for the consumer.
+
+
 Rating guide
 ^^^^^^^^^^^^^^
 
-As you work your way through the domain responses, you should click on a `Rating
-Guide` to view additional information about that domain. The `Rating Guide` will
-open in either a new browser window or tab, depending on your browser's default
-settings. Simply close the browser window/or tab to return to the DST.
+After selecting the most appropriate version of the IAR to use, the relevant domains for that version will become visible. As you work your way through the domain responses, you should click on a `Rating Guide` to view additional information about that domain. The `Rating Guide` will open in either a new browser window or tab, depending on your browser’s default settings. Simply close the browser window/or tab to return to the DST.
 
 .. image:: img/IAR_DST-RatingGuide.png
 ..    :width: 600px

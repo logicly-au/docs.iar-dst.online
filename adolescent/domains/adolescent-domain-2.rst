@@ -36,7 +36,7 @@ This domain is not about predicting the adolescents likely to attempt or die by 
    An adolescent who has previously attempted suicide is rated at minimum as a 2 (moderate risk) on this domain - or higher if there are current suicidal behaviours. A rating of 2 on Domain 2 is aligned with Level 3 care and above. This rating will help to ensure a comprehensive mental health assessment is made available (a core feature of all Level 3 services). Following a comprehensive mental health assessment, the clinician can consider the suitability of lower-intensity interventions (Level 1/Level 2).
    
 
-*The IAR adaptation for adolescents includes the* **risk of harm from others** *others in Domain 2 because there are direct implications for the intensity of mental health response an adolescent at risk of or experiencing harm from others is likely to require. Placing risk of harm from others in another domain (e.g., Domain 6) does not carry the same weight within the logic that underpins the recommendations about a level of care. Note that the presence of external stressors (e.g., domestic violence, bullying) is rated at Domain 6 but the degree of risk of harm arising from those stressors is rated separately at Domain 2.*
+*The IAR adaptation for adolescents includes the* **risk of harm from others** *in Domain 2 because there are direct implications for the intensity of mental health response an adolescent at risk of or experiencing harm from others is likely to require. Placing risk of harm from others in another domain (e.g., Domain 6) does not carry the same weight within the logic that underpins the recommendations about a level of care. Note that the presence of external stressors (e.g., domestic violence, bullying) is rated at Domain 6 but the degree of risk of harm arising from those stressors is rated separately at Domain 2.*
 
 .. admonition:: PRACTICE POINT - Mandatory reporting
 
@@ -50,7 +50,7 @@ This domain is not about predicting the adolescents likely to attempt or die by 
 Scoring
 --------
 
-**0 = No problems in this domain **
+**0 = No problems in this domain**
 
 **1 = Low risk of harm**
 
@@ -91,7 +91,7 @@ Scoring
 
    f.	Clearly compromised self-care ability that is ongoing to the extent that indirect or unintentional harm to self is likely. 
    
-**4 = Very high risk of harm***
+**4 = Very high risk of harm**
 
     a.	Recent suicide attempt (within past 12 months) or current suicidal ideation with intent, plan and means to carry out. Few or no protective factors.
 

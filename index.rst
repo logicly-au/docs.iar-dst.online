@@ -8,26 +8,22 @@ Version |version|
 
 .. only:: builder_html or builder_readthedocs
 
-   This documentation provides extracts from relevant sections of the
-   `National PHN Guidance - Initial Assessment and Referral for Mental Health Care  <https://www.health.gov.au/sites/default/files/documents/2021/09/primary-health-networks-phn-mental-health-care-guidance-initial-assessment-and-referral-for-mental-health-care-national-phn-guidance-initial-assessment-and-referral-for-mental-health-care.pdf>`_
-   which has been designed to assist the various parties involved in the initial assessment and referral process.
+   The `National PHN Guidance - Initial Assessment and Referral for Mental Health Care  <https://www.health.gov.au/sites/default/files/documents/2021/09/primary-health-networks-phn-mental-health-care-guidance-initial-assessment-and-referral-for-mental-health-care-national-phn-guidance-initial-assessment-and-referral-for-mental-health-care.pdf>`_
+   supports clinicians, General Practitioners and various parties involved in the initial assessment and referral process, to recommend a level of care for a person seeking mental health support based on the least intrusive evidence-based intervention that will lead to the most significant gain.
 
-   The Guidance has been developed to support nationally consistent
-   evidence-informed initial assessment and referral processes and will be
-   refined as new evidence emerges.
+   The Guidance has been developed to support nationally consistent evidence-informed initial assessment and referral processes and will be refined as new evidence emerges.
 
-   It is expected that PHNs will use the Guidance to:
+   There are currently three versions of the IAR, that have been developed based on lifespans:
+   
+      * The National PHN Guidance - Initial Assessment and Referral for Mental Health Care for adults (aged 18-65 years).
 
-      * Design initial assessment and referral processes for referrers and commissioned primary mental health care services.
-      * Review existing initial assessment and referral processes for commissioned primary mental health care services.
-      * Guide the development of referral pathways (e.g., Health Pathways).
-      * Provide clear and consistent information to referrers, consumers, carers, and communities.
-      * Instigate clinical governance policies and protocols to monitor the safety and quality of assessment and referral systems.
+      * The National PHN Guidance – Initial Assessment and Referral for mental healthcare – children (aged 5-11 years); and
 
-   Whilst this Guidance refers to the critical interface between primary mental health care and acute, tertiary
-   and specialist secondary settings, this Guidance is not intended to be applied within acute or specialist
-   mental health care settings. The Guidance has the potential to be used in private psychology and psychiatry
-   services.
+      * The National PHN Guidance – Initial Assessment and Referral for mental healthcare -  adolescents (aged 12-17 years).
+
+   Note: Whilst the IAR Guidance uses age to indicate the overall appropriateness of each tool, the final decision about the most appropriate version is based on the clinical judgment of the user, taking into account contextual and developmental considerations.
+   
+   Whilst this Guidance refers to the critical interface between primary mental health care and acute, tertiary and specialist secondary settings, this Guidance is not intended to be applied within acute or specialist mental health care settings. The Guidance has the potential to be used in private psychology and psychiatry services.
 
    Getting help
    ^^^^^^^^^^^^
