@@ -15,11 +15,11 @@ Version |version|
 
    There are currently three versions of the IAR, that have been developed based on lifespans:
    
-      * The National PHN Guidance - Initial Assessment and Referral for Mental Health Care for adults (aged 18-65 years).
+      * :doc:`The National PHN Guidance – Initial Assessment and Referral for Mental Health Care for adults (aged 18-65 years)</adult/index>`.
 
-      * The National PHN Guidance – Initial Assessment and Referral for mental healthcare – children (aged 5-11 years); and
+      * :doc:`The National PHN Guidance – Initial Assessment and Referral for mental healthcare – children (aged 5-11 years)</child/index>`; and
 
-      * The National PHN Guidance – Initial Assessment and Referral for mental healthcare -  adolescents (aged 12-17 years).
+      * :doc:`The National PHN Guidance – Initial Assessment and Referral for mental healthcare – adolescents (aged 12-17 years)</adolescent/index>`.
 
    Note: Whilst the IAR Guidance uses age to indicate the overall appropriateness of each tool, the final decision about the most appropriate version is based on the clinical judgment of the user, taking into account contextual and developmental considerations.
    

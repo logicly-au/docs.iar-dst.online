@@ -76,9 +76,11 @@ your browser's page when you scroll.
 Saving results
 ^^^^^^^^^^^^^^^
 
-Your results can be downloaded as a CSV file by clicking the arrow on the `Copy
-Results` button, then selecting `Download Results`. Please see our
-:doc:`instructions on downloading your results and our suggestions on saving
+A customisable Report is able to be generated for the user to either print a hardcopy of the results or to be saved as a PDF using your browsers native operating system functionality. Please see our
+:doc:`instructions on how to generate a pdf report<gen-pdf-report>`.
+
+Alternatively, your results can be downloaded as a CSV file. Please see our
+:doc:`instructions on downloading your results as a csv and our suggestions on saving
 them for future use<saving-results>`.
 
 
