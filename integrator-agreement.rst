@@ -1,7 +1,7 @@
 Integrator Agreement - Application Programming Interface
 ========================================================
    
-You must agree to this **Integrator Agreement** to integrate and use the Initial Assessment and Referral for Mental Healthcare (IAR-MH) Online Decision Support Tool API **made available by the Commonwealth of Australia as represented by the Department of Health (the “Department”)**.  
+You must agree to this **Integrator Agreement** to integrate and use the Initial Assessment and Referral for Mental Healthcare (IAR-MH) Online Decision Support Tool API **made available by the Commonwealth of Australia as represented by the Department of Health and Aged Care (the “Department”)**.  
 
 In this Integrator Agreement, the terms:
 

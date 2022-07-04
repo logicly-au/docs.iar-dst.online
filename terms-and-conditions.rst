@@ -17,7 +17,7 @@ In these Terms of Use, the terms:
   one or more individuals presenting for assistance with a mental health
   condition.
 
-The Commonwealth of Australia as represented by the Department of Health (the
+The Commonwealth of Australia as represented by the Department of Health and Aged Care (the
 “**Department**”) may at its discretion update these Terms of Use.  By
 continuing to use the Online Decision Support Tool, You accept the Terms of Use
 as they apply from time to time.

@@ -8,18 +8,18 @@ Version |version|
 
 .. only:: builder_html or builder_readthedocs
 
-   The `National PHN Guidance - Initial Assessment and Referral for Mental Health Care  <https://www.health.gov.au/sites/default/files/documents/2021/09/primary-health-networks-phn-mental-health-care-guidance-initial-assessment-and-referral-for-mental-health-care-national-phn-guidance-initial-assessment-and-referral-for-mental-health-care.pdf>`_
+   The `National Guidance - Initial Assessment and Referral for Mental Health Care  <https://www.health.gov.au/sites/default/files/documents/2021/09/primary-health-networks-phn-mental-health-care-guidance-initial-assessment-and-referral-for-mental-health-care-national-phn-guidance-initial-assessment-and-referral-for-mental-health-care.pdf>`_
    supports clinicians, General Practitioners and various parties involved in the initial assessment and referral process, to recommend a level of care for a person seeking mental health support based on the least intrusive evidence-based intervention that will lead to the most significant gain.
 
    The Guidance has been developed to support nationally consistent evidence-informed initial assessment and referral processes and will be refined as new evidence emerges.
 
    There are currently three versions of the IAR, that have been developed based on lifespans:
    
-      * :doc:`The National PHN Guidance – Initial Assessment and Referral for Mental Health Care for adults (aged 18-65 years)</adult/index>`.
+      * :doc:`The National Guidance – Initial Assessment and Referral for Mental Health Care for adults (aged 18-65 years)</adult/index>`.
 
-      * :doc:`The National PHN Guidance – Initial Assessment and Referral for mental healthcare – children (aged 5-11 years)</child/index>`; and
+      * :doc:`The National Guidance – Initial Assessment and Referral for mental healthcare – children (aged 5-11 years)</child/index>`; and
 
-      * :doc:`The National PHN Guidance – Initial Assessment and Referral for mental healthcare – adolescents (aged 12-17 years)</adolescent/index>`.
+      * :doc:`The National Guidance – Initial Assessment and Referral for mental healthcare – adolescents (aged 12-17 years)</adolescent/index>`.
 
    Note: Whilst the IAR Guidance uses age to indicate the overall appropriateness of each tool, the final decision about the most appropriate version is based on the clinical judgment of the user, taking into account contextual and developmental considerations.
    
@@ -36,9 +36,9 @@ Version |version|
    Other resources
    ^^^^^^^^^^^^^^^
 
-   `Department of Health - National PHN Guidance document (PDF, 3.3 MB, 75 pages) <https://www.health.gov.au/sites/default/files/documents/2021/09/primary-health-networks-phn-mental-health-care-guidance-initial-assessment-and-referral-for-mental-health-care-national-phn-guidance-initial-assessment-and-referral-for-mental-health-care.pdf>`_
+   `Department of Health and Aged Care - National Guidance document (PDF, 3.3 MB, 75 pages) <https://www.health.gov.au/sites/default/files/documents/2021/09/primary-health-networks-phn-mental-health-care-guidance-initial-assessment-and-referral-for-mental-health-care-national-phn-guidance-initial-assessment-and-referral-for-mental-health-care.pdf>`_
 
-   `Department of Health - PHN Mental Health Tools and Resources <https://www1.health.gov.au/internet/main/publishing.nsf/Content/PHN-Mental_Tools>`_
+   `Department of Health and Aged Care - PHN Mental Health Tools and Resources <https://www.health.gov.au/resources/collections/primary-health-networks-phn-collection-of-primary-mental-health-care-resources>`_
 
 .. End of INTRODUCTION
 
