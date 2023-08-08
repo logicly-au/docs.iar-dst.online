@@ -18,15 +18,14 @@ service from the organisation’s local system. The Online API:
   organisation making the request;
 * Requires the integrator to use an API key linked to their organisation;
 * Allows the API consumer to generate a link to the Australian Government
-  [IAR-DST interface](https://iar-dst.online) in "OMSSS mode";
+  `IAR-DST interface <https://iar-dst.online>`_ in "OMSSS mode";
 * Allows IAR-DST interface users to submit the eight domain scores and
   associated recommended level of care to OMSSS;
 * Allows the API consumer to retrieve the eight domain scores and associated
   recommended level of care from OMSSS;
 * Meets Australian Government security requirements.
 
-Documentation regarding use of the OMSSS REST API is available at
-https://api.omsss.online/.
+More information is available via the `OMSSS REST API <https://api.omsss.online/>`_.
 
 Reference implementations
 ^^^^^^^^^^^^^^^^^^^^^^^^^
