@@ -9,7 +9,7 @@ Version |version|
 .. only:: builder_html or builder_readthedocs
 
    This documentation provides extracts from relevant sections of the
-   `National PHN Guidance - Initial Assessment and Referral for Mental Health Care <National MH-IAR Guidance V1.05.pdf>`
+   :download:`National PHN Guidance - Initial Assessment and Referral for Mental Health Care <National MH-IAR Guidance V1.05.pdf>`
    which has been designed to assist the various parties involved in the initial assessment and referral process.
 
    The Guidance has been developed to support nationally consistent
