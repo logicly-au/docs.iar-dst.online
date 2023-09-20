@@ -40,9 +40,9 @@ Version |version|
    Other resources
    ^^^^^^^^^^^^^^^
 
-   `Department of Health - National PHN Guidance document (PDF, 3.3 MB, 75 pages) <https://www.health.gov.au/sites/default/files/documents/2021/09/primary-health-networks-phn-mental-health-care-guidance-initial-assessment-and-referral-for-mental-health-care-national-phn-guidance-initial-assessment-and-referral-for-mental-health-care.pdf>`_
+   :download:`Department of Health and Aged Care - National Guidance document (PDF, 2.1 MB, 76 pages) <National MH-IAR Guidance V1.05.pdf>`
 
-   `Department of Health - PHN Mental Health Tools and Resources <https://www1.health.gov.au/internet/main/publishing.nsf/Content/PHN-Mental_Tools>`_
+   `Department of Health and Aged Care - PHN Mental Health Tools and Resources <https://www.health.gov.au/resources/collections/primary-health-networks-phn-collection-of-primary-mental-health-care-resources>`_
 
 .. End of INTRODUCTION
 
