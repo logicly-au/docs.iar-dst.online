@@ -1,0 +1,60 @@
+Level 3 - Moderate-Intensity Services
+=======================================
+
+
+Definition
+-----------
+
+Moderate-intensity services generally provide a course (or repeated courses) of structured, reasonably frequent, and individually tailored treatment/intervention for mental health symptoms and psychological distress (e.g., a defined number of regular psychological sessions). Access to level 3 services typically requires a referral from a GP or mental health professional.
+
+Care environment
+------------------
+
+Moderate-intensity services are typically provided by mental health professionals in community settings and can be face-to-face or via telehealth (or a blend of the two) and delivered to individuals or groups. Some online treatment programs or courses that are accompanied by regular and tailored support delivered by a qualified mental health professional may be considered a Level 3 service. Services may sometimes be available in integrated settings (e.g., schools, community centres, and general practice).
+
+
+Core mental health treatment/intervention services
+----------------------------------------------------
+
+A comprehensive biopsychosocial assessment (if not already undertaken) is recommended for all people suited to this level of care. This may be done as part of the initial assessment when the person presents to primary care with mental health symptoms and/or psychological distress or may occur at the service the person is referred to for assessment and/or intervention.
+
+This level of care typically includes the involvement and coordination of more than one service provider, such as a GP providing initial assessment and care coordination and a mental health professional (such as a psychologist or psychiatrist) delivering mental health treatment.
+
+Evidence-informed, appropriate, and culturally safe psychological services delivered by a suitably qualified and experienced mental health professional (note, psychoeducation is usually a part of services delivered, but is not considered a level 3 service on its own).
+
+Specialist mental health services (including consultation or management by a psychiatrist or state-based mental health team) for assessment, management, consultation liaison, and advice if needed and in accordance with local assessment and care pathways.
+
+Diagnosis-specific services where indicated.
+
+
+
+Other health services that may be required
+---------------------------------------------------
+
+A comprehensive physical health assessment and ongoing integrated management of physical health issues via a GP and/or paediatrician or geriatrician.
+
+Health promotion, lifestyle interventions and social prescribing (e.g., sleep hygiene, social exercise programs).
+
+
+Support services
+------------------
+
+Additional services are likely to be needed and may include:
+
+   * Accommodations and supports to minimise impacts of mental health symptoms and psychological distress on functioning and/or to reduce impacts of stressors that may exacerbate symptoms or distress, including supports or accommodations at school or work.
+   * Specific community, social, leisure, and recreational supports aimed at addressing factors that may be contributing to the onset or maintenance of the persons mental health symptoms or distress.
+   * Supports targeting situational stressors, such as housing, legal support, financial support, relationship counselling, parental/family focused education and support, and support for grief and loss.
+   * Formal and informal individual and group peer support for the person or their parent/caregiver (including online peer support forums and chats).
+   * Services and support focussed on connections with community and culture.
+   * Care coordination services, service navigation, and advocacy.
+
+Referral criteria
+-------------------
+
+A person requiring this level of care is likely to be experiencing moderate to severe symptoms and distress that would meet the criteria for a mental health diagnosis. Symptoms have typically been present for three months for children and adolescents or six months or more for adults and older adults (but this may vary).
+
+The initial assessment may indicate problems (but not very severe) present in domain 1 – symptom severity and distress, domain 2 - harm, domain 3 - functioning or domain 4 - impact of co-existing conditions (a very severe rating on domains 1, 2 or 3 would trigger consideration of a referral to Level 5).
+
+People experiencing moderate to severe mental health symptoms but mild to moderate problems associated with domain 2 - harm, domain 3 – functioning, and domain 4 - impact of co-existing conditions are usually suitable for this level of care.
+
+

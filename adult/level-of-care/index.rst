@@ -5,12 +5,12 @@ Levels of Care
      :maxdepth: 1
      :titlesonly:
 
-     adult-levels-of-care-overview
-     adult-level-of-care-1
-     adult-level-of-care-2
-     adult-level-of-care-3
-     adult-level-of-care-4
-     adult-level-of-care-5
+     overview
+     level-of-care-1
+     level-of-care-2
+     level-of-care-3
+     level-of-care-4
+     level-of-care-5
 
 .. contents::
    :local:

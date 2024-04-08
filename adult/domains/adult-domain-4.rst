@@ -1,65 +1,81 @@
-Domain 4 - Impact of Co-Existing Conditions (Primary Domain)
+Domain 4 - Impact of co-existing conditions (Primary Domain)
 =============================================================
 
 
 Overview
 ---------
 
-Increasingly, individuals are experiencing and managing multi-morbidity (coexistence of multiple conditions
-including chronic disease). An initial assessment should specifically examine the presence of other
-concurrent health conditions that contribute to (or have the potential to contribute to) increased severity of
-mental health problems and/or compromises the person’s ability to participate in the recommended
-treatment.
+Increasingly, individuals are experiencing and managing multi-morbidity (coexistence of multiple conditions, including chronic disease). This domain considers the extent to which other conditions contribute to (or have the potential to contribute to) increased severity of the mental health issue.
 
-Assessment of an individual on this domain should consider:
+Assessment on this domain should consider the presence and impact of the following co-existing conditions:
 
-   * substance use/misuse and the associated impact on the individual,
-   * physical health condition and the associated impact on the individual’s concurrent mental health condition, and
-   * intellectual disability or cognitive impairment.
+   * Physical health conditions (consider all physical health issues).
+   * Cognitive impairment, intellectual disability, neurological conditions, or learning and communication disorders.
+   * Substance use.
+
+Where the person has more than one of the coexisting conditions, consider the condition which has the most impact.
+
+
+.. admonition:: PRACTICE POINT - Definitions of cognitive impairment, intellectual disability, neurological condition, and learning and communication disorders
+
+   The terms cognitive impairment, intellectual disability, neurological condition, and learning and communication disorders have no universally agreed definitions. For this Guidance, the below definitions will apply:
+   
+   Cognitive impairment – A description of a person's current functioning regarding learning, communication, attention, memory, thinking and problem-solving. Cognitive impairment can be temporary, permanent, mild, moderate, or severe. Cognitive impairment can affect the person’s understanding and how they relate to others and interpret the environment.
+   
+   Intellectual disability – A disability characterised by significant intellectual functioning and adaptive behaviour limitations, covering many everyday social and practical skills. This disability originates before the age of 18. Genetic factors cause most intellectual disabilities. However, there are other causes of intellectual disabilities, such as brain injury or being born prematurely.
+   
+   Neurological condition – Neurological conditions affect the brain, spinal cord, and the nerves that connect them. There are more than 600 nervous system diseases (e.g., epilepsy, motor neurone disease, traumatic brain injury, multiple sclerosis).
+   
+   Learning and communication disorders – learning and communication disorders may affect how a person comprehends, recalls, understands, or expresses information. These disorders are often dynamic and can improve over time. The impairment caused by these disorders might be minimal or significant and vary from person to person.
+   
 
 Scoring
 ---------
 
-**0 = No problem in this domain – no descriptors apply**
+**0 = No problem in this domain**
 
 **1 = Minor impact**
 
-   a. Occasional episodes of substance misuse but any recent episodes are limited, are not currently
-      causing any concerns and do not impact on the concurrent mental health condition of the person.
-
-   b. Physical health condition(s) present but are stable and do not have an impact on the concurrent mental
-      health condition of the person.
+   a.	Physical health condition(s) present but are stable and have no or minimal impact on the person's mental health.
+   
+   b.	Cognitive impairment, intellectual disability, neurological condition, or learning and communication disorder present but has no or minimal impact on the person's mental health.
+   
+   c.	Recent episodes of substance use are limited, are not currently causing any concerns, and do not impact the person's mental health.
+   
 	
 
 **2 = Moderate impact**
 
-   a. Ongoing or episodic substance abuse impacting on, or with the potential to impact on, the concurrent
-      mental health condition of the person or ability to participate in treatment.
-
-   b. Physical health condition present and impacting significantly on the mental health condition of the
-      person or their ability to participate in treatment.
+   a.	Physical health condition(s) present and moderately impacts the person's mental health.
+   
+   b.	Cognitive impairment, intellectual disability, neurological condition, or learning and communication disorder present and moderately impacts on the person's mental health. 
+   
+   c.	Occasional substance use that significantly impacts on, or has the potential to significantly impact, the person's mental health.
+   
+   d.	Non prescribed use of prescription medications that significantly impacts on, or has the potential to significantly impact, the person's mental health.
+   
 
 
 **3 = Severe impact**
 
-   a. Substance use occurs at a level that poses a threat to health or represents a barrier to mental health
-      related recovery.
-
-   b. Physical health condition present and requires intensive medical monitoring and is seriously affecting
-      the mental health of the person (e.g., worsened symptoms, heightened distress).
-
-   c. Intellectual disability or cognitive impairment that impacts significantly on the mental health condition
-      and impedes the person’s ability to participate in treatment.
+   a.	Physical health condition(s) present, which requires intensive medical monitoring and severely impacts the person's mental health (e.g., worsened symptoms, heightened distress).
+   
+   b.	Cognitive impairment, intellectual disability, neurological condition, or learning and communication disorder present and severely impacts the person's mental health.
+   
+   c.	Frequent substance use threatens health and well-being or represents a barrier to mental health-related recovery.
+   
+   d.	Non prescribed use of prescription medications severely impacts the person's mental health or presents a barrier to mental health-related recovery.
+   
 
 **4 = Very severe impact**
 
-   a. Severe substance use disorder with inability to limit use without specialist AOD intervention, in the
-      context of a concurrent mental health condition.
-
-   b. Significant physical health conditions exist which are poorly managed or life threatening, and in the
-      context of a concurrent mental health condition.
-
-   c. Severe intellectual disability or severe cognitive impairment that impacts significantly on the mental
-      health condition and impedes the person’s ability to participate in treatment.
+   a.	One or more significant physical health conditions exist which are poorly managed or life-threatening and in the context of a concurrent mental health condition.
+   
+   b.	Cognitive impairment, intellectual disability, neurological condition, or learning and communication disorder present and very severely impacts the person's mental health.
+   
+   c.	Regular and uncontrolled substance use severely threatens health and well-being.
+   
+   d.	Regular and uncontrolled non-prescribed use of prescribed medications severely threatens health and well-being.
+   
 
 

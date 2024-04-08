@@ -5,52 +5,44 @@ Domain 3 - Functioning (Primary Domain)
 Overview
 ---------
 
-An initial assessment should consider functional impairment caused by or exacerbated by the mental health
-condition. While other types of disabilities may play a role in determining what types of support services may
-be required, they should generally not be considered in determining mental health intervention intensity
-within a stepped care continuum.
+This domain considers functional impairment associated with or exacerbated by mental health issues. While some types of illnesses and disabilities experienced by the individual may play a role in determining what types of support services may be required, they should not be considered in determining mental health service intensity within a stepped care continuum.
 
-Assessment of an individual on this domain should consider:
+Assessment of an individual on this domain should consider the impact of mental health issues on:
 
-   * a person's ability to fulfil usual roles/ responsibilities,
-   * impact on or disruption to areas of life (e.g., employment, parenting, education, or other social roles),
-     and
-   * impact on the person's basic activities of daily living (e.g., self-care, mobility, toileting, feeding, and personal hygiene).
+   * Their ability to fulfil usual roles/responsibilities appropriate to their age, capability, and cultural background.
+   * Their functioning within the family or home environment, vocational or social settings, caregiving roles, and in the community.
+   * Their ability to undertake basic activities of daily living appropriate to their age and capability (e.g., self-care, mobility, toileting, nutrition, and personal hygiene).
 
 
 Scoring
 ---------
 
-**0 = No problems in this domain – no descriptors apply**
+**0 = No problem in this domain**
 
 **1 = Mild impact**
 
-   a. Diminished ability to function in one or more of their usual roles, including work, social, parenting/care
-      of dependents, education but without significant or adverse consequences.
-
-   b. The person experiences brief and transient disruptions in functioning.
+   a.	Mildly diminished ability to function in one or more of their usual roles (e.g., at home, vocational or social settings, caregiving roles or in the community), but without significant or adverse consequences.
+   
+   b.	Mental health issues contribute to brief and transient disruptions in one or more areas of functioning.
+   
 
 **2 = Moderate impact**
 
-   a. Functioning is impaired in more than one of their usual roles including work, social, parenting and
-      family, education, to the extent that they are unable to meet the requirements of those roles on average
-      1 to 2 days per month.
-
-   b. The person experiences occasional difficulties with basic activities of daily living but without threat to
-      health.
+   a.	Moderate functional impairment in more than one of their usual roles (e.g., at home, vocational or social settings, caregiving roles or in the community) to the extent that they are reasonably frequently unable to meet the requirements of those roles but without significant or adverse consequences.
+   
+   b.	Mental health issues contribute to occasional difficulties with basic activities of daily living (e.g., eating, mobility, bathing, getting dressed toileting) or instrumental activities of daily living (e.g., preparing food, cleaning, transportation, managing money) but without threat to health.
+   
 
 **3 = Severe impact**
 
-   a. Significant difficulties with functioning, resulting in disruption to many areas of the person's life (e.g.,
-      work, education, interpersonal relationships, or self-care) but the person can function independently
-      with adequate treatment and community support.
-
-   b. The person experiences difficulties with basic self-care (e.g., hygiene, eating, or appearance) on a
-      frequent, consistent basis without threat to health.
+   a.	Significant difficulties with functioning, resulting in disruption to many areas of the person's life (e.g., limited participation in vocational or social activities, deterioration in or some withdrawal from community or relationships), but the person can function independently with adequate treatment, family, and community support.
+   
+   b.	Mental health issues contribute to frequent difficulties with basic activities of daily living (e.g., eating, mobility, bathing, getting dressed, toileting) or instrumental activities of daily living (e.g., preparing food, cleaning, transportation, managing money) on a consistent basis but without threat to health. The person requires treatment, family, and community support to maintain independent functioning.
+   
 
 **4 = Very severe to extreme impact**
 
-   a. Profound difficulties with functioning, resulting in major disruption to virtually all areas of the person's
-      life (e.g., unable to work or participate in education, withdrawal from interpersonal relationships).
-
-   b. Mental health condition contributes to severe and persistent self-neglect that poses a threat to health.
+   a.	Profound difficulties with functioning, resulting in significant disruption to virtually all areas of the person's life (e.g., unable to participate in vocational or social activities, complete withdrawal from the community).
+   
+   b.	Mental health issues contribute to severe and persistent self-neglect that poses a threat to health.
+   
