@@ -318,7 +318,8 @@ rst_epilog = """
 numfig = True
 # numfig_secnum_depth = 1
 
+# app.add_stylesheet no longer exists
 # CSS overides
-def setup(app):
+# def setup(app):
 #   app.add_javascript("custom.js")
-   app.add_stylesheet("custom.css")
+#   app.add_stylesheet("custom.css")
