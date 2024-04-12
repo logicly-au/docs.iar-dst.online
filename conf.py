@@ -15,8 +15,10 @@
 import sys
 import os
 import shlex
-import imp
 import datetime
+from os import environ
+from dotenv import load_dotenv
+
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -25,11 +27,12 @@ import datetime
 
 # -- Read important params from environment
 
-global ddict_conf
-ddict_conf = imp.load_source('ddict_conf', './version.conf')
+load_dotenv('version.env')
 
-doc_name     = ddict_conf.DOC_NAME.replace(" ", "-")
-version      = ddict_conf.DOC_VERSION
+doc_name     = environ.get('NAME')
+doc_filename = doc_name.replace(" ", "-")
+version      = environ.get('VERSION')
+author       = environ.get('AUTHOR')
 current_year = datetime.datetime.now().year
 
 #start_year       = int(os.environ['SPEC_START_YEAR'])
@@ -310,7 +313,7 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
 # see https://github.com/hoccleve-archive/hocl.tk/blob/70b71b5a265d0b1d64c5cb6e43b686d03ead4078/docs/conf.py#L48
 
 copyright = str(current_year) + ", " + author
-download_pdf = ":download:`PDF </_static/" + doc_name + "-" + version + ".pdf>`"
+download_pdf = ":download:`PDF </_static/" + doc_filename + "-" + version + ".pdf>`"
 
 rst_epilog = """
 .. |download-pdf| replace:: %(download_pdf)s
