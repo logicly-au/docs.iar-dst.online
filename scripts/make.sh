@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source version.conf
+source version.env
 
 # Exit if anything errors
 set -e

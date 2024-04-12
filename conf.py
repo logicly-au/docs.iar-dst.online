@@ -19,9 +19,6 @@ import datetime
 from os import environ
 from dotenv import load_dotenv
 
-from dotenv import load_dotenv
-
-
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -31,10 +28,10 @@ from dotenv import load_dotenv
 
 load_dotenv('version.env')
 
-doc_name     = environ.get('NAME')
+doc_name     = environ.get('DOC_NAME')
 doc_filename = doc_name.replace(" ", "-")
-version      = environ.get('VERSION')
-author       = environ.get('AUTHOR')
+version      = environ.get('DOC_VERSION')
+author       = environ.get('DOC_AUTHOR')
 current_year = datetime.datetime.now().year
 
 #start_year       = int(os.environ['SPEC_START_YEAR'])
