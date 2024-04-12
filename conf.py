@@ -63,10 +63,6 @@ source_suffix = '.rst'
 # The master toctree document.
 master_doc = 'index'
 
-# General information about the project.
-project = ddict_conf.DOC_NAME
-author  = ddict_conf.DOC_AUTHOR
-
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
