@@ -1,78 +1,79 @@
-Domain 1 - Symptom Severity and Distress (Primary Domain)
+Domain 1 - Symptom severity and distress (Primary Domain)
 =========================================================
 
 Overview
 --------
 
-An initial assessment should examine severity of symptoms, distress and previous history of mental
-illness. Severity of current symptoms and associated levels of distress are important factors in
-assigning a level of care and making a referral decision. Assessing changes in symptom severity and
-distress also forms an important part of outcome monitoring.
+This domain considers symptoms to include both internalised (emotional) problems experienced by the person (e.g., anxiety and depressive symptoms) as well as externalised behaviours observable by or impacting on others (e.g., concerning or aggressive behaviours, appearing to not be listening, or seeming distracted and unable to concentrate). 
+
+Symptoms may be associated with distress, but this is not always the case. Symptoms may indicate a particular diagnostic condition, but a diagnosis is not required for rating an individual on this domain, determining an appropriate level of care, or referring the person for mental health services.
 
 Assessment of an individual on this domain should consider:
 
-   * current symptoms and duration,
-   * level of distress attributable to mental health issues,
-   * experience of mental illness, and
-   * are symptoms improving/worsening, is distress improving/worsening, are new symptoms emerging?
+   * Current and past symptoms and duration.
+   * Level of distress associated with the mental health issues.
+   * Previous experience of a mental health condition.
+   * Are symptoms improving/worsening, is distress improving/worsening, and are new symptoms emerging?
 
 Scoring
 -------
 
-**0 = No problem in this domain – no descriptors apply**
+**0 = No problem in this domain**
 
-**1 = Mild or sub diagnostic**
+**1 = Mild**
+**Symptoms are likely to be sub-diagnostic and have been experienced for less than 6 months (but this may vary)**
 
-   a) Currently experiencing some, but not all, of the symptoms associated with an anxiety disorder (e.g.,
-      symptoms like excessive worry, difficulty concentrating) or depressive disorder (e.g., symptoms like
-      sadness, irritability, exhaustion, disrupted sleep, anger) that have typically been present for less than
-      6 months (but this may vary). Current symptoms at a level that would likely result in a diagnosis or
-      associated with a mild level of distress.
-
-   b) Other mental health condition that is associated with mild distress.
-
-   c) Currently experiencing symptoms (described above) at sub diagnostic level but risk of escalating.
+   a.	Mild anxiety-related symptoms (e.g., occasional fears, worry, difficulty concentrating, occasional unexplained somatic symptoms) without significant avoidant behaviour.
+   
+   b.	Mild mood-related symptoms (e.g., sadness, fatigue, apathy, some reluctance to participate in previously enjoyed activities, irritability, occasional disrupted sleep).
+   
+   c.	Mild behavioural symptoms (e.g., distractibility, overactivity, occasional difficulty completing tasks, quick to anger, occasional concerning or aggressive behaviours, minor interpersonal difficulties).
+   
+   d.	Currently experiencing a mental health condition associated with mild distress or mild reduction in quality of life.
+   
 
 
 **2 = Moderate**
+**Symptoms are at a level that would likely meet diagnostic criteria and have been experienced for more than 6 months (but this may vary)**
 
-   a) Currently experiencing symptoms indicative of an anxiety disorder (e.g., excessive worry, panic, racing
-      mind, difficulty concentrating) or depressive disorder (e.g., excessive sadness, irritability, exhaustion,
-      disrupted sleep, loss of interest and pleasure) that have typically been present for more than 6 months
-      (but this may vary) but symptoms may be of more recent origin. Symptoms are at a level that would
-      likely meet diagnostic criteria, and/or are associated with a moderate to high level of distress.
-
-   b) Other mental health condition that is associated with moderate to high levels of distress.
-
-   c) History of a diagnosed mental health condition that has not responded to treatment, with continuing
-      symptoms and moderate to high levels of distress.
+   a.	Moderate anxiety-related symptoms (e.g., excessive worry, agitation, panic, difficulty concentrating, frequent unexplained somatic complaints) with significant avoidance of anxiety provoking situations.
+   
+   b.	Moderate mood-related symptoms (e.g., excessive sadness, apathy, exhaustion, frequent irritability, loss of interest and pleasure, and/or frequent reluctance to participate in previously enjoyed activities, guilt or worthlessness, frequent sleep disturbance).
+   
+   c.	Moderate behavioural symptoms (e.g., frequent impulsivity, hyperactivity, frequent disinhibited behaviour, non-adherence to social norms, frequent concerning or aggressive behaviours, significant interpersonal difficulties).
+   
+   d.	Currently experiencing a mental health condition associated with moderate levels of distress and/or moderate reduction in quality of life.
+   
+   e.	History of a diagnosed mental health condition that has not responded to treatment, with continuing symptoms but only associated with mild to moderate levels of distress.
+   
 
 
 
 **3 = Severe**
 
-   a) A history of significant and ongoing symptoms indicative of a severe mental illness (e.g., hallucinations,
-      paranoia, disordered thinking, extreme mood variation, delusions, extreme avoidant behaviour) but
-      the symptoms are mostly well managed or are re-appearing and at risk of escalation without ongoing
-      assistance.
-
-   b) Other mental health condition that is associated with very high levels of distress.
-
-   c) Recent onset of symptoms indicative of a severe mental illness and the person is experiencing high
-      to very high levels of distress.
-
-   d) Has been admitted to hospital for a mental health condition in previous 12 months.
+   a.	Severe anxiety-related symptoms are present most of the time, the person has difficulty controlling or managing the symptoms and seeks to avoid anxiety provoking situations and/or experiences severe distress if asked to engage in anxiety provoking situations such that there is severe distress and/or significant disruption to the person’s life.
+   
+   b.	Severe mood-related symptoms are present most of the time, the person has difficulty controlling or managing the symptoms, and the symptoms are associated with severe distress and/or significant disruption to the person’s life.
+   
+   c.	Significant behavioural symptoms are present most of the time, the person has difficulty controlling or managing the symptoms, and the symptoms are associated with severe distress and/or significant disruption to the person’s life.
+   
+   d.	Currently experiencing other severe mental health symptoms (e.g., complex trauma responses, obsessions, compulsions, severely disordered eating). Symptoms may be ongoing or of more recent or sudden onset. 
+   
+   e.	Symptoms suggestive of an early form of a severe mental health condition (e.g., odd thinking/ behaviour/speech, abnormal perceptions, suspicious thinking, rapid mood swings, a substantial decrease in the need for sleep).
+   
+   f.	Has been treated by a specialist community mental health service or admitted to a hospital for a mental health condition in the previous 12 months.
+   
 
 
 **4 = Very severe**
 
-   a) A history of significant and persistent symptoms that are indicative of a severe mental illness (e.g.,
-      hallucinations, paranoia, disordered thinking, extreme mood variation, delusions, severe avoidant
-      behaviour) and symptoms are mostly poorly managed.
-
-   b) Recent onset of symptoms that are indicative of a severe mental illness (e.g., hallucinations, paranoia,
-      disordered thinking, extreme mood variation, delusions, or severe avoidant behaviours) presenting in
-      the context of significant complexity requiring multiple agency involvement.
-
-   c) Other long-term mental health condition presenting in the context of significant complexity that requires
-      multiple agency involvement.
+   a.	Very severe and pervasive anxiety symptoms are present virtually all the time, the person can rarely control or manage the symptoms and the person refuses to engage in anxiety provoking situations or activities. The symptoms are associated with severe distress, significantly reduced quality of life and/or severe disruption to nearly all aspects of the person’s life. 
+   
+   b.	Very severe and pervasive mood-related symptoms are present virtually all the time, and the person can rarely control or manage the symptoms. The symptoms are associated with severe distress, significantly reduced quality of life and/or severe disruption to nearly all aspects of the person’s life.
+   
+   c.	Extreme behavioural symptoms are present virtually all the time, and the person can rarely control or manage the symptoms. The symptoms are associated with severe distress, significantly reduced quality of life and/or severe disruption to nearly all aspects of the person’s life.
+   
+   d.	Currently experiencing very severe symptoms (e.g., disordered thinking, extreme mood variation, obsessions, compulsions, extreme avoidant behaviour, extreme interpersonal difficulties, extremely disordered eating). Symptoms may be ongoing or of more recent or sudden onset. 
+   
+   e.	Highly unusual and bizarre symptoms/behaviours indicating a severe mental illness (e.g., hallucinations, delusions). Symptoms may be ongoing or of more recent or sudden onset.
+   

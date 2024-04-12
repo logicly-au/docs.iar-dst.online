@@ -1,62 +1,46 @@
-Domain 5 - Treatment and Recovery History (Contextual Domain)
-==============================================================
+Domain 5 - Service use and response history (Contextual Domain)
+=================================================================
 
 
 
 Overview
 ---------
 
-This initial assessment domain should explore the individual’s relevant treatment history and their response
-to previous treatment. Response to previous treatment is a reasonable predictor of future treatment need
-and is particularly important when determining appropriateness of lower intensity services.
+This domain considers the person's previous use of services and support focussed on mental health-related assistance. The initial assessment on this domain should consider:
 
-Assessment of an individual on this domain should consider:
+   * Whether the person has previously sought help from or required mental health services and related supports (including specialist or mental health inpatient services).
+   * Their progress or benefit from past or current services and support.
 
-   * whether there has been previous treatment (including specialist or mental health inpatient treatment),
-   * if the person is currently engaged in treatment, and
-   * their response to past or current treatment.
-
-When considering this domain relevant treatment refers to treatment by a qualified mental health provider
-rather than informal care provided by friends, family, or social networks.
+**Definition of the term services and support** - Relevant services and support refer to safe developmentally and culturally appropriate evidence-informed mental health, health or community services focussed on or relevant to the person's mental health (such as a psychological service delivered by a GP or mental health professional, other behavioural services) rather than the personal supports provided by friends, family, or social networks.
 
 
 
 Scoring
 --------
 
-**0 = No prior treatment history**
+**0 = No previous service use**
 
-   a. No history of previous treatment for a mental health condition.
-
-   b. In a current treatment arrangement that is appropriate and meets person’s needs.
+   a.	Has not previously sought help or required a referral for mental health issues.
 
 
-**1 = Full recovery with previous treatment**
+**1 = Excellent progress from previous service use**
 
-   a. Previously sought help for earlier episode(s) and generally able to achieve full recovery with no need for ongoing intervention.
+   a.	Previously accessed services for a mental health issue and experienced a significant benefit resulting in no need for additional services at that time.
 	
 
-**2 = Moderate recovery with previous treatment**
+**2 = Moderate progress from previous service use**
 
-   a. Previously received treatment for earlier episode(s) and generally able to achieve and maintain partial recovery with limited support.
-
-
-**3 = Minor recovery with previous treatment**
-
-   a. Recently received treatment for an episode(s) with only minor improvement.
-
-   b. Previously accessed intermittent specialist supports (e.g., psychiatry services, state, and territory specialist mental health             services) for current or previous episode but limited response.
-
-   c. Currently receiving treatment but is not making the expected level of progress despite intensive, structured, and medical supports       delivered over an extended period.
+   a.	Previously accessed services and experienced a moderate benefit and required some additional services (either ongoing or periodically) to maintain the benefit.
 
 
-**4 = Negligible recovery with previous treatment**
+**3 = Minor progress from previous service use**
 
-   a. Recently received treatment for an episode with negligible or no improvement despite intensive, structured, and specialist medical       supports delivered over an extended period.
+   a.	Previously accessed services with only minor benefits resulting in a need for additional services or longer duration of services.
 
-   b. Ongoing need for or use of specialist supports (e.g., psychiatry services, state and territory services).
 
-   c. Currently receiving treatment but is deteriorating despite intensive, structured, and specialist medical supports delivered over an       extended period.
+**4 = Negligible progress from previous service use**
+
+   a.	Previously accessed services with little or no benefit.
 
 
 

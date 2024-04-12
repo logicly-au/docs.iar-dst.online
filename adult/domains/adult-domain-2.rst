@@ -1,75 +1,102 @@
-Domain 2 - Risk of Harm (Primary Domain)
+Domain 2 - Harm (Primary Domain)
 =========================================
 
 Overview
 ---------
 
-An initial assessment should include an evaluation of risk to determine a person’s potential for harm to self or
-others. Results from this assessment are of fundamental importance in deciding the appropriate level of care
-required.
+This domain is focused on:
 
-Recent Australian and international evidence indicates that risk prediction is a flawed, imprecise, and
-misleading activity in mental healthcare that contributes to both over and under prediction of risk. This
-domain is not about predicting the individuals that are likely to attempt or complete suicide or other forms of
-harm, rather this domain guides evaluation of risk to inform the most appropriate response and/or referral.
-This domain is focussed on examining:
+   * Suicidality – current and past suicidal ideation, intent, planning, and attempts.
+   * Intentional, non-suicidal self-harm – current and past.
+   * Impulsive, dangerous, or risky behaviours with the potential for psychological or physical harm to self or others (consider and include risks associated with the use of alcohol and other drugs).
+   * The psychological or physical harm caused by abuse, exploitation, or neglect by others.
+   * Unintentional harm to self, arising from symptoms or self-neglect.
 
-   * suicidality – current and past suicidal ideation, attempts,
-   * self-harm (non-suicidal self-injurious behaviour) – current and past,
-   * severe symptoms that pose a danger to self or others, and
-   * self-neglect that poses a risk to the person’s safety.
+*The IAR for adults includes the harm from others in domain 2 because there are direct implications for the intensity of a mental health response a person at risk of or experiencing harm from others is likely to require. Placing harm from others in another domain (e.g., domain 6) does not carry the same weight within the logic that underpins the recommendations about a level of care. Note that the presence of external stressors (e.g., family violence) is rated at domain 6, but the degree of harm arising from those stressors is rated separately at domain 2.*
 
-The PHQ-9 (item 9) and the EPDS (item 10) include specific items relating to suicide or self-harm risk. If these tools are used, revisit the scores for these items to assist rating this domain.
+.. admonition:: PRACTICE POINT - Evaluating harm associated with suicidal thoughts, impulses, or behaviours
 
-.. admonition:: PRACTICE POINT
+   This domain must be considered in the context of information gathered across the other seven domains. Information gathered across the other seven domains (e.g., severe symptoms, impulsivity, use of substances, environmental stressors, recent changes, degree of engagement with helping resources) is especially important when evaluating harm.
 
-   Risk of harm must be considered in the context of information gathered on the other 7 domains- information
-   gathered across the other 7 domains (e.g., if the person is experiencing loneliness, or significant
-   environmental stressors) is very important in evaluating harm
+   The IAR-DST is not a suicide risk assessment or risk formulation tool. If an individual expresses suicidal thoughts or impulses or displays suicidal behaviours, a risk formulation compatible with local or state-based protocols (e.g., Towards Zero, Connecting with People) is indicated.
+
+   A risk formulation generally involves:
+
+   Determining risk status by considering static factors such as a history of psychiatric illness, family history of suicide, history of abuse, and history of suicidal behaviour.
+
+   Exploring risk state by considering recent suicidal behaviours, current symptoms and stressors, and engagement with helping resources. Comparing the current risk state to the person’s “baseline” and “worst-point” states. Exploring the risk state includes building an understanding of the:
+
+      * Nature of the suicidal thoughts (frequency, intensity, speed of onset, persistence, intrusiveness)
+      * Perception of the future (hope, alternatives to suicide)
+      * Degree of planning
+      * Degree of preparation
+      * Ability to resist thoughts of suicide
+
+   Considering the **resources available** to the person and **foreseeable changes** that might exacerbate risk, a **suicide risk formulation may need to happen urgently**. If this is the case, refer to localised urgent assessment and care pathways.
+   
+
+.. admonition:: PRACTICE POINT - Safety Planning
+
+   If indicated, a safety plan can be an important resource to develop with a patient. There are templates and guidance for developing a safety plan available online from mental health service providers and systems. 
+
 
 Scoring
 --------
 
-**0 = No identified risk in this domain – no descriptors apply**
+**0 = No concerns about harm**
 
-**1 = Low risk of harm**
+**1 = Previous but no current concerns about harm**
 
-   a. No current suicidal ideation but may have experienced ideation in the past (with no previous intent, plan, or attempts).
+   a.	No recent or current suicidal ideation but has experienced suicidal ideation, plans, or intent in the past. No recent history of suicide attempts but may have made attempts in the past. Demonstrates future-oriented thinking and has strong protective factors.
+   
+   b.	Occasional non-suicidal self-injurious acts in the recent past and not requiring any medical treatment.
+   
+   c.	May have engaged in past behaviours that posed a risk to self or others, but no current or recent instances.
+   
+   d.	Currently at low risk of harm from abuse, exploitation, or neglect by others. 
+   
 
-   b. May have engaged in behaviours in the past that posed a risk to others but no current or recent instances.
+**2 = Some current concerns about harm**
 
-   c. Occasional non-suicidal self-injurious acts in the recent past and not requiring surgical treatment.
+   a.	Current suicidal ideation, without plan or intent, but may have had plans, intent, or suicide attempts in the past. Demonstrates future-orientated thinking and has strong protective factors.
+   
+   b.	Frequent non-suicidal self-injurious acts in the recent past that did not require any medical treatment.
+   
+   c.	Current or recent behaviours that pose a non-life-threatening risk to self or others.
+   
+   d.	Currently at some risk of harm from abuse, exploitation, or neglect by others.
+   
+   e.	Frequent lapses in self-care that may lead to harm.
+   
 
-**2 = Moderate risk of harm**
+**3 = Significant current concerns about harm**
 
-   a. Current suicidal ideation, without plan or intent. But may have had intent, plans, or attempts in the past unrelated to current             episode or current life stressors.
+   a.	Current suicidal ideation with a plan but no current intent or a strong reluctance to carry out a plan. May have a history of suicide attempts. Strong protective factors and a commitment to engage in a safety plan, including the involvement of family, significant others, or services.
+   
+   b.	Recent suicide attempt (within the past 12 months) but no current ideation, intent, or plan.
+   
+   c.	Frequent non-suicidal self-injurious acts in the recent past and requiring medical treatment.
+   
+   d.	Recent or current impulsive, dangerous, or risky behaviours that pose a risk of harm to self or others, or that have had or are likely to have a serious negative impact. 
+   
+   e.	Serious medical risks and/or complications associated with a mental illness.
+   
+   f.	Significant risk of, or recent experience of, abuse, exploitation, or neglect by others.
+   
+   g.	Clearly compromised self-care ability that is ongoing to the extent that indirect or unintentional harm to self is likely.
+   
 
-   b. Current or recent behaviours that pose a non-life-threatening risk to self or others.
+**4 = Very significant current concerns about harm**
 
-   c. Frequent non-suicidal self-injurious acts in the recent past and not requiring surgical treatment.
-
-**3 = High risk of harm**
-
-   a. Current suicidal ideation with intent and history of suicidal attempts. No plan or strong reluctance to
-      carry out plan, strong protective factors, and a commitment to engage in a safety plan including
-      involvement of family, significant others, and services.
-
-   b. Current or recent life-threatening self-harm or dangerous behaviours to self or others.
-
-   c. Clearly compromised self-care ability to the extent that indirect or unintentional harm to self is likely.
-      This includes indirect harm to self - associated with conditions such as anorexia nervosa.
-
-   d. Frequent non-suicidal self-injurious acts in the recent past and requiring surgical treatment.
-
-**4 = Very high risk of harm**
-
-   a. Current suicidal intention with plan and means to carry out. Few or no protective factors.
-
-   b. Long term history of repeated and life-threatening self-harm or dangerous behaviour to self or others
-      that is prominent in the person’s current presentation.
-
-   c. Evidence of current severe symptoms (e.g., hallucinations, avoidant behaviour, paranoia, disordered
-      thinking, delusions) with behaviour that poses an imminent danger to self or others.
-
-   d. Extremely compromised self-care ability to the extent that the person is in real and present danger
-      and experiencing harm related to these deficits. 
+   a.	Recent suicide attempt (within the past 12 months) or current suicidal ideation, with intent, typically with a plan and means to carry out the plan. Few or no protective factors. Limited or no future-orientated thinking.
+   
+   b.	History of life-threatening self-injurious acts that are prominent in the current presentation.
+   
+   c.	There is evidence of current severe symptoms (e.g., hallucinations, avoidant behaviour, paranoia, disordered thinking, delusions, impulsivity, disinhibition) with behaviour that is likely to present an imminent or unpredictable danger to self or others.
+   
+   d.	Extremely compromised self-care ability to the extent that there is a real and present danger of the person experiencing harm related to these deficits.
+   
+   e.	Life-threatening medical risks and/or complications associated with a mental illness.
+   
+   f.	Other signs or indicators of imminent risk of serious harm to themselves or others.
+   

@@ -8,9 +8,15 @@ Version |version|
 
 .. only:: builder_html or builder_readthedocs
 
-   This documentation provides extracts from relevant sections of the
-   `National PHN Guidance - Initial Assessment and Referral for Mental Health Care  <https://www.health.gov.au/sites/default/files/documents/2021/09/primary-health-networks-phn-mental-health-care-guidance-initial-assessment-and-referral-for-mental-health-care-national-phn-guidance-initial-assessment-and-referral-for-mental-health-care.pdf>`_
-   which has been designed to assist the various parties involved in the initial assessment and referral process.
+   This documentation provides extracts from relevant sections of:
+    
+    * IAR Guidance Part A - General Guidance v2 - FINAL March 2024.docx
+    * IAR Guidance Part B - Children - FINAL March 2024.docx
+    * IAR Guidance Part C - Adolescents - FINAL March 2024.docx
+    * IAR Guidance Part D - Adults - FINAL March 2024.docx
+    * IAR Guidance Part E - Older Adults - FINAL March 2024.docx
+   
+   which have been designed to assist the various parties involved in the initial assessment and referral process.
 
    The Guidance has been developed to support nationally consistent
    evidence-informed initial assessment and referral processes and will be
@@ -54,6 +60,7 @@ Version |version|
      child/index
      adolescent/index
      adult/index
+     older-adult/index
      user-guide/index
      developers
      terms-and-conditions
