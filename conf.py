@@ -29,6 +29,7 @@ from dotenv import load_dotenv
 load_dotenv('version.env')
 
 doc_name     = environ.get('DOC_NAME')
+project      = doc_name
 doc_filename = doc_name.replace(" ", "-")
 version      = environ.get('DOC_VERSION')
 author       = environ.get('DOC_AUTHOR')
