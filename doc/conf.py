@@ -79,7 +79,7 @@ release = 'v2'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = "en"
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
@@ -311,10 +311,10 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
 copyright = str(current_year) + ", " + author
 download_pdf = ":download:`PDF </_static/" + doc_filename + "-" + version + ".pdf>`"
 
-rst_epilog = """
-.. |download-pdf| replace:: %(download_pdf)s
-..
-""" % dict(download_pdf=download_pdf)
+#rst_epilog = """
+#.. |download-pdf| replace:: %(download_pdf)s
+#..
+#""" % dict(download_pdf=download_pdf)
 
 numfig = True
 # numfig_secnum_depth = 1
