@@ -4,7 +4,7 @@
 set -euo pipefail
 
 pushd .
-cd doc
+cd docs
 
 source version.env
 GIT_VERSION=$(git describe --tags --always)
