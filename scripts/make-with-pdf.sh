@@ -6,7 +6,7 @@ echo "We aren't producing a PDF for this one" && exit 1
 set -euo pipefail
 
 pushd .
-cd doc
+cd docs
 
 source version.env
 GIT_VERSION=$(git describe --tags --always)
@@ -25,7 +25,7 @@ popd
 echo "Optimising images"
 
 docker run --rm -e GIT_VERSION -v "$(pwd)":/mnt/workdir \
-  --workdir /mnt/workdir/doc/build/singlehtml/_images \
+  --workdir /mnt/workdir/docs/build/singlehtml/_images \
   stratdat/sphinx-html2pdf:production \
   find . -name *.png -exec pngquant --force --output {} 8 {} \;
 
@@ -39,7 +39,7 @@ docker run --rm -e GIT_VERSION -v "$(pwd)":/mnt/workdir \
   --timestamp ${TIMESTAMP}
 
 pushd .
-cd doc
+cd docs
 
 echo "Building HTML"
 docker compose run \
