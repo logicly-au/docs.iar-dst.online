@@ -1,5 +1,5 @@
 Initial Assessment and Referral Decision Support Tool (IAR-DST)
-=================================================================
+===============================================================
 
 Version |version|
 
@@ -24,7 +24,6 @@ Version |version|
    Whilst the IAR uses age to indicate the overall appropriateness of each rating guide, the final decision about the most appropriate rating guide to use should be based on the clinical judgment of the user, considering contextual and developmental factors.
    
    The IAR refers to the critical interface between primary mental health care and acute, tertiary and specialist secondary settings, however it is not intended to be applied within acute or specialist mental health care settings. The IAR has the potential to be used in private psychology and psychiatry services.
-   
 
    Getting help
    ^^^^^^^^^^^^
@@ -62,7 +61,6 @@ Version |version|
    `National PHN Guidance - Initial Assessment and Referral for Mental Health Care (Word, 2.5 MB, 76 pages)  <https://docs.iar-dst.online/en/latest/_downloads/969c1ac57270415d8389b9212f66d823/National MH-IAR Guidance V1.05 - 30 July.docx>`_
 
    `Primary Health Networks (PHN) collection of primary mental health care resources  <https://www.health.gov.au/resources/collections/primary-health-networks-phn-collection-of-primary-mental-health-care-resources>`_
-
 
 .. End of INTRODUCTION
 
