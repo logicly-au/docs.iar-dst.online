@@ -1,5 +1,5 @@
-Initial Assessment and Referral Decision Support Tool
-=======================================================
+Initial Assessment and Referral Decision Support Tool (IAR-DST)
+===============================================================
 
 Version |version|
 
@@ -8,32 +8,22 @@ Version |version|
 
 .. only:: builder_html or builder_readthedocs
 
-   This documentation provides extracts from relevant sections of:
-    
-    * IAR Guidance Part A - General Guidance v2 - FINAL March 2024.docx
-    * IAR Guidance Part B - Children - FINAL March 2024.docx
-    * IAR Guidance Part C - Adolescents - FINAL March 2024.docx
-    * IAR Guidance Part D - Adults - FINAL March 2024.docx
-    * IAR Guidance Part E - Older Adults - FINAL March 2024.docx
+   This documentation provides extracts from relevant sections of the Initial Assessment and Referral (IAR) Guidance Parts A through E to assist health professionals to determine the most appropriate level of mental health care a patient will need across five (5) levels of care in the Australian stepped care model.  
    
-   which have been designed to assist the various parties involved in the initial assessment and referral process.
-
-   The Guidance has been developed to support nationally consistent
-   evidence-informed initial assessment and referral processes and will be
-   refined as new evidence emerges.
-
-   It is expected that PHNs will use the Guidance to:
-
-      * Design initial assessment and referral processes for referrers and commissioned primary mental health care services.
-      * Review existing initial assessment and referral processes for commissioned primary mental health care services.
-      * Guide the development of referral pathways (e.g., Health Pathways).
-      * Provide clear and consistent information to referrers, consumers, carers, and communities.
-      * Instigate clinical governance policies and protocols to monitor the safety and quality of assessment and referral systems.
-
-   Whilst this Guidance refers to the critical interface between primary mental health care and acute, tertiary
-   and specialist secondary settings, this Guidance is not intended to be applied within acute or specialist
-   mental health care settings. The Guidance has the potential to be used in private psychology and psychiatry
-   services.
+   The IAR Decision Support Tool and related Guidance documentation has been developed for use by Australian health professionals in the primary mental health system. It supports nationally consistent evidence-informed initial assessment and referral processes and will continue to be refined as new evidence emerges.
+   
+   The IAR Guidance documentation includes a suite of documents providing information about the IAR and how to use it appropriately and effectively with people of different ages who present to the Australian primary care system with mental health symptoms and/or psychological distress. 
+   
+   There are separate rating guides available for use with:
+   
+      * Children (aged 5-11)
+      * Adolescents (aged 12-17)
+      * Adults (aged 18-64)
+      * Older Adults (aged 65 and over)
+   
+   Whilst the IAR uses age to indicate the overall appropriateness of each rating guide, the final decision about the most appropriate rating guide to use should be based on the clinical judgment of the user, considering contextual and developmental factors.
+   
+   The IAR refers to the critical interface between primary mental health care and acute, tertiary and specialist secondary settings, however it is not intended to be applied within acute or specialist mental health care settings. The IAR has the potential to be used in private psychology and psychiatry services.
 
    Getting help
    ^^^^^^^^^^^^
@@ -46,9 +36,31 @@ Version |version|
    Other resources
    ^^^^^^^^^^^^^^^
 
-   `Department of Health - National PHN Guidance document (PDF, 3.3 MB, 75 pages) <https://www.health.gov.au/sites/default/files/documents/2021/09/primary-health-networks-phn-mental-health-care-guidance-initial-assessment-and-referral-for-mental-health-care-national-phn-guidance-initial-assessment-and-referral-for-mental-health-care.pdf>`_
+   IAR Guidance Part A - General Guidance v2 - FINAL March 2024 
+      * `PDF <https://docs.iar-dst.online/en/v2/index.html>`_ , 2.1 MB, 32 pages
+      * `DOCX <https://docs.iar-dst.online/en/v2/index.html>`_ , 1.7 MB, 32 pages
+    
+   IAR Guidance Part B - Children - FINAL March 2024 
+      * `PDF <https://docs.iar-dst.online/en/v2/index.html>`_ , 803 KB, 22 pages
+      * `DOCX <https://docs.iar-dst.online/en/v2/index.html>`_ , 741 KB, 22 pages
+    
+   IAR Guidance Part C - Adolescents - FINAL March 2024 
+      * `PDF <https://docs.iar-dst.online/en/v2/index.html>`_ , 856 KB, 24 pages
+      * `DOCX <https://docs.iar-dst.online/en/v2/index.html>`_ , 737 KB, 24 pages 
+    
+   IAR Guidance Part D - Adults - FINAL March 2024 
+      * `PDF <https://docs.iar-dst.online/en/v2/index.html>`_ , 856 KB, 20 pages
+      * `DOCX <https://docs.iar-dst.online/en/v2/index.html>`_ , 729 KB, 20 pages
+    
+   IAR Guidance Part E - Older Adults - FINAL March 2024 
+      * `PDF <https://docs.iar-dst.online/en/v2/index.html>`_ , 856 KB, 23 pages
+      * `DOCX <https://docs.iar-dst.online/en/v2/index.html>`_ , 729 KB, 23 pages
 
-   `Department of Health - PHN Mental Health Tools and Resources <https://www1.health.gov.au/internet/main/publishing.nsf/Content/PHN-Mental_Tools>`_
+   `National PHN Guidance - Initial Assessment and Referral for Mental Health Care (PDF, 3.4 MB, 76 pages) <https://docs.iar-dst.online/en/latest/_downloads/70063a1accf95b67ec00c864c41a1d09/National MH-IAR Guidance V1.05 - 30 July.pdf>`_
+
+   `National PHN Guidance - Initial Assessment and Referral for Mental Health Care (Word, 2.5 MB, 76 pages)  <https://docs.iar-dst.online/en/latest/_downloads/969c1ac57270415d8389b9212f66d823/National MH-IAR Guidance V1.05 - 30 July.docx>`_
+
+   `Primary Health Networks (PHN) collection of primary mental health care resources  <https://www.health.gov.au/resources/collections/primary-health-networks-phn-collection-of-primary-mental-health-care-resources>`_
 
 .. End of INTRODUCTION
 
