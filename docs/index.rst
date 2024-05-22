@@ -37,24 +37,24 @@ Version |version|
    ^^^^^^^^^^^^^^^
 
    IAR Guidance Part A - General Guidance v2 - FINAL March 2024 
-      * :download: `PDF </other-resources/IAR Guidance Part A - General Guidance v2 - FINAL March 2024.pdf>`_ , 2.1 MB, 32 pages
-      * :download: `DOCX </other-resources/IAR Guidance Part A - General Guidance v2 - FINAL March 2024.docx>`_ , 1.7 MB, 32 pages
+      * :download:`PDF </other-resources/IAR Guidance Part A - General Guidance v2 - FINAL March 2024.pdf>` , 2.1 MB, 32 pages
+      * :download:`DOCX </other-resources/IAR Guidance Part A - General Guidance v2 - FINAL March 2024.docx>` , 1.7 MB, 32 pages
     
    IAR Guidance Part B - Children - FINAL March 2024 
-      * :download: `PDF </other-resources/IAR Guidance Part B - Children - FINAL March 2024.pdf>`_ , 803 KB, 22 pages
-      * :download: `DOCX </other-resources/IAR Guidance Part B - Children - FINAL March 2024.docx>`_ , 741 KB, 22 pages
+      * :download:`PDF </other-resources/IAR Guidance Part B - Children - FINAL March 2024.pdf>`, 803 KB, 22 pages
+      * :download: `DOCX </other-resources/IAR Guidance Part B - Children - FINAL March 2024.docx>` , 741 KB, 22 pages
     
    IAR Guidance Part C - Adolescents - FINAL March 2024 
-      * :download: `PDF </other-resources/IAR Guidance Part C - Adolescents - FINAL March 2024.pdf>`_ , 856 KB, 24 pages
-      * :download: `DOCX </other-resources/IAR Guidance Part C - Adolescents - FINAL March 2024.docx>`_ , 737 KB, 24 pages 
+      * :download:`PDF </other-resources/IAR Guidance Part C - Adolescents - FINAL March 2024.pdf>` , 856 KB, 24 pages
+      * :download:`DOCX </other-resources/IAR Guidance Part C - Adolescents - FINAL March 2024.docx>` , 737 KB, 24 pages 
     
    IAR Guidance Part D - Adults - FINAL March 2024 
-      * :download: `PDF </other-resources/IAR Guidance Part D - Adults - FINAL March 2024.pdf>`_ , 856 KB, 20 pages
-      * :download: `DOCX </other-resources/IAR Guidance Part D - Adults - FINAL March 2024.docx>`_ , 729 KB, 20 pages
+      * :download:`PDF </other-resources/IAR Guidance Part D - Adults - FINAL March 2024.pdf>` , 856 KB, 20 pages
+      * :download:`DOCX </other-resources/IAR Guidance Part D - Adults - FINAL March 2024.docx>` , 729 KB, 20 pages
     
    IAR Guidance Part E - Older Adults - FINAL March 2024 
-      * :download: `PDF </other-resources/IAR Guidance Part E - Older Adults - FINAL March 2024.pdf>`_ , 856 KB, 23 pages
-      * :download: `DOCX </other-resources/IAR Guidance Part E - Older Adults - FINAL March 2024.docx>`_ , 729 KB, 23 pages
+      * :download:`PDF </other-resources/IAR Guidance Part E - Older Adults - FINAL March 2024.pdf>` , 856 KB, 23 pages
+      * :download:`DOCX </other-resources/IAR Guidance Part E - Older Adults - FINAL March 2024.docx>` , 729 KB, 23 pages
 
    `National PHN Guidance - Initial Assessment and Referral for Mental Health Care (PDF, 3.4 MB, 76 pages) <https://docs.iar-dst.online/en/latest/_downloads/70063a1accf95b67ec00c864c41a1d09/National MH-IAR Guidance V1.05 - 30 July.pdf>`_
 
