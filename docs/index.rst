@@ -42,7 +42,7 @@ Version |version|
     
    IAR Guidance Part B - Children - FINAL March 2024 
       * :download:`PDF </other-resources/IAR Guidance Part B - Children - FINAL March 2024.pdf>`, 803 KB, 22 pages
-      * :download: `DOCX </other-resources/IAR Guidance Part B - Children - FINAL March 2024.docx>` , 741 KB, 22 pages
+      * :download:`DOCX </other-resources/IAR Guidance Part B - Children - FINAL March 2024.docx>` , 741 KB, 22 pages
     
    IAR Guidance Part C - Adolescents - FINAL March 2024 
       * :download:`PDF </other-resources/IAR Guidance Part C - Adolescents - FINAL March 2024.pdf>` , 856 KB, 24 pages
@@ -56,9 +56,9 @@ Version |version|
       * :download:`PDF </other-resources/IAR Guidance Part E - Older Adults - FINAL March 2024.pdf>` , 856 KB, 23 pages
       * :download:`DOCX </other-resources/IAR Guidance Part E - Older Adults - FINAL March 2024.docx>` , 729 KB, 23 pages
 
-   `National PHN Guidance - Initial Assessment and Referral for Mental Health Care (PDF, 3.4 MB, 76 pages) <https://docs.iar-dst.online/en/latest/_downloads/70063a1accf95b67ec00c864c41a1d09/National MH-IAR Guidance V1.05 - 30 July.pdf>`_
-
-   `National PHN Guidance - Initial Assessment and Referral for Mental Health Care (Word, 2.5 MB, 76 pages)  <https://docs.iar-dst.online/en/latest/_downloads/969c1ac57270415d8389b9212f66d823/National MH-IAR Guidance V1.05 - 30 July.docx>`_
+   National MH-IAR Guidance V1.05 - 30 July.pdf
+     * :download:`PDF </other-resources/National MH-IAR Guidance V1.05 - 30 July.pdf>`, 3.4 MB, 76 pages
+     * :download:`DOCX <other-resources/National MH-IAR Guidance V1.05 - 30 July.docx>`, 2.5 MB, 76 pages
 
    `Primary Health Networks (PHN) collection of primary mental health care resources  <https://www.health.gov.au/resources/collections/primary-health-networks-phn-collection-of-primary-mental-health-care-resources>`_
 
