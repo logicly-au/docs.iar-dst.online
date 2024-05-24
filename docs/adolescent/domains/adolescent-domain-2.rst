@@ -72,7 +72,7 @@ This domain is focused on:
 Scoring
 --------
 
-**0 = No concerns about harm **
+**0 = No concerns about harm**
 
 **1 = Previous but no current concerns about harm**
 
