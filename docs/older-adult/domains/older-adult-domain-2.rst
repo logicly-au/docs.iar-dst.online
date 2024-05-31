@@ -105,7 +105,7 @@ Scoring
 
 **4 = Very significant current concerns about harm**
 
-   a.	Recent suicide attempt (within past 12 months) or current suicidal ideation, with intent, typically with a plan and means to carry out. Few or no protective factors. Limited or no future-orientated thinking.
+   a. Recent suicide attempt (within the past 12 months) or current suicidal ideation, with intent, typically with a plan and means to carry out the plan. Few or no protective factors. Limited or no future-orientated thinking.
    
    b.	History of life-threatening self-injurious acts that are prominent in the current presentation.
    

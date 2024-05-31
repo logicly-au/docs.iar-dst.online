@@ -44,7 +44,7 @@ Scoring
    
    b.	Cognitive impairment, intellectual disability, developmental delay, neurological condition, or learning and communication disorder present but has no or minimal impact on the child’s mental health.
    
-   c.	Past experimentation or experience with substances, but no recent episodes and no impact on the child's mental health.
+   c. Past experimentation or experience with substance use, but no recent episodes and no impact on the child's mental health.
    
    
 	
@@ -57,7 +57,7 @@ Scoring
    
    c.	Occasional substance use impacts on, or has the potential to impact on, the child’s mental health.
    
-   d.	Non prescribed use of prescription medications impacts on, or has the potential to impact on, the child’s mental health. 
+   d. Non prescribed use of prescription medications that impacts on, or has the potential to impact on, the child’s mental health. 
    
    
 

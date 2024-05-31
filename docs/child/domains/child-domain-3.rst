@@ -33,7 +33,7 @@ Scoring
 
 **2 = Moderate impact**
 
-   a.	Moderate functional impairment in more than one of their usual roles (e.g., at home, in educational settings, with friends and peers, at play and in the community) to the extent that they are frequently unable to meet the requirements of those roles, but without significant adverse consequences.
+   a. Moderate functional impairment in more than one of their usual roles (e.g., at home, in educational settings, with friends and peers, at play and in the community) to the extent that they are reasonably frequently unable to meet the requirements of those roles, but without significant or adverse consequences.
    
    b.	Mental health issues contribute to occasional difficulties with basic activities of daily living (e.g., eating, mobility, bathing, getting dressed, and toileting) or instrumental activities of daily living (e.g., preparing food, tidying up, completing tasks) but without threat to health.
    
@@ -41,7 +41,7 @@ Scoring
 
 **3 = Severe impact**
 
-   a.	Significant difficulties with functioning, resulting in disruption to many areas of the child’s life most of the time (e.g., limited participation in educational or recreational activities, deterioration in or some withdrawal from relationships with friends and peers), but the child can function independently with adequate treatment, appropriate accommodations and supports e.g., in educational settings and family, and community support.
+   a. Significant difficulties with functioning, resulting in disruption to many areas of the child’s life most of the time (e.g., limited participation in educational or recreational activities, deterioration in or some withdrawal from relationships with friends and peers), but the child can function independently with adequate treatment, family, and community support.
    
    b.	Mental health issues frequently contribute to difficulties with basic activities of daily living (e.g., eating, mobility, bathing, getting dressed, and toileting) or instrumental activities of daily living (e.g., preparing food, tidying up, completing tasks) on a consistent basis but without threat to health.
    

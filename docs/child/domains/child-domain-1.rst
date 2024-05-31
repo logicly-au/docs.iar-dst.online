@@ -35,7 +35,7 @@ Scoring
    
    b.	Mild mood-related symptoms (e.g., sadness, fatigue, apathy, some reluctance to participate in previously enjoyed activities, irritability, occasional disrupted sleep).
    
-   c.	Mild behavioural symptoms (e.g., distractibility, overactivity, occasional difficulty following instructions or completing tasks, occasional concerning or aggressive behaviours, minor interpersonal difficulties).
+   c.	Mild behavioural symptoms (e.g., distractibility, overactivity, occasional difficulty following instructions or completing tasks, occasional concerning or aggressive behaviours, occasionally appearing oppositional, minor interpersonal difficulties).
    
    d.	Currently experiencing a mental health condition associated with mild distress or mild reduction in quality of life.
 
@@ -77,9 +77,9 @@ Scoring
    
    b.	Very severe and pervasive mood-related symptoms are present virtually all the time, and the child can rarely control or manage the symptoms. The symptoms are associated with severe distress, significantly reduced quality of life and/or severe disruption to nearly all aspects of the child’s (and/or parent/family’s) life.
    
-   c.	Very severe or extreme behavioural symptoms are present virtually all the time and the child can rarely control or manage the symptoms. The symptoms are associated with severe distress, significantly reduced quality of life and/or severe disruption to nearly all aspects of the child’s (and/or parent/family’s) life.
+   c. Extreme behavioural symptoms are present virtually all the time and the child can rarely control or manage the symptoms. The symptoms are associated with severe distress, significantly reduced quality of life and/or severe disruption to nearly all aspects of the child’s (and/or parent/family’s) life.
    
-   d.	Currently experiencing very severe symptoms (e.g., disordered thinking, extreme mood variation, obsessions, compulsions, extreme avoidant behaviour, extreme interpersonal difficulties, extremely disordered eating). Symptoms may be ongoing or of more recent or sudden onset.
+   d. Currently experiencing very severe symptoms (e.g., disordered thinking, extreme mood variation, obsessions, compulsions, extreme avoidant behaviour, extreme interpersonal difficulties, extremely disordered eating with associated physical symptoms). Symptoms may be ongoing or of more recent or sudden onset.
    
    e.	Highly unusual and bizarre symptoms/behaviours indicating a severe mental illness (e.g., hallucinations, delusions). Symptoms may be ongoing or of more recent or sudden onset.
    
