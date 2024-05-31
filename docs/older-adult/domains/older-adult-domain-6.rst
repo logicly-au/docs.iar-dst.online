@@ -37,7 +37,7 @@ Scoring
 
 **1 = Mildly stressful environment**
 
-   a.	The person is experiencing (or has experienced) one or more stressors that are currently having or are likely to have a minor impact on their mental health.
+   a. The person is experiencing (or has experienced) one or more stressors that are currently having or are likely to have only a minor impact on their mental health.
 	
 
 **2 = Moderately stressful environment**

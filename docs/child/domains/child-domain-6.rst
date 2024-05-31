@@ -56,7 +56,7 @@ Scoring
 
 **1 = Mildly stressful environment**
 
-   a. The child is experiencing (or has experienced) one or more stressors that have or are likely to have only a minor impact on the child's mental health. 
+   a. The child is experiencing (or has experienced) one or more stressors that are currently having or are likely to have only a minor impact on the child’s mental health.
 	
 
 **2 = Moderately stressful environment**

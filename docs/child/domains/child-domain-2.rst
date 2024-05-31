@@ -77,7 +77,7 @@ Scoring
 
    a.	Previous suicide attempt (more than 12 months ago) but no current ideation, intent, or plan. The child demonstrates future-orientated thinking and has strong protective factors.
    
-   b.	Frequent non-suicidal self-injurious acts in the recent past but that did not require any medical treatment.
+   b. Frequent non-suicidal self-injurious acts in the recent past that did not require any medical treatment.
   
    c.	Current or recent behaviours that pose a non-life-threatening risk to self or others.
   
@@ -89,7 +89,7 @@ Scoring
 
 **3 = Significant current concerns about harm**
 
-   a.	Current suicidal ideation but no current intent and no history of suicide attempts. No plan or strong reluctance to carry out the plan, strong protective factors, and a commitment to engage in a safety plan, including involvement of family, significant others, and services.
+   a. Current suicidal ideation but no current intent and no history of suicide attempts. No plan or strong reluctance to carry out the plan. Strong protective factors, and a commitment to engage in a safety plan, including involvement of family, significant others, and services.
    
    b.	Recent suicide attempt (within past 12 months) but no current ideation, intent, or plan.
   

@@ -55,7 +55,7 @@ Scoring
 
 **1 = Mildly stressful environment**
 
-   a.	The adolescent is experiencing (or has experienced) one or more stressors that are currently having or are likely to have a minor impact on the adolescent’s mental health.
+   a. The adolescent is experiencing (or has experienced) one or more stressors that are currently having or are likely to have only a minor impact on the adolescent’s mental health.
 	
 
 **2 = Moderately stressful environment**

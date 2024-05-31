@@ -35,7 +35,7 @@ Scoring
 
 **3 = Severe impact**
 
-   a.	Significant difficulties with functioning, resulting in disruption to many areas of the person's life (e.g., limited participation in vocational or social activities, deterioration in or some withdrawal from community or relationships), but the person can function independently with adequate treatment, family, and community support.
+   a. Significant difficulties with functioning, resulting in disruption to many areas of the person's life (e.g., limited participation in vocational or social activities, deterioration in or some withdrawal from community or relationships). The person can function independently with adequate treatment, family, and community support.
    
    b.	Mental health issues contribute to frequent difficulties with basic activities of daily living (e.g., eating, mobility, bathing, getting dressed, toileting) or instrumental activities of daily living (e.g., preparing food, cleaning, transportation, managing money) on a consistent basis but without threat to health. The person requires treatment, family, and community support to maintain independent functioning.
    
