@@ -1,5 +1,5 @@
-Data Security and Privacy Issues
-==================================
+Data security and privacy issues
+================================
    
 It is not necessary to transmit or have stored any personally identifying information in order to make use of the digital decision support tools.
 
