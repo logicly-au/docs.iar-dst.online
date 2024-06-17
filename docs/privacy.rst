@@ -1,9 +1,9 @@
 Data security and privacy issues
 ================================
    
-It is not necessary to transmit or have stored any personally identifying information in order to make use of the digital decision support tools.
+It is not necessary to transmit or have stored any personally identifying information to make use of the digital decision support tools.
 
-In order to generate a recommended level of care rating the stand-alone online decision support tool:
+To generate a recommended level of care rating the stand-alone online decision support tool:
 
 - Does not require the capture of any identifying information; and
 - Does not require authentication.
