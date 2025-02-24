@@ -5,14 +5,14 @@ This section describes the IAR five different levels of care that are consistent
 
 It is important to emphasise that the descriptions of care at each level are offered only to guide judgements about the recommended level of care. Each presenting person, parent/caregiver, and family will have unique requirements that must always take precedence in decision-making.
 
-There are five levels of care (depicted in :numref:`figure_level_of_care`). Each level of care is differentiated based on the intensity of the mental health treatment/intervention available at each level of care. Figure 2 shows that psychosocial and community support needs may exist at any level of care, but typically increase as the mental health need increases. The availability and suitability of psychosocial and community supports is impacted by the person’s individual needs and the intake/eligibility criteria in place for such supports. For example, government funded psychosocial support programs tend to be targeted towards people with severe and/or complex mental health needs (i.e., people who tend to need IAR Level 4 or 5 mental health services).
+There are five levels of care (depicted in :numref:`figure-level-of-care-older-adult`). Each level of care is differentiated based on the intensity of the mental health treatment/intervention available at each level of care. Figure 2 shows that psychosocial and community support needs may exist at any level of care, but typically increase as the mental health need increases. The availability and suitability of psychosocial and community supports is impacted by the person’s individual needs and the intake/eligibility criteria in place for such supports. For example, government funded psychosocial support programs tend to be targeted towards people with severe and/or complex mental health needs (i.e., people who tend to need IAR Level 4 or 5 mental health services).
 
 Grouping the complex system of mental health services available in Australia into five levels is a convenient framework to think about stepped care rather than implying that there is a natural division of service types into neatly tiered categories. While some services are associated with a single level of care, most contribute to multiple levels. For example, GP mental health care can be associated with lower levels of care when it is provided in isolation, or higher levels when delivered in combination with other services or interventions (e.g., services delivered by a psychologist or psychiatrist, or multidisciplinary team).
 
 
-.. _figure_level_of_care:
+.. _figure-level-of-care-older-adult:
 
-.. figure:: levels_of_care.png
+.. figure:: /images/levels-of-care.png
    :alt: Schematic representation of levels of care
    :width: 80%
    

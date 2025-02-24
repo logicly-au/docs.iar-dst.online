@@ -1,10 +1,8 @@
 Domain 5 - Service use and response history  (Contextual Domain)
 ================================================================
 
-  
-
 Overview
----------
+--------
 
 This domain considers the older adult's previous use of services and support focussed on mental health-related assistance. The initial assessment on this domain should consider:
 
@@ -14,9 +12,8 @@ This domain considers the older adult's previous use of services and support foc
 **Definition of the term services and support** - Relevant services and support refer to safe, culturally appropriate, evidence-informed mental health, health or community services focussed on or relevant to the person's mental health (such as a psychological service delivered by a GP or mental health professional, other behavioural services) rather than the personal supports provided by friends, family, or social networks.
 
 
-
 Scoring
---------
+-------
 
 **0 = No previous service use**
 
@@ -37,5 +34,3 @@ Scoring
 **4 = Negligible progress from previous service use**
 
    a.	Previously accessed services with little or no benefit.
-
-

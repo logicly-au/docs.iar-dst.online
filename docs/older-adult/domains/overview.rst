@@ -30,7 +30,6 @@ A rating system grades each domain on a 5-point rating scale of severity - while
 Specific criteria for assessing each domain, designed to serve as a checklist of factors to consider when judging the extent to which a problem is present.
 
 
-
 General instructions for rating the domains
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

@@ -54,13 +54,20 @@ ratings and the associated derived level of care. The test data set may be used
 by third party developers who wish to implement the scoring algorithm
 themselves.
 
-Requesting access
-^^^^^^^^^^^^^^^^^
 In order to access to the developer resources including the API you must agree
-to electronically sign an `Integrator Agreement <integrator-agreement.rst>`. In order to initiate the
+to electronically sign an Integrator Agreement. In order to initiate the
 agreement process send an email to support@logicly.com.au noting the
 organisation you represent and the resources you wish to gain access to.
 
 Access to the API is granted via the provision of an Integration Key. The
 reference implementations and test data set are hosted on a private github.com
 repository, access is granted by adding a user to that repository.
+
+Integrator agreement
+^^^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+     :maxdepth: 1
+     :titlesonly:
+   
+     developers/integrator-agreement

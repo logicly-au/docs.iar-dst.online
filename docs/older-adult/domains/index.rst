@@ -1,8 +1,5 @@
 Domains
-========
-
-  
-
+=======
 
 .. toctree::
      :maxdepth: 1

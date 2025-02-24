@@ -1,11 +1,8 @@
 Domain 2 - Harm (Primary Domain)
-===================================
-
-  
-
+================================
 
 Overview
----------
+--------
 
 This domain is focused on:
    
@@ -16,7 +13,6 @@ This domain is focused on:
    * Unintentional harm to self, arising from symptoms or self-neglect.
 
 *The IAR for older adults includes the harm from others in domain 2 because there are direct implications for the intensity of mental health response an older adult at risk of or experiencing harm from others is likely to require. Placing harm from others in another domain (e.g., domain 6) does not carry the same weight within the logic that underpins the recommendations about a level of care. Note that the presence of external stressors (e.g., family violence) is rated at domain 6, but the degree of harm arising from those stressors is rated separately at domain 2*.
-
 
 .. admonition:: PRACTICE POINT - evaluating harm associated with suicidal thoughts, impulses, or behaviours
 
@@ -40,24 +36,21 @@ This domain is focused on:
    
    A suicide risk formulation may need to happen urgently. If this is the case, refer to localised urgent assessment and care pathways.
    
-   
 
 .. admonition:: PRACTICE POINT - safety planning
 
    If indicated, a safety plan can be an important resource to develop with a patient. There are templates and guidance for developing a safety plan available online from mental health service providers and systems. 
-   
+
 
 .. admonition:: PRACTICE POINT - elder abuse
 
-   The World Health Organisation defines elder abuse as 'a single, or repeated act, or lack of appropriate action, occurring within any relationship where there is an expectation of trust which causes harm or distress to an older person.' Elder abuse includes financial, physical, psychological, emotional, and sexual abuse or neglect. Users of the IAR Guidance and IAR-DST for older adults must understand and be aware of elder abuse, and what to do if an older adult discloses elder abuse (or if elder abuse is suspected). More information about elder abuse is available through the `Australian Human Rights Commission<https://humanrights.gov.au/elderabuse>`_.
+   The World Health Organisation defines elder abuse as 'a single, or repeated act, or lack of appropriate action, occurring within any relationship where there is an expectation of trust which causes harm or distress to an older person.' Elder abuse includes financial, physical, psychological, emotional, and sexual abuse or neglect. Users of the IAR Guidance and IAR-DST for older adults must understand and be aware of elder abuse, and what to do if an older adult discloses elder abuse (or if elder abuse is suspected). `More information about elder abuse <https://humanrights.gov.au/elderabuse>`_ is available through the `Australian Human Rights Commission <https://humanrights.gov.au>`_.
    
    1800 ELDERHelp (1800 353 374) is a free call number that automatically redirects callers seeking information and advice on elder abuse with the existing phone line service in their jurisdiction.
    
-   
- 
-   
+
 Scoring
---------
+-------
 
 **0 = No concerns about harm**
 
@@ -116,5 +109,3 @@ Scoring
    e.	Life-threatening medical risks and/or complications associated with a mental illness.
    
    f.	Other signs or indicators of imminent risk of serious harm to themselves or others.
-   
-

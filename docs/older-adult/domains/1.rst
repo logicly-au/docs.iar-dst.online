@@ -1,9 +1,6 @@
 Domain 1 - Symptom severity and distress (Primary Domain)
 =========================================================
 
-  
-
-
 Overview
 --------
 
@@ -45,7 +42,6 @@ Assessment of an older adult on this domain should consider:
    
    The IAR Guidance and IAR-DST are focused on individuals who present for mental health services and assist with determining the intensity of the mental health response required. This focus is applicable broadly and irrespective of the factors that cause or contribute to the person's mental health experience.
 
-   
 
 Scoring
 -------
@@ -63,8 +59,6 @@ Scoring
    
    d.	Currently experiencing a mental health condition associated with mild distress or mild reduction in quality of life.
    
-   
-
 
 **2 = Moderate**
 **Symptoms are at a level that would likely meet diagnostic criteria and have been experienced for more than six months (but this may vary)**
@@ -79,8 +73,6 @@ Scoring
    
    e.	History of a diagnosed mental health condition that has not responded to treatment, with continuing symptoms but only associated with mild to moderate levels of distress.
    
-   
-
 
 **3 = Severe**
 
@@ -108,6 +100,3 @@ Scoring
    d. Currently experiencing very severe symptoms (e.g., disordered thinking, extreme mood variation, obsessions, compulsions, extreme avoidant behaviour, extreme interpersonal difficulties, extremely disordered eating with associated physical symptoms). Symptoms may be ongoing or of more recent or sudden onset. 
    
    e.	Highly unusual and bizarre symptoms/behaviours indicating a severe mental illness (e.g., hallucinations, delusions). Symptoms may be ongoing or of more recent or sudden onset.
-   
-   
-

@@ -1,11 +1,8 @@
 Domain 7 - Family and other supports (Contextual Domain)
-=========================================================
-
-  
-
+========================================================
 
 Overview
-----------
+--------
 
 This domain considers whether personal supports, including emotionally nurturing relationships, practical support, and social support are present in the person's environment and their potential to contribute to improved mental health. This domain does consider professional services, where the service is focused on providing practical and social support. Family and other supports include:
 
@@ -18,7 +15,7 @@ A lack of support might contribute to the onset or continuation of the mental he
 
 
 Scoring
---------
+-------
 
 **0 = Highly supported**
 
@@ -28,7 +25,7 @@ Scoring
 **1 = Well supported**
 
    a.	There are a few personal supports available, that are seen as valuable by the person and are willing and capable of providing emotional, practical, and social support.
-	
+
 
 **2 = Limited supports**
 
@@ -40,12 +37,8 @@ Scoring
    a.	Very few actual or potential useful sources of support are available, willing to and capable of providing emotional, practical, or social support.
    
    b.	Despite the person requiring them, a substitute decision-maker has not facilitated access to services and support in the past.
-   
 
 
 **4 = No supports**
 
    a.	No useful sources of support are available, and emotional, practical, and/or social needs are mostly unmet.
-
-
-

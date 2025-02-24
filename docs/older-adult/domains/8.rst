@@ -1,10 +1,8 @@
 Domain 8 - Engagement and motivation (Contextual Domain)
-=========================================================
-
-  
+========================================================
 
 Overview
-----------
+--------
 
 This domain considers the older adult's awareness of the mental health issue and their capacity and willingness to engage in or accept assistance. Assessment of an individual on this domain should include the persons:
 
@@ -33,19 +31,16 @@ Some older adults may not have the agency or resources required to seek and acce
       * Continue existing service arrangements
       * Build-in additional supports
       * Initiate a referral to a different level of care
-   
-   
+
 
 Scoring
---------
+-------
 
 **0 = Optimal**
 
    a.	The person is motivated to participate in the recommended services and support.
    
    b.	The person is capable of taking an active role in managing the condition.
-   
-   
 
 
 **1 = Positive**
@@ -53,17 +48,13 @@ Scoring
    a.	The person is mostly willing to accept and participate in the recommended services and support.
    
    b.	The person can mostly take an active role in managing the condition.
-   
-   
-	
+
 
 **2 = Limited**
 
    a.	The person is hesitant to accept and participate in the recommended services and support.
    
    b.	The person has limited ability to take an active role in managing the condition.
-   
-   
 
 
 **3 = Minimal**
@@ -71,8 +62,6 @@ Scoring
    a.	The person is very reluctant to accept or participate in services and support.
    
    b.	The person has not participated in services and support in the past, despite requiring them, due to low levels of engagement or motivation.
-   
-   
 
 
 **4 = Disengaged**
@@ -80,8 +69,3 @@ Scoring
    a.	The person refuses to accept or participate in the recommended services and support.
    
    b.	The person has minimal ability to take an active role in managing the condition.
-   
-   
-
-
-

@@ -1,10 +1,8 @@
 Domain 6 - Social and environmental stressors  (Contextual Domain)
 ==================================================================
 
-  
-
 Overview
----------
+--------
 
 This domain considers the extent and severity of a range of factors in the older adult's environment that might contribute to the onset or continuation of the mental health issue. 
 
@@ -30,7 +28,7 @@ Assessment on this domain should consider the degree to which any or all of the 
 
 
 Scoring
----------
+-------
 
 **0 = No problem in this domain**
 
@@ -53,6 +51,3 @@ Scoring
 **4 = Extremely stressful environment**
 
    a.	The person is experiencing (or has experienced) one or more stressors that are extreme, enduring, or recurring and are currently having, or are likely to have, a severe impact on their mental health.
-
-
-

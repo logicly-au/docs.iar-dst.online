@@ -1,10 +1,8 @@
 Domain 4 - Impact of co-existing conditions (Primary Domain)
-=============================================================
-
-  
+============================================================
 
 Overview
----------
+--------
 
 Increasingly, individuals are experiencing and managing multi-morbidity (coexistence of multiple conditions, including chronic disease). This domain considers the extent to which other conditions contribute to (or with the potential to contribute to) increased severity of the mental health issue. 
 
@@ -28,12 +26,10 @@ Where the older adult has more than one co-existing condition, the rating select
    Neurological condition – Neurological conditions affect the brain, spinal cord, and the nerves that connect them. There are more than 600 nervous system diseases (e.g., epilepsy, motor neurone disease, traumatic brain injury, multiple sclerosis).
    
    Learning and communication disorders – Learning and communication disorders may affect how a person comprehends, recalls, understands, or expresses information. These disorders are often dynamic and can improve over time. The impairment caused by these disorders might be minimal or significant and vary from person to person.
-   
-    
 
-   
+
 Scoring
----------
+-------
 
 **0 = No problem in this domain**
 
@@ -45,8 +41,6 @@ Scoring
    
    c.	Recent episodes of substance use are limited, are not currently causing any concerns, and do not impact the person's mental health.
    
-   
-	
 
 **2 = Moderate impact**
 
@@ -57,8 +51,6 @@ Scoring
    c.	Occasional substance use that significantly impacts on, or has the potential to significantly impact on, the person's mental health.
    
    d.	Non prescribed use of prescription medications that significantly impacts on, or has the potential to significantly impact, the person's mental health.
-   
-   
 
 
 **3 = Severe impact**
@@ -70,8 +62,7 @@ Scoring
    c.	Frequent substance use threatens health and well-being or represents a barrier to mental health-related recovery.
    
    d.	Non prescribed use of prescription medications severely impacts the person's mental health or presents a barrier to mental health-related recovery.
-   
-   
+
 
 **4 = Very severe impact**
 
@@ -82,7 +73,3 @@ Scoring
    c.	Regular and uncontrolled substance use severely threatens health and well-being.
    
    d.	Regular and uncontrolled non-prescribed use of prescribed medications severely threatens health and well-being
-   
-   
-
-
