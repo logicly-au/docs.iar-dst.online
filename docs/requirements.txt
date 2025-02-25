@@ -1,6 +1,7 @@
-sphinx==7.2.6
+python-dotenv
+readthedocs-sphinx-search
+sphinx
 sphinx-autobuild
 sphinx-version-warning
-sphinx_rtd_theme==1.3.0
-readthedocs-sphinx-search==0.3.2
-python-dotenv
+sphinx_rtd_theme
+sphinx_rtd_theme_ext_color_contract
