@@ -6,29 +6,29 @@ The initial assessment domains
 
 The initial assessment process recommended in this Guidance identifies eight domains domains that should be explored in assessment and considered when determining the next steps in a referral process for an adolescent who presents to primary care with a mental health need. The eight domains fall into two categories:
 
-   * *Primary Assessment Domains (Domains 1 to 4)*: These domains cover symptom severity and distress, harm, functioning and impact of co-existing conditions. Primary Assessment Domains represent the basic areas for an initial assessment that have direct implications for decisions about the selection of a level of care.
+* *Primary Assessment Domains (Domains 1 to 4)*: These domains cover symptom severity and distress, harm, functioning and impact of co-existing conditions. Primary Assessment Domains represent the basic areas for an initial assessment that have direct implications for decisions about the selection of a level of care.
 
-   * *Contextual Domains (Domains 5 to 8)*: These domains cover service use and response history, social and environmental stressors, family and other supports, and engagement and motivation. Assessment on these domains provides essential context to moderate decisions indicated by the primary domains.
+* *Contextual Domains (Domains 5 to 8)*: These domains cover service use and response history, social and environmental stressors, family and other supports, and engagement and motivation. Assessment on these domains provides essential context to moderate decisions indicated by the primary domains.
 
 Initial assessment should consider the person’s current situation on all 8 domains. Each domain looks at specific factors relevant to making decisions about a level of care that is most likely suitable for the person’s mental health treatment needs. The selection of the domains, and factors covered in each domain, aims to capture a limited number of key areas that a clinician would consider when determining the most appropriate services for an adolescent needing referral for mental healthcare. 
+
 
 Rating the initial assessment domains
 ----------------------------------------------------
 
 A rating system grades each domain on a 5-point rating scale of severity - while the terms vary in some domains, the rating scale for each domain follows the general format where:
 
-   |   0 = No problem
-   |
-   |   1 = Mild problem
-   |
-   |   2 = Moderate problem
-   |
-   |   3 = Severe problem
-   |
-   |   4 = Very severe problem
+  |  0 = No problem
+  |
+  |  1 = Mild problem
+  |
+  |  2 = Moderate problem
+  |
+  |  3 = Severe problem
+  |
+  |  4 = Very severe problem
 
 Specific criteria for assessing each domain, designed to serve as a checklist of factors to consider when judging the extent to which a problem is present.
-
 
 
 General instructions for rating the domains
@@ -53,23 +53,16 @@ Overarching rules
 * The IAR should not be used as a screening tool because it cannot be used without some form of personalised assessment.
 
 
-
-
-
 Guides to rating each domain
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 * If more than one descriptor applies to the person being assessed within each domain, the descriptor with the highest rating should be selected.
 
-      * Example one: if 3-b, and 3-c apply, but 4-a is also present, the rating selected is 4.
-      * Example two: if 2-a and 2-b apply, but 3-c is also present, the rating selected is 3.
+  * Example one: if 3-b, and 3-c apply, but 4-a is also present, the rating selected is 4.
+  * Example two: if 2-a and 2-b apply, but 3-c is also present, the rating selected is 3.
 
 * Use all available information in making a rating. This should include clinical interviews and information gathered from the person, the person’s family, referrers, or other informants where possible. Consider all reliable perspectives when selecting a rating (e.g., including information provided by the person, family, or referrer).
 
 * The coding of ratings as numerals does not imply that an overall composite score can be used for making decisions about the person’s service needs. The numbers should be regarded as simply shorthand for summarising severity.
 
 * Guidance is given for each domain on examples of problems that should be considered for specific ratings (the 'descriptors'). Consider these as examples only rather than an exhaustive list of all factors relevant to the domain. Therefore, referring to the underlying rating format at times may be helpful.
-
-
-   
-
 
