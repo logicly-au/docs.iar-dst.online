@@ -6,6 +6,7 @@ to electronically sign an `integrator agreement`_. In order to initiate the
 agreement process send an email to support@logicly.com.au noting the
 organisation you represent and the resources you wish to gain access to.
 
+<<<<<<< HEAD
 Access to the `online APIs`_ is granted via an Integration Key. The
 `reference implementations`_ and `test data set`_ are hosted on private
 github.com repositories, access is granted by adding a user to those
@@ -65,6 +66,17 @@ systems. The mechanism for doing this will be via a request over the internet to
 the API service from the organisation’s local system.
 
 This API:
+=======
+The IAR digital decision support tool has been integrated into the existing
+OMSSS API, which PHNs are already integrating into their systems. While the
+stand-alone online interface may be used separately, OMSSS provides an
+automatable mechanism to both capture the eight domain scores and return
+the derived resulting recommended level of care. This service may be utilised
+by organisations wanting to easily integrate the capture of the scores and/or
+the computation of the recommended level of care into their own local systems.
+The mechanism for doing this will be via a request over the internet to the API
+service from the organisation’s local system. The Online API:
+>>>>>>> 589712c (Fix puncto)
 
 * Does not require the capture of any identifying information other than the
   organisation making the request;
