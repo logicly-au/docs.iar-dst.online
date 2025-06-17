@@ -1,18 +1,68 @@
 Developer resources
 ===================
 
-Online API
-^^^^^^^^^^
+In order to access to the developer resources described below you must agree
+to electronically sign an `integrator agreement`_. In order to initiate the
+agreement process send an email to support@logicly.com.au noting the
+organisation you represent and the resources you wish to gain access to.
 
-The IAR digital decision support tool has been integrated into the existing
-OMSSS API, which PHNs are already integrating into their systems. While the
-stand-alone online interface may be used separately. OMSSS provides an
-automatable mechanism to both capture the eight domain scores and return
-the derived resulting recommended level of care. This service may be utilised
-by organisations wanting to easily integrate the capture of the scores and/or
-the computation of the recommended level of care into their own local systems.
-The mechanism for doing this will be via a request over the internet to the API
-service from the organisation’s local system. The Online API:
+Access to the `online APIs`_ is granted via an Integration Key. The
+`reference implementations`_ and `test data set`_ are hosted on private
+github.com repositories, access is granted by adding a user to those
+repositories. Provide a github.com username if you wish to gain access
+to those resources.
+
+Online APIs
+^^^^^^^^^^^
+There are two ways to integrate the IAR-DST into local systems.
+
+Note that while use of neither API requires payment, registration is required.
+This process is described in the `Integrator Agreement`_.
+
+IAR-DST backend API
+~~~~~~~~~~~~~~~~~~~
+The IAR-DST backend API is designed to support integrators in implementing
+the assessment algorithm within their own systems.
+
+The API can also be used to access the approved wording for all parts of the
+tool in a convenient machine readable JSON format. This avoids the need to
+manually copy textual elements of the IAR-DST rating and reporting forms,
+minimising the chance of transcription errors. Ideally this should be
+implemented such that the UI is rendered dynamically each time it is used
+so that any text updates or corrections are incorporated automatically.
+
+This API:
+
+* Does not require the capture of any identifying information other than the
+  organisation making the request;
+* Does not store any information other than utilisation statistics via Google
+  Analytics; 
+* Requires the API consumer to use an API key linked to their organisation;
+* Allows the API consumer to access structured data suitable for generating
+  an IAR-DST rating form;
+* Allows the API consumer to submit the eight domain scores;
+* Returns the API consumer the calculated recommended level of care;
+* Allows the API consumer to access structured data suitable for generating
+  an IAR-DST report form;
+* Allows the API consumer to test responses to an IAR-DST report form for
+  completeness.
+* Meets Australian Government security requirements.
+
+See the `IAR-DST API v2 <https://api.iar-dst.online/docs/v2-api.html>`_ for
+more information.
+
+iar-dst.online UI automation via OMSSS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The OMSSS API allows integrators to make use of the official IAR-DST interface
+via their own systems and capture the resulting domain ratings and recommended
+level of care.
+
+OMSSS provides an automatable mechanism to both capture the eight domain scores
+and return the derived resulting recommended level of care. This service may be
+utilised by organisations wanting to easily integrate the capture of the scores
+and/or the computation of the recommended level of care into their own local
+systems. The mechanism for doing this will be via a request over the internet to
+the API service from the organisation’s local system. The Online API:
 
 * Does not require the capture of any identifying information other than the
   organisation making the request;
@@ -54,18 +104,8 @@ ratings and the associated derived level of care. The test data set may be used
 by third party developers who wish to implement the scoring algorithm
 themselves.
 
-In order to access to the developer resources including the API you must agree
-to electronically sign an Integrator Agreement. In order to initiate the
-agreement process send an email to support@logicly.com.au noting the
-organisation you represent and the resources you wish to gain access to.
-
-Access to the API is granted via the provision of an Integration Key. The
-reference implementations and test data set are hosted on a private github.com
-repository, access is granted by adding a user to that repository.
-
 Integrator agreement
 ^^^^^^^^^^^^^^^^^^^^
-
 .. toctree::
      :maxdepth: 1
      :titlesonly:
