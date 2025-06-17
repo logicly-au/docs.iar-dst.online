@@ -99,12 +99,18 @@ implementation:
 * Includes examples of use;
 * Includes a test suite to ensure accuracy.
 
+There are implementations in JavaScript, Ruby, Perl and Python.
+
+See the `main IAR-DST repository <https://github.com/logicly-au/iar-dst>`_.
+
 Test data set
 ^^^^^^^^^^^^^
 A test data set has been developed covering all possible combinations of domain
 ratings and the associated derived level of care. The test data set may be used
 by third party developers who wish to implement the scoring algorithm
 themselves.
+
+See the `v2 test data <https://github.com/logicly-au/iar-dst/tree/main/test-data/v2>`_.
 
 Integrator agreement
 ^^^^^^^^^^^^^^^^^^^^
