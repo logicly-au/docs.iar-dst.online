@@ -62,7 +62,9 @@ and return the derived resulting recommended level of care. This service may be
 utilised by organisations wanting to easily integrate the capture of the scores
 and/or the computation of the recommended level of care into their own local
 systems. The mechanism for doing this will be via a request over the internet to
-the API service from the organisation’s local system. The Online API:
+the API service from the organisation’s local system.
+
+This API:
 
 * Does not require the capture of any identifying information other than the
   organisation making the request;
