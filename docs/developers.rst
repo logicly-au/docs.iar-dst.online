@@ -6,7 +6,7 @@ Online API
 
 The IAR digital decision support tool has been integrated into the existing
 OMSSS API, which PHNs are already integrating into their systems. While the
-stand-alone online interface may be used separately. OMSSS provides an
+stand-alone online interface may be used separately, OMSSS provides an
 automatable mechanism to both capture the eight domain scores and return
 the derived resulting recommended level of care. This service may be utilised
 by organisations wanting to easily integrate the capture of the scores and/or
