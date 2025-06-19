@@ -14,6 +14,4 @@ docker compose --progress=quiet run --build --rm sphinx make html
 
 echo "Done: Building HTML document - ${INDEX}"
 
-echo "Done"
-
 open "${INDEX}"
