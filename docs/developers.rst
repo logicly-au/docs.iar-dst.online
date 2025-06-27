@@ -19,10 +19,10 @@ There are two ways to integrate the IAR-DST into local systems.
 Note that while use of neither API requires payment, registration is required.
 This process is described in the `Integrator Agreement`_.
 
-IAR-DST backend API
-~~~~~~~~~~~~~~~~~~~
+Backend API
+~~~~~~~~~~~
 The IAR-DST backend API is designed to support integrators in implementing
-the assessment algorithm within their own systems.
+the assessment algorithm within their own systems. 
 
 The API can also be used to access the approved wording for all parts of the
 tool in a convenient machine readable JSON format. This avoids the need to
@@ -51,11 +51,11 @@ This API:
 See the `IAR-DST API v2 <https://api.iar-dst.online/docs/v2-api.html>`_ for
 more information.
 
-iar-dst.online UI automation via OMSSS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The OMSSS API allows integrators to make use of the official IAR-DST interface
-via their own systems and capture the resulting domain ratings and recommended
-level of care.
+UI automation via OMSSS
+~~~~~~~~~~~~~~~~~~~~~~~
+The OMSSS API allows integrators to make use of the official Australian Government
+`IAR-DST interface <https://iar-dst.online>`_ via their own systems and capture
+the resulting domain ratings and recommended level of care.
 
 OMSSS provides an automatable mechanism to both capture the eight domain scores
 and return the derived resulting recommended level of care. This service may be
