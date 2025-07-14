@@ -48,7 +48,7 @@ This API:
   completeness;
 * Meets Australian Government security requirements.
 
-See the `IAR-DST API v2 <https://api.iar-dst.online/docs/v2-api.html>`_ for
+See the `IAR-DST API v2 <https://api.iar-dst.online/v2/>`_ for
 more information.
 
 UI automation via OMSSS
