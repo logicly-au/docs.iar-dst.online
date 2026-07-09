@@ -1,4 +1,4 @@
-sphinx==7.2.6
+sphinx
 sphinx-autobuild
 sphinx-version-warning
 sphinx_rtd_theme
