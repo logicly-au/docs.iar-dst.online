@@ -22,10 +22,10 @@ Grouping the complex system of mental health services available in Australia int
 
    Supported decision-making strategies for initial assessment and referral:
      
-     *	Ensure the patient and their carer is provided with information using their preferred way of receiving information (e.g., written/verbal/visual, English/other languages, with/without a support person). Take care to provide information that is age, developmentally and culturally appropriate, particularly when engaging with children and adolescents.
-     *	Ensure the patient and their carer is provided with information about the range of services and support available (including the option of no service) and encourage the person to contribute their options, ideas, solutions, and expectations. This might include culturally important activities or self-care strategies.
-     *	Ensure the patient and their carer can express concerns or fears about the options (e.g., cost, travel, previous positive or negative experiences).
-     *	Be prepared to discuss each option's pros and cons (e.g., intensity, length of service engagement, commitment required, waiting periods, and the potential impact on symptoms).
-     *	Check-in/follow-up to ensure the patient and their carer understands the information provided and ensure enough time for any questions.
+   *	Ensure the patient and their carer is provided with information using their preferred way of receiving information (e.g., written/verbal/visual, English/other languages, with/without a support person). Take care to provide information that is age, developmentally and culturally appropriate, particularly when engaging with children and adolescents.
+   *	Ensure the patient and their carer is provided with information about the range of services and support available (including the option of no service) and encourage the person to contribute their options, ideas, solutions, and expectations. This might include culturally important activities or self-care strategies.
+   *	Ensure the patient and their carer can express concerns or fears about the options (e.g., cost, travel, previous positive or negative experiences).
+   *	Be prepared to discuss each option's pros and cons (e.g., intensity, length of service engagement, commitment required, waiting periods, and the potential impact on symptoms).
+   *	Check-in/follow-up to ensure the patient and their carer understands the information provided and ensure enough time for any questions.
    
 

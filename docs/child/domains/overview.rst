@@ -1,19 +1,19 @@
 Overview
-============
+========
 
 The initial assessment domains
----------------------------------
+------------------------------
 
 The initial assessment process recommended in this Guidance identifies eight domains that are assessed when determining the next steps in the referral process for a child referred to a mental health service. The eight domains fall into two categories:
 
-   * *Primary Assessment Domains (Domains 1 to 4)*: These domains cover symptoms severity and distress, risk of harm, functioning, and impact of co-existing conditions. Primary Assessment Domains represent the basic areas for an initial assessment that have direct implications for decisions about the selection of a level of care.
+* *Primary Assessment Domains (Domains 1 to 4)*: These domains cover symptoms severity and distress, risk of harm, functioning, and impact of co-existing conditions. Primary Assessment Domains represent the basic areas for an initial assessment that have direct implications for decisions about the selection of a level of care.
 
-   * *Contextual Domains (Domains 5 to 8)*: These domains cover service use and response history, social and environmental stressors, family and other supports, and engagement and motivation. Assessment on these domains provides essential context to moderate decisions indicated by the primary domains.
+* *Contextual Domains (Domains 5 to 8)*: These domains cover service use and response history, social and environmental stressors, family and other supports, and engagement and motivation. Assessment on these domains provides essential context to moderate decisions indicated by the primary domains.
 
 Initial assessment should consider the child’s current situation on all eight domains. Each domain looks at specific factors relevant to making decisions about a level of care that is most likely suitable for the child’s mental health treatment needs. The selection of the domains, and factors covered in each domain, aims to capture key areas that a clinician should consider when determining the most appropriate services for a child needing referral for mental healthcare.
 
 Rating the initial assessment domains
---------------------------------------------
+-------------------------------------
 
 A rating system grades each Domain on a 5-point rating scale of severity - while the terms vary in some domains, the rating scale for each domain follows the general format where:
 
@@ -30,9 +30,8 @@ A rating system grades each Domain on a 5-point rating scale of severity - while
 Specific criteria for assessing each domain, designed to serve as a checklist of factors to consider when judging the extent to which a problem is present.
 
 
-
 General instructions for rating the domains
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The initial assessment is undertaken across eight domains that describe clinical severity and service needs using a 5-point scale ranging from 0 to 4. Higher ratings indicate increased severity of the problem and the need for higher (more intensive) levels of care.
 
@@ -40,9 +39,9 @@ Each rating within each domain is defined by one or more descriptors designated 
 
 
 Overarching rules 
-^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^
 
-*	If there is uncertainty in the ratings for the primary assessment domains that impact on the level of care appropriate for the person, the IAR user may need to pause the IAR process and seek additional information that will allow rating of the domains with confidence.
+* If there is uncertainty in the ratings for the primary assessment domains that impact on the level of care appropriate for the person, the IAR user may need to pause the IAR process and seek additional information that will allow rating of the domains with confidence.
 
 * Where uncertainty remains about ratings for the primary assessment domains even after the additional information is obtained, the person and family (where appropriate) should be supported to access an appropriate clinician or service for a more comprehensive assessment.
 
@@ -53,7 +52,7 @@ Overarching rules
 * The IAR should not be used as a screening tool because it cannot be used without some form of personalised assessment.
 
 Guides to rating each domain
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 * If more than one descriptor applies to the person being assessed within each domain, the descriptor with the highest rating should be selected.
 
       * Example one: if 3-b, and 3-c apply, but 4-a is also present, the rating selected is 4.
@@ -64,7 +63,6 @@ Guides to rating each domain
 * The coding of ratings as numerals does not imply that an overall composite score can be used for making decisions about the child's service needs. The numbers should be regarded as simply shorthand for summarising severity.
 
 * Guidance is given for each domain on examples of problems that should be considered for specific ratings (the 'descriptors'). Consider these as examples only rather than an exhaustive list of all factors relevant to the domain. Therefore, referring to the underlying rating format at times may be helpful.
-
 
 
 .. admonition:: PRACTICE POINT - Informed Consent
@@ -79,6 +77,3 @@ Guides to rating each domain
    Where, on balance, the risk of engagement of the parent will lead to a potential negative impact on the child or adolescent, consideration may need to be given to the involvement of an alternative guardian if the child or adolescent is not a mature minor and cannot make treatment decisions for themselves.
    
    Some states or territories have specific legislation governing the informed consent of children and adolescents in healthcare. It is the responsibility of all healthcare providers to know and understand their legal obligations in whichever state or territory they are practising. For further information, consult your state/territory legislation and/or consult your professional indemnity insurer or professional association.
-
-
-
