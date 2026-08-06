@@ -36,6 +36,30 @@ Version |version|
    Other resources
    ^^^^^^^^^^^^^^^
 
+   Initial Assessment and Referral (IAR) Guidance for Mental Health Part A – General Guidance v2.1
+      * :download:`PDF </other-resources/IAR Guidance for Mental Health Part A - General Guidance v2.1.pdf>` , 1.6 MB, 32 pages
+      * :download:`DOCX </other-resources/IAR Guidance for Mental Health Part A - General Guidance v2.1.docx>` , 1.2 MB, 32 pages
+    
+   Initial Assessment and Referral (IAR) Guidance for Mental Health Part B – Children v1.1
+      * :download:`PDF </other-resources/IAR Guidance for Mental Health Part B - Children v1.1.pdf>`, 648 KB, 22 pages
+      * :download:`DOCX </other-resources/IAR Guidance for Mental Health Part B - Children v1.1.docx>` , 624 KB, 22 pages
+    
+   Initial Assessment and Referral (IAR) Guidance for Mental Health Part C – Adolescents v1.1
+      * :download:`PDF </other-resources/IAR Guidance for Mental Health Part C - Adolescents v1.1.pdf>` , 682 KB, 24 pages
+      * :download:`DOCX </other-resources/IAR Guidance for Mental Health Part C - Adolescents v1.1.docx>` , 621 KB, 24 pages 
+    
+   Initial Assessment and Referral (IAR) Guidance for Mental Health Part D – Adults v2.1
+      * :download:`PDF </other-resources/IAR Guidance for Mental Health Part D - Adults v2.1.pdf>` , 651 KB, 20 pages
+      * :download:`DOCX </other-resources/IAR Guidance for Mental Health Part D - Adults v2.1.docx>` , 615 KB, 20 pages
+    
+   Initial Assessment and Referral (IAR) Guidance for Mental Health Part E – Older Adults v1.1
+      * :download:`PDF </other-resources/IAR Guidance for Mental Health Part E - Older Adults v1.1.pdf>` , 642 KB, 23 pages
+      * :download:`DOCX </other-resources/IAR Guidance for Mental Health Part E - Older Adults v1.1.docx>` , 616 KB, 23 pages
+
+
+   Previous resources
+   ^^^^^^^^^^^^^^^^^^^
+
    Initial Assessment and Referral (IAR) Guidance for Mental Health Part A – General Guidance v2.0
       * :download:`PDF </other-resources/IAR Guidance for Mental Health Part A - General Guidance v2.0.pdf>` , 2.1 MB, 32 pages
       * :download:`DOCX </other-resources/IAR Guidance for Mental Health Part A - General Guidance v2.0.docx>` , 1.7 MB, 32 pages
