@@ -3,7 +3,7 @@ Children (5-11 years)
 
 
 This documentation provides extracts from relevant sections of the 
-:download:`Initial Assessment and Referral Guidance for Mental Health Care; Part B - Children (5-11 years) </other-resources/IAR Guidance for Mental Health Part B - Children v1.1.pdf>`, which has been designed to assist general practitioners and clinicians to recommend the most appropriate level of care for a child aged 5-11 years seeking or requiring mental health support. 
+:download:`Initial Assessment and Referral Guidance for Mental Health; Part B - Children (5-11 years) </other-resources/IAR Guidance for Mental Health Part B - Children v1.1.pdf>`, which has been designed to assist general practitioners and clinicians to recommend the most appropriate level of care for a child aged 5-11 years seeking or requiring mental health support. 
 
 Whilst the Guidance uses age to indicate the overall appropriateness of each tool, the final decision about the most appropriate version is based on the clinical judgment of the user, taking into account contextual and developmental considerations. 
 
